@@ -1,101 +1,92 @@
-import Image from "next/image";
+'use client'
+
+import Header from '@/components/header'
+import Hero from './_components/hero'
+import TableOfContents from './_components/table-of-contents'
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    return (
+        <div>
+            <div className="bg-stone-950">
+                <Header />
+            </div>
+            <Hero />
+            <TableOfContents />
+            <section className="bg-[#fff]">
+                <div className="container mx-auto px-[10px] py-[16px] mt-4">
+                    <h3 className="text-[1.25rem] text-center font-semibold mb-4">
+                        About Panalobet
+                    </h3>
+                    <p className="text-[1rem] font-light leading-tight">
+                        Despite its young age, the bookmaker’s office is able to offer users a lot
+                        of important advantages, including lucrative bonuses and a large number of
+                        options for betting. Registration of the company took place in 2019. To work
+                        in Philippines legally, we obtained a license from the Curacao Gaming
+                        Commission. It confirms the reliability and safety of the company and allows
+                        us to offer our services to residents of dozens of countries.
+                    </p>
+                    <p className="text-[1rem] font-light leading-tight my-4">
+                        Today the total number of registered users of Panalobet Philippines exceeds
+                        500 thousand people. Popularity among players is explained by the fact that
+                        we are constantly improving, offering new opportunities and benefits to each
+                        of our clients.
+                    </p>
+                    <div className="rounded-md overflow-hidden">
+                        <table className="table-fixed w-full border-collapse">
+                            <tbody>
+                                <tr className="text-center border border-black">
+                                    <td className="text-center w-1/2 p-2 bg-gray-100">
+                                        Year of registration
+                                    </td>
+                                    <td className="text-black p-2">2019</td>
+                                </tr>
+                                <tr className="border border-black text-center rounded-md mt-2">
+                                    <td>Host Indian Players</td>
+                                    <td>Yes</td>
+                                </tr>
+                                <tr>
+                                    <td>Accepts PHP</td>
+                                    <td>Yes</td>
+                                </tr>
+                                <tr>
+                                    <td>License</td>
+                                    <td>Curacao</td>
+                                </tr>
+                                <tr>
+                                    <td>Services</td>
+                                    <td>Sports betting, online casinos, poker</td>
+                                </tr>
+                                <tr>
+                                    <td>Software versions</td>
+                                    <td>Official website, smartphone app</td>
+                                </tr>
+                                <tr>
+                                    <td>Welcome Bonus</td>
+                                    <td>+100% to the first deposit up to 20,000 INR</td>
+                                </tr>
+                                <tr>
+                                    <td>Deposit methods</td>
+                                    <td>
+                                        Nagad, Bkash, Rocket, Upay, AstroPay, Jeton Wallet, Kvitu
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Minimum deposit</td>
+                                    <td>75 PHP</td>
+                                </tr>
+                                <tr>
+                                    <td>Minimum output</td>
+                                    <td>150 PHP</td>
+                                </tr>
+                                <tr>
+                                    <td>Customer Service</td>
+                                    <td>E-mail, chat on the site</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+    )
 }
