@@ -4,7 +4,7 @@ import HomeBanner from '@/public/img/Panalobet  Official Website 3.png'
 export default function Hero() {
     return (
         <section className="bg-[#45454f]">
-            <div className="container mx-auto py-[1rem] px-[10px] md:flex md:gap-5 md:flex-row-reverse justify-between items-center">
+            <div className="max-w-7xl mx-auto py-[1rem] px-[10px] md:flex md:gap-5 md:flex-row-reverse justify-between items-center">
                 <div className="w-full md:w-[50%]">
                     <ResImage
                         path={HomeBanner}

@@ -1,3 +1,5 @@
+'use client'
+
 import { useState } from 'react'
 import Link from 'next/link'
 
@@ -10,7 +12,7 @@ export default function TableOfContents() {
 
     return (
         <section className="bg-[#fff]">
-            <div className="container mx-auto fix flex items-center justify-between mt-4 px-[10px] py-[16px] rounded-md shadow-md">
+            <div className="max-w-7xl mx-auto fix flex items-center justify-between mt-4 px-[10px] py-[16px] rounded-md shadow-md">
                 <h2 className="text-[1.25rem] font-semibold leading-tight">Table of Contents</h2>
                 <button onClick={handleClick}>Show</button>
                 {isTableContentOpen && (
