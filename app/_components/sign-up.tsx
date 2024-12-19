@@ -10,17 +10,17 @@ export default function SignUp() {
                     How to sign up for Panalobet BD: step-by-step instructions?
                 </h3>
                 <div className="flex flex-col items-center gap-4 md:flex-row-reverse md:justify-between">
-                    <div>
+                    <div className="w-full md:w-[50%]">
                         <ResImage
                             path={OfficialBanner}
-                            priority={false}
+                            priority={true}
                             mobileSize={{ width: 390, height: 240 }}
                             desktopSize={{ width: 530, height: 330 }}
                             alt="Official Banner home"
                             screenSize={900}
                         />
                     </div>
-                    <div>
+                    <div className="w-full md:w-[50%]">
                         <p className="font-light leading-tight text-[1rem]">
                             You must be 18 years old or older to create an account on this site.
                             Minors are not allowed to gamble or bet on sports. If you are already 18

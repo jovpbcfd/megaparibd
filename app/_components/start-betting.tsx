@@ -9,7 +9,7 @@ export default function StartBetting() {
                     How to start betting?
                 </h3>
                 <div className="flex flex-col items-center gap-4 md:flex-row-reverse md:justify-between">
-                    <div>
+                    <div className="w-full md:w-[50%]">
                         <ResImage
                             path={OfficialBanner}
                             priority={false}
@@ -19,7 +19,7 @@ export default function StartBetting() {
                             screenSize={900}
                         />
                     </div>
-                    <div>
+                    <div className="w-full md:w-[50%]">
                         <p className="font-light leading-tight text-[1rem]">
                             In order for you to start betting at the Panalobet Philippines
                             bookmaker’s office, you need to go through several steps, starting with

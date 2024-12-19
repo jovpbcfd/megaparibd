@@ -15,7 +15,7 @@ export default function MobileApp() {
                     and offer to download them for free on the official website for everyone.
                 </p>
                 <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-0">
-                    <div>
+                    <div className="w-full md:w-[50%]">
                         <ResImage
                             path={OfficialBanner}
                             priority={false}
@@ -25,7 +25,7 @@ export default function MobileApp() {
                             screenSize={900}
                         />
                     </div>
-                    <div>
+                    <div className="w-full md:w-[50%]">
                         <h3 className="text-[1.25rem] text-center font-semibold mb-4">
                             Download Panalobet PH app on Android
                         </h3>
@@ -61,68 +61,68 @@ export default function MobileApp() {
                             the shortcut on the desktop, enter your username and password and start
                             betting on your favorite sports.
                         </p>
+                    </div>
+                </div>
 
-                        <div>
-                            <h4 className="font-medium text-[1.05rem] leading-tight mb-4">
-                                Android System Requirements
-                            </h4>
+                <div>
+                    <h4 className="font-medium text-[1.05rem] leading-tight mb-4">
+                        Android System Requirements
+                    </h4>
 
-                            <div>
-                                <table className="table-fixed w-full  md:border-collapse md:border md:border-[#7e8993] md:table">
-                                    <tbody>
-                                        <tr
-                                            className="flex flex-col justify-center items-center w-full border border-[#7e8993] rounded-xl my-4 
+                    <div>
+                        <table className="table-fixed w-full  md:border-collapse md:border md:border-[#7e8993] md:table">
+                            <tbody>
+                                <tr
+                                    className="flex flex-col justify-center items-center w-full border border-[#7e8993] rounded-xl my-4 
                             md:table-row md:w-auto md:rounded-none md:my-0"
-                                        >
-                                            <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                                Android version
-                                            </td>
-                                            <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                                5.1
-                                            </td>
-                                        </tr>
-                                        <tr
-                                            className="flex flex-col justify-center items-center w-full border border-[#7e8993] bg-[#f1f1f1] rounded-xl my-4 
+                                >
+                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
+                                        Android version
+                                    </td>
+                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
+                                        5.1
+                                    </td>
+                                </tr>
+                                <tr
+                                    className="flex flex-col justify-center items-center w-full border border-[#7e8993] bg-[#f1f1f1] rounded-xl my-4 
                             md:table-row md:w-auto md:rounded-none md:my-0"
-                                        >
-                                            <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                                Main memory
-                                            </td>
-                                            <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                                1 Gb
-                                            </td>
-                                        </tr>
-                                        <tr
-                                            className="flex flex-col justify-center items-center w-full border border-[#7e8993] rounded-xl my-4 
+                                >
+                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
+                                        Main memory
+                                    </td>
+                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
+                                        1 Gb
+                                    </td>
+                                </tr>
+                                <tr
+                                    className="flex flex-col justify-center items-center w-full border border-[#7e8993] rounded-xl my-4 
                             md:table-row md:w-auto md:rounded-none md:my-0"
-                                        >
-                                            <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                                Free space
-                                            </td>
-                                            <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                                46 Mb
-                                            </td>
-                                        </tr>
-                                        <tr
-                                            className="flex flex-col justify-center items-center w-full border border-[#7e8993] bg-[#f1f1f1] rounded-xl my-4 
+                                >
+                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
+                                        Free space
+                                    </td>
+                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
+                                        46 Mb
+                                    </td>
+                                </tr>
+                                <tr
+                                    className="flex flex-col justify-center items-center w-full border border-[#7e8993] bg-[#f1f1f1] rounded-xl my-4 
                             md:table-row md:w-auto md:rounded-none md:my-0"
-                                        >
-                                            <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                                Processor
-                                            </td>
-                                            <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                                1 GHz
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
+                                >
+                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
+                                        Processor
+                                    </td>
+                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
+                                        1 GHz
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
 
                 <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-0">
-                    <div>
+                    <div className="w-full md:w-[50%]">
                         <ResImage
                             path={OfficialBanner}
                             priority={false}
@@ -133,7 +133,7 @@ export default function MobileApp() {
                         />
                     </div>
 
-                    <div>
+                    <div className="w-full md:w-[50%]">
                         <h3 className="text-[1.25rem] text-center font-semibold mb-4">
                             Download MegaPari BD app on iOS
                         </h3>
@@ -165,63 +165,63 @@ export default function MobileApp() {
                             and appearance from the Android version. You will be able to make any
                             kind of bet, get bonuses and other benefits.
                         </p>
+                    </div>
+                </div>
 
-                        <div>
-                            <h4 className="font-medium text-[1.05rem] leading-tight mb-4">
-                                iOS system requirements
-                            </h4>
+                <div>
+                    <h4 className="font-medium text-[1.05rem] leading-tight mb-4">
+                        iOS system requirements
+                    </h4>
 
-                            <div>
-                                <table className="table-fixed w-full  md:border-collapse md:border md:border-[#7e8993] md:table">
-                                    <tbody>
-                                        <tr
-                                            className="flex flex-col justify-center items-center w-full border border-[#7e8993] rounded-xl my-4 
+                    <div>
+                        <table className="table-fixed w-full  md:border-collapse md:border md:border-[#7e8993] md:table">
+                            <tbody>
+                                <tr
+                                    className="flex flex-col justify-center items-center w-full border border-[#7e8993] rounded-xl my-4 
                             md:table-row md:w-auto md:rounded-none md:my-0"
-                                        >
-                                            <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                                Android version
-                                            </td>
-                                            <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                                8.0
-                                            </td>
-                                        </tr>
-                                        <tr
-                                            className="flex flex-col justify-center items-center w-full border border-[#7e8993] bg-[#f1f1f1] rounded-xl my-4 
+                                >
+                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
+                                        Android version
+                                    </td>
+                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
+                                        8.0
+                                    </td>
+                                </tr>
+                                <tr
+                                    className="flex flex-col justify-center items-center w-full border border-[#7e8993] bg-[#f1f1f1] rounded-xl my-4 
                             md:table-row md:w-auto md:rounded-none md:my-0"
-                                        >
-                                            <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                                Main memory
-                                            </td>
-                                            <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                                1 Gb
-                                            </td>
-                                        </tr>
-                                        <tr
-                                            className="flex flex-col justify-center items-center w-full border border-[#7e8993] rounded-xl my-4 
+                                >
+                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
+                                        Main memory
+                                    </td>
+                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
+                                        1 Gb
+                                    </td>
+                                </tr>
+                                <tr
+                                    className="flex flex-col justify-center items-center w-full border border-[#7e8993] rounded-xl my-4 
                             md:table-row md:w-auto md:rounded-none md:my-0"
-                                        >
-                                            <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                                Free space
-                                            </td>
-                                            <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                                46 Mb
-                                            </td>
-                                        </tr>
-                                        <tr
-                                            className="flex flex-col justify-center items-center w-full border border-[#7e8993] bg-[#f1f1f1] rounded-xl my-4 
+                                >
+                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
+                                        Free space
+                                    </td>
+                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
+                                        46 Mb
+                                    </td>
+                                </tr>
+                                <tr
+                                    className="flex flex-col justify-center items-center w-full border border-[#7e8993] bg-[#f1f1f1] rounded-xl my-4 
                             md:table-row md:w-auto md:rounded-none md:my-0"
-                                        >
-                                            <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                                Processor
-                                            </td>
-                                            <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                                1 GHz
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
+                                >
+                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
+                                        Processor
+                                    </td>
+                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
+                                        1 GHz
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>

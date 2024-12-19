@@ -15,17 +15,17 @@ export default function TypesOfSports() {
                 </p>
 
                 <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between">
-                    <div>
+                    <div className="w-full md:w-[50%]">
                         <ResImage
                             path={OfficialBanner}
-                            priority={false}
+                            priority={true}
                             mobileSize={{ width: 390, height: 240 }}
                             desktopSize={{ width: 530, height: 330 }}
                             alt="Official Banner home"
                             screenSize={900}
                         />
                     </div>
-                    <div>
+                    <div className="w-full md:w-[50%]">
                         <h3 className="text-[1.25rem] text-left font-semibold mb-4">Cricket</h3>
                         <p className="font-light leading-tight text-[1rem]">
                             This sport is especially popular in Asian countries. After registering
@@ -82,17 +82,17 @@ export default function TypesOfSports() {
                                 Africa vs India, etc.
                             </li>
                         </ul>
-
-                        <p className="font-light leading-tight text-[1rem]">
-                            Selecting a particular event, you will see a list of all the odds
-                            available for betting. Add them to the coupon, specify the type of bet
-                            and the amount and make your prediction.
-                        </p>
                     </div>
                 </div>
 
+                <p className="font-light leading-tight text-[1rem]">
+                    Selecting a particular event, you will see a list of all the odds available for
+                    betting. Add them to the coupon, specify the type of bet and the amount and make
+                    your prediction.
+                </p>
+
                 <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between">
-                    <div>
+                    <div className="w-full md:w-[50%]">
                         <ResImage
                             path={OfficialBanner}
                             priority={false}
@@ -102,7 +102,7 @@ export default function TypesOfSports() {
                             screenSize={900}
                         />
                     </div>
-                    <div>
+                    <div className="w-full md:w-[50%]">
                         <h3 className="text-[1.25rem] text-left font-semibold mb-4">Soccer</h3>
                         <p className="font-light leading-tight text-[1rem]">
                             Soccer is very popular in European countries, but the people of
@@ -145,16 +145,16 @@ export default function TypesOfSports() {
                                 World Championships, Europe, etc
                             </li>
                         </ul>
-
-                        <p className="font-light leading-tight text-[1rem]">
-                            Bets can be placed on both seasonal and friendly matches. And the choice
-                            of possible outcomes will please even the most avid betting fan.
-                        </p>
                     </div>
                 </div>
 
+                <p className="font-light leading-tight text-[1rem]">
+                    Bets can be placed on both seasonal and friendly matches. And the choice of
+                    possible outcomes will please even the most avid betting fan.
+                </p>
+
                 <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between">
-                    <div>
+                    <div className="w-full md:w-[50%]">
                         <ResImage
                             path={OfficialBanner}
                             priority={false}
@@ -164,7 +164,7 @@ export default function TypesOfSports() {
                             screenSize={900}
                         />
                     </div>
-                    <div>
+                    <div className="w-full md:w-[50%]">
                         <h3 className="text-[1.25rem] text-left font-semibold mb-4">Tennis</h3>
                         <p className="font-light leading-tight text-[1rem]">
                             Many users love tennis and prefer to bet on this sport because of the
@@ -215,13 +215,16 @@ export default function TypesOfSports() {
                                 Challenger, etc.
                             </li>
                         </ul>
-
                         <p className="font-light leading-tight text-[1rem]">
                             Select one of them from the list, specify the specific opposition,
                             select the odds and place a bet in a few minutes.
                         </p>
                     </div>
                 </div>
+                <p className="font-light leading-tight text-[1rem]">
+                    Select one of them from the list, specify the specific opposition, select the
+                    odds and place a bet in a few minutes.
+                </p>
             </div>
         </section>
     )
