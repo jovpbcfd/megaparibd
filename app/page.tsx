@@ -20,26 +20,26 @@ import PlayerSupport from './_components/player-support'
 export default function Home() {
     return (
         <>
-            <div className="bg-stone-950">
-                <Header />
-            </div>
-            <Hero />
-            <TableOfContents />
-            <About />
-            <WelcomeBonus />
-            <OfficialSite />
-            <SignUp />
-            <StartBetting />
-            <MobileApp />
-            <Review />
-            <Advantage />
-            <TypesOfSports />
-            <Virtual />
-            <Live />
-            <BettingOdds />
-            <OnlineCasino />
-            <MethodsToDeposit />
-            <PlayerSupport />
+            <Header />
+            <main>
+                <Hero />
+                <TableOfContents />
+                <About />
+                <WelcomeBonus />
+                <OfficialSite />
+                <SignUp />
+                <StartBetting />
+                <MobileApp />
+                <Review />
+                <Advantage />
+                <TypesOfSports />
+                <Virtual />
+                <Live />
+                <BettingOdds />
+                <OnlineCasino />
+                <MethodsToDeposit />
+                <PlayerSupport />
+            </main>
         </>
     )
 }
