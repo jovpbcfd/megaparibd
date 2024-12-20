@@ -21,6 +21,7 @@ export default function ResImage({
     mobileSize,
     desktopSize,
     screenSize,
+    ...props
 }: {
     path: StaticImageData
     priority: boolean
@@ -28,31 +29,41 @@ export default function ResImage({
     mobileSize: MobileSize
     desktopSize: DesktopSize
     screenSize: number
+    [key: string]: unknown
 }) {
-    const [imageWidth, setImageWidth] = useState(0)
-    const [imageHeight, setImageHeight] = useState(0)
-
-    // Dynamically set logo width & height base on user screen
-    useEffect(() => {
-        const screen = window.innerWidth
-
-        if (screen < screenSize) {
-            setImageWidth(mobileSize.width)
-            setImageHeight(mobileSize.height)
-        } else {
-            setImageWidth(desktopSize.width)
-            setImageHeight(desktopSize.height)
+    const [dimensions, setDimensions] = useState(() => {
+        if (typeof window === 'undefined') {
+            return desktopSize
         }
-    }, [])
+
+        return window.innerWidth < screenSize ? mobileSize : desktopSize
+    })
+
+    // Dynamically set width & height base on user screen
+    useEffect(() => {
+        const handleResize = () => {
+            const screen = window.innerWidth
+            setDimensions(screen < screenSize ? mobileSize : desktopSize)
+        }
+
+        // Attach the resize event listener
+        window.addEventListener('resize', handleResize)
+
+        // Cleanup the event listener on component unmount
+        return () => {
+            window.removeEventListener('resize', handleResize)
+        }
+    }, [screenSize, mobileSize, desktopSize])
 
     return (
         <>
             <Image
                 src={path}
-                width={imageWidth}
-                height={imageHeight}
+                width={dimensions.width}
+                height={dimensions.height}
                 priority={priority}
                 alt={alt}
+                {...props}
             />
         </>
     )

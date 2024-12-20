@@ -7,7 +7,7 @@ export default function PlayerSupport() {
             <div className="max-w-7xl mx-auto px-[10px] py-[16px] mt-4">
                 <h3 className="text-[1.25rem] text-center font-semibold mb-4">Player Support</h3>
                 <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between">
-                    <div>
+                    <div className="w-full md:w-[50%]">
                         <ResImage
                             path={OfficialBanner}
                             priority={false}
@@ -17,7 +17,7 @@ export default function PlayerSupport() {
                             screenSize={900}
                         />
                     </div>
-                    <div>
+                    <div className="w-full md:w-[50%]">
                         <p className="font-light leading-tight text-[1rem]">
                             To solve problems and answer users’ questions, there is a 24-hour
                             support service. You can send any questions to it and always count on a

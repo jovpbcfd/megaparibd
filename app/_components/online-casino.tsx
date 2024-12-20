@@ -6,10 +6,10 @@ export default function OnlineCasino() {
         <section className="bg-[#fff]">
             <div className="max-w-7xl mx-auto px-[10px] py-[16px] mt-4">
                 <h3 className="text-[1.25rem] text-center font-semibold mb-4">
-                    Betting on virtual sports
+                    Online Casino Panalobet
                 </h3>
                 <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between">
-                    <div>
+                    <div className="w-full md:w-[50%]">
                         <ResImage
                             path={OfficialBanner}
                             priority={false}
@@ -20,7 +20,7 @@ export default function OnlineCasino() {
                         />
                     </div>
 
-                    <div>
+                    <div className="w-full md:w-[50%]">
                         <p className="font-light leading-tight text-[1rem]">
                             We strive to make sure that all our customers get the most diverse
                             opportunities for a pleasant pastime. Therefore, if you get tired of

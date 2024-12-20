@@ -9,10 +9,10 @@ export default function Virtual() {
                     Betting on virtual sports
                 </h3>
                 <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between">
-                    <div>
+                    <div className="w-full md:w-[50%]">
                         <ResImage
                             path={OfficialBanner}
-                            priority={false}
+                            priority={true}
                             mobileSize={{ width: 390, height: 240 }}
                             desktopSize={{ width: 530, height: 330 }}
                             alt="Official Banner home"
@@ -20,7 +20,7 @@ export default function Virtual() {
                         />
                     </div>
 
-                    <div>
+                    <div className="w-full md:w-[50%]">
                         <p className="font-light leading-tight text-[1rem]">
                             Every year cybersports are becoming more and more popular and are
                             attracting more and more people. Many people like to bet on these
