@@ -1,5 +1,5 @@
 import ResImage from '@/components/res-image'
-import HomeBanner from '@/public/img/Panalobet  Official Website 3.png'
+import HomeBanner from '@/public/img/panalobet-main-hero.webp'
 
 export default function Hero() {
     return (

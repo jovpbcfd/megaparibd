@@ -1,6 +1,6 @@
 import ResImage from '@/components/res-image'
 
-import WelcomBannerHome from '@/public/img/Welcome-bonus-for-new-users-up-to-20000-B0DT-1024x640.webp'
+import WelcomBannerHome from '@/public/img/official-site-of-panalobet.webp'
 
 export default function WelcomeBonus() {
     return (
@@ -23,6 +23,7 @@ export default function WelcomeBonus() {
                             alt="Welcome Banner home"
                             screenSize={900}
                             className="ml-auto"
+                            quality={100}
                         />
                     </div>
                     <div className="w-full md:w-[50%]">
