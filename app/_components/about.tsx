@@ -4,7 +4,7 @@ export default function About() {
             <div className="max-w-7xl mx-auto px-[10px] py-[16px] mt-4">
                 <h3
                     className="text-[1.25rem] text-center font-semibold mb-4
-                relative md:after:content-[''] md:after:h-[3px] md:after:bg-[rgb(231,64,55)]
+                relative md:mb-10 md:after:content-[''] md:after:h-[3px] md:after:bg-[rgb(231,64,55)]
                 md:after:max-w-[150px] md:after:absolute md:after:w-full md:after:bottom-[-6px]
                 md:after:left-[50%] md:after:translate-x-[-50%]
                 "
@@ -88,7 +88,7 @@ export default function About() {
                             </tr>
                             <tr
                                 className="flex flex-col justify-center items-center w-full border border-[#7e8993] rounded-xl
-                                my-4 md:my-0 
+                                my-4 bg-[#f1f1f1] md:my-0 
                             md:table-row md:w-auto md:rounded-none"
                             >
                                 <td className="text-center leading-tight p-[10px] w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
