@@ -5,7 +5,7 @@ export default function Hero() {
     return (
         <section className="bg-[#45454f]">
             <div className="max-w-7xl mx-auto py-[1rem] px-[10px] md:flex md:gap-5 md:flex-row-reverse justify-between items-center">
-                <div className="w-full md:w-[50%]">
+                <div className="w-full md:w-[40%]">
                     <ResImage
                         path={HomeBanner}
                         priority={true}
@@ -21,7 +21,7 @@ export default function Hero() {
                         screenSize={900}
                     />
                 </div>
-                <div className="w-full text-white md:w-[50%]">
+                <div className="w-full text-white md:w-[60%]">
                     <h1 className="font-bold text-[1.5rem] leading-tight mb-4 md:mb-7">
                         Panalobet– Official Website for Online Sports Betting in Philippines
                     </h1>
