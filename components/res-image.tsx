@@ -32,9 +32,11 @@ export default function ResImage({
     [key: string]: unknown
 }) {
     const [dimensions, setDimensions] = useState(() => {
-        const screen = typeof window !== 'undefined' ? window.innerWidth : 0
+        if (typeof window === 'undefined') {
+            return desktopSize
+        }
 
-        return screen < screenSize ? mobileSize : desktopSize
+        return window.innerWidth < screenSize ? mobileSize : desktopSize
     })
 
     // Dynamically set width & height base on user screen
@@ -45,15 +47,11 @@ export default function ResImage({
         }
 
         // Attach the resize event listener
-        if (typeof window !== 'undefined') {
-            window.addEventListener('resize', handleResize)
-        }
+        window.addEventListener('resize', handleResize)
 
         // Cleanup the event listener on component unmount
         return () => {
-            if (typeof window !== 'undefined') {
-                window.removeEventListener('resize', handleResize)
-            }
+            window.removeEventListener('resize', handleResize)
         }
     }, [screenSize, mobileSize, desktopSize])
 
