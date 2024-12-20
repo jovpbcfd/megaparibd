@@ -22,8 +22,8 @@ export default function Hero() {
                     />
                 </div>
                 <div className="w-full text-white md:w-[60%]">
-                    <h1 className="font-bold text-[1.5rem] leading-tight mb-4 md:mb-7">
-                        Panalobet– Official Website for Online Sports Betting in Philippines
+                    <h1 className="font-bold text-[1.5rem] leading-tight mb-4 md:mb-7 md:text-[2rem]">
+                        Panalobet – Official Website for Online Sports Betting in Philippines
                     </h1>
                     <p className="font-light leading-tight text-[1rem]">
                         Panalobet bookmaker offers Philippines users a wide range of opportunities
@@ -37,7 +37,7 @@ export default function Hero() {
                         <button
                             className="text-black text-[1.1rem] p-[0.5rem] bg-white w-full font-bold rounded-full
                         border border-black border-dashed
-                        cursor-pointer transition-all duration-200 ease-out hover:bg-black hover:text-white hover:border-white md:w-[150px]"
+                        cursor-pointer transition-all duration-200 ease-out hover:bg-black hover:text-white hover:border-white md:w-[150px] md:p-[1rem]"
                         >
                             Start Betting
                         </button>

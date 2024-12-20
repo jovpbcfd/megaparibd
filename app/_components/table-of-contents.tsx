@@ -27,7 +27,7 @@ export default function TableOfContents() {
                     >
                         <div
                             className={`absolute bg-white inset-5 w-[90%] scale-10 mx-auto rounded-lg overflow-y-auto p-4 transition-transform duration-200 ease-out
-                                    will-change-transform
+                                    will-change-transform 
                                    ${isTableContentOpen ? 'scale-100' : 'scale-10'}`}
                             onClick={(e) => e.stopPropagation()}
                         >
