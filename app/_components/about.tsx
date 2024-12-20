@@ -88,7 +88,7 @@ export default function About() {
                             </tr>
                             <tr
                                 className="flex flex-col justify-center items-center w-full border border-[#7e8993] rounded-xl
-                                my-4 md:my-0 
+                                my-4 bg-[#f1f1f1] md:my-0 
                             md:table-row md:w-auto md:rounded-none"
                             >
                                 <td className="text-center leading-tight p-[10px] w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
