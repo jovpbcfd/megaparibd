@@ -1,3 +1,56 @@
+import Table from '@/components/table'
+
+const homeAboutData = [
+    {
+        dataLeft: 'Year of registration',
+        dataRight: '2019',
+    },
+    {
+        dataLeft: 'Host Indian Players',
+        dataRight: 'Yes',
+    },
+    {
+        dataLeft: 'Accepts PHP',
+        dataRight: 'Yes',
+    },
+    {
+        dataLeft: 'License',
+        dataRight: 'Curacao',
+    },
+    {
+        dataLeft: 'Services',
+        dataRight: '2019',
+    },
+    {
+        dataLeft: 'Year of registration',
+        dataRight: 'Sports betting, online casinos, poker',
+    },
+    {
+        dataLeft: 'Software versions',
+        dataRight: 'Official website, smartphone app',
+    },
+    {
+        dataLeft: 'Welcome Bonus',
+        dataRight: '+100% to the first deposit up to 20,000 INR',
+    },
+    {
+        dataLeft: 'Deposit methods',
+        dataRight: 'Nagad, Bkash, Rocket, Upay, AstroPay, Jeton Wallet, Kvitu',
+    },
+    {
+        dataLeft: 'Minimum deposit',
+        dataRight: '75 PHP',
+    },
+    {
+        dataLeft: 'Minimum output',
+        dataRight: '150 PHP',
+    },
+    {
+        dataLeft: 'Customer Service',
+        dataRight: 'E-mail, chat on the site',
+    },
+]
+
 export default function About() {
     return (
         <section className="bg-[#fff]">
@@ -25,142 +78,8 @@ export default function About() {
                     constantly improving, offering new opportunities and benefits to each of our
                     clients.
                 </p>
-                <div>
-                    <table className="table-fixed w-full  md:border-collapse md:border md:border-[#7e8993] md:table">
-                        <tbody>
-                            <tr
-                                className="flex flex-col justify-center items-center w-full border border-[#7e8993] rounded-xl my-4 
-                            md:table-row md:w-auto md:rounded-none md:my-0"
-                            >
-                                <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                    Year of registration
-                                </td>
-                                <td className="text-center leading-tight p-[10px] w-full md:w-auto md:border md:border-[#7e8993]">
-                                    2019
-                                </td>
-                            </tr>
-                            <tr
-                                className="flex flex-col justify-center items-center w-full border border-[#7e8993] rounded-xl my-4 bg-[#f1f1f1] md:my-0
-                            md:table-row md:w-auto md:rounded-none"
-                            >
-                                <td className="text-center leading-tight p-[10px] w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                    Host Indian Players
-                                </td>
-                                <td className="text-center leading-tight p-[10px] w-full md:w-auto md:border md:border-[#7e8993]">
-                                    Yes
-                                </td>
-                            </tr>
-                            <tr
-                                className="flex flex-col justify-center items-center w-full border border-[#7e8993] rounded-xl
-                                my-4 md:my-0 
-                            md:table-row md:w-auto md:rounded-none"
-                            >
-                                <td className="text-center leading-tight p-[10px] w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                    Accepts PHP
-                                </td>
-                                <td className="text-center leading-tight p-[10px] w-full md:w-auto md:border md:border-[#7e8993]">
-                                    Yes
-                                </td>
-                            </tr>
-                            <tr
-                                className="flex flex-col justify-center items-center w-full border border-[#7e8993] rounded-xl
-                                my-4 bg-[#f1f1f1] md:my-0 
-                            md:table-row md:w-auto md:rounded-none"
-                            >
-                                <td className="text-center leading-tight p-[10px] w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                    License
-                                </td>
-                                <td className="text-center leading-tight p-[10px] w-full md:w-auto md:border md:border-[#7e8993]">
-                                    Curacao
-                                </td>
-                            </tr>
-                            <tr
-                                className="flex flex-col justify-center items-center w-full border border-[#7e8993] rounded-xl
-                                my-4  md:my-0 
-                            md:table-row md:w-auto md:rounded-none"
-                            >
-                                <td className="text-center leading-tight p-[10px] w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                    Services
-                                </td>
-                                <td className="text-center leading-tight p-[10px] w-full md:w-auto md:border md:border-[#7e8993]">
-                                    Sports betting, online casinos, poker
-                                </td>
-                            </tr>
-                            <tr
-                                className="flex flex-col justify-center items-center w-full border border-[#7e8993] rounded-xl
-                                my-4 bg-[#f1f1f1] md:my-0 
-                            md:table-row md:w-auto md:rounded-none"
-                            >
-                                <td className="text-center leading-tight p-[10px] w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                    Software versions
-                                </td>
-                                <td className="text-center leading-tight p-[10px] w-full md:w-auto md:border md:border-[#7e8993]">
-                                    Official website, smartphone app
-                                </td>
-                            </tr>
-                            <tr
-                                className="flex flex-col justify-center items-center w-full border border-[#7e8993] rounded-xl
-                                my-4 md:my-0 
-                            md:table-row md:w-auto md:rounded-none"
-                            >
-                                <td className="text-center leading-tight p-[10px] w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                    Welcome Bonus
-                                </td>
-                                <td className="text-center leading-tight p-[10px] w-full md:w-auto md:border md:border-[#7e8993]">
-                                    +100% to the first deposit up to 20,000 INR
-                                </td>
-                            </tr>
-                            <tr
-                                className="flex flex-col justify-center items-center w-full border border-[#7e8993] rounded-xl
-                                my-4 bg-[#f1f1f1] md:my-0 
-                            md:table-row md:w-auto md:rounded-none"
-                            >
-                                <td className="text-center leading-tight p-[10px] w-full font-bold md:font-normal md:w-auto">
-                                    Deposit methods
-                                </td>
-                                <td className="text-center leading-tight p-[10px] w-full md:w-auto md:border md:border-[#7e8993]">
-                                    Nagad, Bkash, Rocket, Upay, AstroPay, Jeton Wallet, Kvitu
-                                </td>
-                            </tr>
-                            <tr
-                                className="flex flex-col justify-center items-center w-full border border-[#7e8993] rounded-xl
-                                my-4 md:my-0 
-                            md:table-row md:w-auto md:rounded-none"
-                            >
-                                <td className="text-center leading-tight p-[10px] w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                    Minimum deposit
-                                </td>
-                                <td className="text-center leading-tight p-[10px] w-full md:w-auto md:border md:border-[#7e8993]">
-                                    75 PHP
-                                </td>
-                            </tr>
-                            <tr
-                                className="flex flex-col justify-center items-center w-full border border-[#7e8993] rounded-xl
-                                my-4 bg-[#f1f1f1] md:my-0 
-                            md:table-row md:w-auto md:rounded-none"
-                            >
-                                <td className="text-center leading-tight p-[10px] w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                    Minimum output
-                                </td>
-                                <td className="text-center leading-tight p-[10px] w-full md:w-auto md:border md:border-[#7e8993]">
-                                    150 PHP
-                                </td>
-                            </tr>
-                            <tr
-                                className="flex flex-col justify-center items-center w-full border border-[#7e8993] rounded-xl
-                                my-4 md:my-0 
-                            md:table-row md:w-auto md:rounded-none"
-                            >
-                                <td className="text-center leading-tight p-[10px] w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                    Customer Service
-                                </td>
-                                <td className="text-center leading-tight p-[10px] w-full md:w-auto md:border md:border-[#7e8993]">
-                                    E-mail, chat on the site
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+
+                <Table datas={homeAboutData} />
 
                 <p className="font-light leading-tight text-[1rem] my-4">
                     To provide users with maximum convenience when interacting with the site, we
