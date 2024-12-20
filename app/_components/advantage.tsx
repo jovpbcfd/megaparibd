@@ -1,5 +1,5 @@
 import ResImage from '@/components/res-image'
-import OfficialBanner from '@/public/img/The-official-site-of-Mega-Pari-for-sports-betting-in-Bangladesh4.webp'
+import OfficialBanner from '@/public/img/advantage-main.webp'
 
 export default function Advantage() {
     return (

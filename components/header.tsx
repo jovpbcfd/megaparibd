@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import { useState } from 'react'
 
-import HeaderLogo from '@/public/img/megapari-logo-300x36.webp'
+import HeaderLogo from '@/public/img/panalobet-logo.webp'
 import ResImage from './res-image'
 
 export default function Header() {
