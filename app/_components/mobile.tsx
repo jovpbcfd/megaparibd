@@ -5,7 +5,11 @@ export default function MobileApp() {
     return (
         <section className="bg-[#fff]">
             <div className="max-w-7xl mx-auto px-[10px] py-[16px] mt-4">
-                <h3 className="text-[1.25rem] text-center font-semibold mb-4">
+                <h3
+                    className="text-[1.25rem] text-center font-semibold mb-4 relative md:mb-10 md:after:content-[''] md:after:h-[3px] md:after:bg-[rgb(231,64,55)]
+                md:after:max-w-[150px] md:after:absolute md:after:w-full md:after:bottom-[-6px]
+                md:after:left-[50%] md:after:translate-x-[-50%]"
+                >
                     Panalobet PH mobile app for Android and iOS
                 </h3>
                 <p className="font-light leading-tight text-[1rem]">
@@ -14,19 +18,24 @@ export default function MobileApp() {
                     have developed two separate versions of the client for popular operating systems
                     and offer to download them for free on the official website for everyone.
                 </p>
-                <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-0">
+                <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-10">
                     <div className="w-full md:w-[50%]">
                         <ResImage
                             path={OfficialBanner}
-                            priority={false}
+                            priority={true}
                             mobileSize={{ width: 390, height: 240 }}
                             desktopSize={{ width: 530, height: 330 }}
                             alt="Official Banner home"
                             screenSize={900}
+                            className="ml-auto"
                         />
                     </div>
                     <div className="w-full md:w-[50%]">
-                        <h3 className="text-[1.25rem] text-center font-semibold mb-4">
+                        <h3
+                            className="text-[1.25rem] text-center font-semibold mb-4 md:text-left relative md:after:content-[''] md:after:h-[3px] md:after:bg-[rgb(231,64,55)]
+                md:after:max-w-[150px] md:after:absolute md:after:w-full md:after:bottom-[-6px]
+                md:after:left-0"
+                        >
                             Download Panalobet PH app on Android
                         </h3>
                         <p className="font-light leading-tight text-[1rem]">
@@ -64,7 +73,7 @@ export default function MobileApp() {
                     </div>
                 </div>
 
-                <div>
+                <div className="pt-4">
                     <h4 className="font-medium text-[1.05rem] leading-tight mb-4">
                         Android System Requirements
                     </h4>
@@ -121,20 +130,25 @@ export default function MobileApp() {
                     </div>
                 </div>
 
-                <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-0">
+                <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-10">
                     <div className="w-full md:w-[50%]">
                         <ResImage
                             path={OfficialBanner}
-                            priority={false}
+                            priority={true}
                             mobileSize={{ width: 390, height: 240 }}
                             desktopSize={{ width: 530, height: 330 }}
                             alt="Official Banner home"
                             screenSize={900}
+                            className="ml-auto"
                         />
                     </div>
 
                     <div className="w-full md:w-[50%]">
-                        <h3 className="text-[1.25rem] text-center font-semibold mb-4">
+                        <h3
+                            className="text-[1.25rem] text-center font-semibold mb-4 md:text-left relative md:after:content-[''] md:after:h-[3px] md:after:bg-[rgb(231,64,55)]
+                md:after:max-w-[150px] md:after:absolute md:after:w-full md:after:bottom-[-6px]
+                md:after:left-0"
+                        >
                             Download MegaPari BD app on iOS
                         </h3>
                         <p className="font-light leading-tight text-[1rem]">
@@ -168,7 +182,7 @@ export default function MobileApp() {
                     </div>
                 </div>
 
-                <div>
+                <div className="pt-4">
                     <h4 className="font-medium text-[1.05rem] leading-tight mb-4">
                         iOS system requirements
                     </h4>
