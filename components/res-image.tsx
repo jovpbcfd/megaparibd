@@ -31,13 +31,7 @@ export default function ResImage({
     screenSize: number
     [key: string]: unknown
 }) {
-    const [dimensions, setDimensions] = useState(() => {
-        if (typeof window === 'undefined') {
-            return desktopSize
-        }
-
-        return window.innerWidth < screenSize ? mobileSize : desktopSize
-    })
+    const [dimensions, setDimensions] = useState<MobileSize | DesktopSize | null>(null)
 
     // Dynamically set width & height base on user screen
     useEffect(() => {
@@ -45,6 +39,9 @@ export default function ResImage({
             const screen = window.innerWidth
             setDimensions(screen < screenSize ? mobileSize : desktopSize)
         }
+
+        // Set dimensions initially
+        handleResize()
 
         // Attach the resize event listener
         window.addEventListener('resize', handleResize)
@@ -54,6 +51,10 @@ export default function ResImage({
             window.removeEventListener('resize', handleResize)
         }
     }, [screenSize, mobileSize, desktopSize])
+
+    if (!dimensions) {
+        return null
+    }
 
     return (
         <>
