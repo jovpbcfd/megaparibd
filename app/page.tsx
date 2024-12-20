@@ -16,6 +16,9 @@ import BettingOdds from './_components/betting-odds'
 import OnlineCasino from './_components/online-casino'
 import MethodsToDeposit from './_components/methods-to-deposit'
 import PlayerSupport from './_components/player-support'
+import Faq from './_components/faq'
+import Update from './_components/update'
+import Footer from './_components/footer'
 
 export default function Home() {
     return (
@@ -39,7 +42,10 @@ export default function Home() {
                 <OnlineCasino />
                 <MethodsToDeposit />
                 <PlayerSupport />
+                <Faq />
+                <Update />
             </main>
+            <Footer />
         </>
     )
 }
