@@ -128,30 +128,30 @@ export default function Header() {
                     <div className="hidden md:flex md:mt-[15px]">
                         <nav>
                             <ul className="flex text-white gap-[1.5rem]">
-                                <li className="py-[15px] transition-hover duration-200 ease-out hover:bg-stone-800">
+                                <li className="py-[15px] transition-hover duration-200 ease-out hover:text-cyan-400">
                                     <Link href="/app">APP</Link>
                                 </li>
-                                <li className="py-[15px] transition-hover duration-200 ease-out hover:bg-stone-800">
+                                <li className="py-[15px] transition-hover duration-200 ease-out hover:text-cyan-400">
                                     <Link href="/registration" className="block">
                                         REGISTRATION
                                     </Link>
                                 </li>
-                                <li className="py-[15px] transition-hover duration-200 ease-out hover:bg-stone-800">
+                                <li className="py-[15px] transition-hover duration-200 ease-out hover:text-cyan-400">
                                     <Link href="/casino" className="block">
                                         CASINO
                                     </Link>
                                 </li>
-                                <li className="py-[15px] transition-hover duration-200 ease-out hover:bg-stone-800">
+                                <li className="py-[15px] transition-hover duration-200 ease-out hover:text-cyan-400">
                                     <Link href="/support" className="block">
                                         SUPPORT
                                     </Link>
                                 </li>
-                                <li className="py-[15px] transition-hover duration-200 ease-out hover:bg-stone-800">
+                                <li className="py-[15px] transition-hover duration-200 ease-out hover:text-cyan-400">
                                     <Link href="/about" className="block">
                                         ABOUT
                                     </Link>
                                 </li>
-                                <li className="py-[15px] transition-hover duration-200 ease-out hover:bg-stone-800">
+                                <li className="py-[15px] transition-hover duration-200 ease-out hover:text-cyan-400">
                                     <Link href="/contacts" className="block">
                                         CONTACTS
                                     </Link>
