@@ -36,11 +36,11 @@ export default function Hero({
                         {title}
                     </h1>
                     <p className="font-light leading-tight text-[1rem]">{description}</p>
-                    <div className="mt-4 md:mt-8">
+                    <div className="mt-4 max-w-fit md:mt-8">
                         <button
                             className="text-black text-[1.1rem] p-[0.5rem] bg-white w-full font-bold rounded-full
                         border border-black border-dashed
-                        cursor-pointer transition-all duration-200 ease-out hover:bg-black hover:text-white hover:border-white md:w-[150px] md:p-[1rem]"
+                        cursor-pointer transition-all duration-200 ease-out hover:bg-black hover:text-white hover:border-white md:w-full md:p-[1rem]"
                         >
                             {buttonText}
                         </button>
