@@ -7,30 +7,7 @@ type Faq = {
     answer: string
 }
 
-const questions: Faq[] = [
-    {
-        question: 'How many accounts can I create?',
-        answer: 'Users are allowed to have no more than one account. Re-registration is not allowed.',
-    },
-    {
-        question: 'Can I get the bonus in installments?',
-        answer: 'No, you can only activate it once. The bonus can also be withdrawn only after the wagering conditions are met in full.',
-    },
-    {
-        question: 'Is sports betting legal?',
-        answer: 'Yes, if you do them at a licensed bookmaker’s office. Panalobet operates under a Curacao license.',
-    },
-    {
-        question: 'Can I bet on PHP?',
-        answer: 'Yes, you need to select PHP as your primary account currency when registering your account.',
-    },
-    {
-        question: 'Can I change the email linked to my account?',
-        answer: 'You can’t change it yourself, but you can contact support.',
-    },
-]
-
-export default function Faq() {
+export default function Faq({ questions }: { questions: Faq[] }) {
     const [openIndex, setOpenIndex] = useState<number | null>(null)
 
     const toggleFAQ = (index: number) => {

@@ -3,7 +3,7 @@ type Data = {
     dataRight: string
 }[]
 
-export default function table({ datas }: { datas: Data }) {
+export default function Table({ datas }: { datas: Data }) {
     return (
         <div>
             <table className="table-fixed w-full  md:border-collapse md:border md:border-[#7e8993] md:table">

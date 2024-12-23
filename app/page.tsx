@@ -1,5 +1,8 @@
 import Header from '@/components/header'
 import Hero from '@/components/hero'
+import Update from '@/components/update'
+import Faq from '@/components/faq'
+
 import TableOfContents from './_components/table-of-contents'
 import About from './_components/about'
 import WelcomeBonus from './_components/welcom-bonus'
@@ -16,8 +19,6 @@ import BettingOdds from './_components/betting-odds'
 import OnlineCasino from './_components/online-casino'
 import MethodsToDeposit from './_components/methods-to-deposit'
 import PlayerSupport from './_components/player-support'
-import Faq from './_components/faq'
-import Update from './_components/update'
 import Footer from './_components/footer'
 
 import HomeBanner from '@/public/img/panalobet-main-hero.webp'
@@ -33,6 +34,29 @@ const homepage = {
                         for newcomers of up to 20,000 PHP.`,
     buttonText: 'Start Betting',
 }
+
+const questions = [
+    {
+        question: 'How many accounts can I create?',
+        answer: 'Users are allowed to have no more than one account. Re-registration is not allowed.',
+    },
+    {
+        question: 'Can I get the bonus in installments?',
+        answer: 'No, you can only activate it once. The bonus can also be withdrawn only after the wagering conditions are met in full.',
+    },
+    {
+        question: 'Is sports betting legal?',
+        answer: 'Yes, if you do them at a licensed bookmaker’s office. Panalobet operates under a Curacao license.',
+    },
+    {
+        question: 'Can I bet on PHP?',
+        answer: 'Yes, you need to select PHP as your primary account currency when registering your account.',
+    },
+    {
+        question: 'Can I change the email linked to my account?',
+        answer: 'You can’t change it yourself, but you can contact support.',
+    },
+]
 
 export default function Home() {
     return (
@@ -61,7 +85,7 @@ export default function Home() {
                 <OnlineCasino />
                 <MethodsToDeposit />
                 <PlayerSupport />
-                <Faq />
+                <Faq questions={questions} />
                 <Update />
             </main>
             <Footer />
