@@ -15,7 +15,7 @@ export default function Header() {
 
     return (
         <>
-            <header className="bg-stone-950">
+            <header className="">
                 <div className="container mx-auto p-[10px] md:p-[20px] lg:flex lg:flex-col lg:items-center">
                     <div className="fix flex justify-between items-center">
                         <div>
@@ -81,6 +81,11 @@ export default function Header() {
                                             </Link>
                                         </li>
                                         <li className="py-[15px] transition-hover duration-200 ease-out hover:bg-stone-800">
+                                            <Link href="/withdrawal" className="block">
+                                                WITHDRAWAL
+                                            </Link>
+                                        </li>
+                                        <li className="py-[15px] transition-hover duration-200 ease-out hover:bg-stone-800">
                                             <Link href="/casino" className="block">
                                                 CASINO
                                             </Link>
@@ -134,6 +139,11 @@ export default function Header() {
                                 <li className="py-[15px] transition-hover duration-200 ease-out hover:text-cyan-400">
                                     <Link href="/registration" className="block">
                                         REGISTRATION
+                                    </Link>
+                                </li>
+                                <li className="py-[15px] transition-hover duration-200 ease-out hover:text-cyan-400">
+                                    <Link href="/withdrawal" className="block">
+                                        WITHDRAWAL
                                     </Link>
                                 </li>
                                 <li className="py-[15px] transition-hover duration-200 ease-out hover:text-cyan-400">

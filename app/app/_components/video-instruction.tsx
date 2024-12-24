@@ -5,13 +5,8 @@ import OfficialBanner from '@/public/img/official-site-of-panalobet.webp'
 export default function VideoInstruction() {
     return (
         <section className="bg-[#fff]">
-            <div className="max-w-7xl mx-auto px-[10px] py-[16px] mt-4">
-                <h3
-                    className="text-[1.25rem] text-left font-semibold mb-4
-                relative md:mb-10 md:after:content-[''] md:after:h-[3px] md:after:bg-[rgb(231,64,55)]
-                md:after:max-w-[150px] md:after:absolute md:after:w-full md:after:bottom-[-6px]
-                md:after:left-0"
-                >
+            <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4">
+                <h3 className="text-[1.25rem] text-left font-semibold mb-4">
                     Mga Tagubilin sa Video para sa Pag-download at Pag-install ng Panalobet
                     Philippines App para sa Android at iOS
                 </h3>
@@ -35,11 +30,7 @@ export default function VideoInstruction() {
                         />
                     </div>
                     <div className="w-full md:w-[50%]">
-                        <h3
-                            className="text-[1.25rem] text-center font-semibold mb-4 md:text-left relative md:after:content-[''] md:after:h-[3px] md:after:bg-[rgb(231,64,55)]
-                md:after:max-w-[150px] md:after:absolute md:after:w-full md:after:bottom-[-6px]
-                md:after:left-0"
-                        >
+                        <h3 className="text-[1.25rem] text-center font-semibold mb-4 md:text-left">
                             Pagpaparehistro sa pamamagitan ng App
                         </h3>
                         <p className="font-light leading-tight text-[1rem]">

@@ -12,8 +12,9 @@ export default function Hero({
     description: string
     buttonText: string
 }) {
+    console.log(buttonText)
     return (
-        <section className="bg-[#45454f]">
+        <section>
             <div className="max-w-7xl mx-auto py-[1rem] px-[10px] md:flex md:gap-5 md:flex-row-reverse justify-between items-center">
                 <div className="w-full md:w-[40%]">
                     <ResImage
@@ -38,9 +39,9 @@ export default function Hero({
                     <p className="font-light leading-tight text-[1rem]">{description}</p>
                     <div className="mt-4 max-w-fit md:mt-8">
                         <button
-                            className="text-black text-[1.1rem] p-[0.5rem] bg-white w-full font-bold rounded-full
+                            className={`${buttonText ? '' : 'hidden'} text-black text-[1.1rem] p-[0.5rem] bg-white w-full font-bold rounded-full
                         border border-black border-dashed
-                        cursor-pointer transition-all duration-200 ease-out hover:bg-black hover:text-white hover:border-white md:w-full md:p-[1rem]"
+                        cursor-pointer transition-all duration-200 ease-out hover:bg-black hover:text-white hover:border-white md:w-full md:p-[1rem]`}
                         >
                             {buttonText}
                         </button>

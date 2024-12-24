@@ -5,12 +5,8 @@ import OfficialBanner from '@/public/img/The-official-site-of-Mega-Pari-for-spor
 export default function SignUp() {
     return (
         <section className="bg-[#fff]">
-            <div className="max-w-7xl mx-auto px-[10px] py-[16px] mt-4">
-                <h3
-                    className="text-[1.25rem] text-center font-semibold mb-4 relative md:mb-10 md:after:content-[''] md:after:h-[3px] md:after:bg-[rgb(231,64,55)]
-                md:after:max-w-[150px] md:after:absolute md:after:w-full md:after:bottom-[-6px]
-                md:after:left-[50%] md:after:translate-x-[-50%]"
-                >
+            <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4">
+                <h3 className="text-[1.25rem] text-center font-semibold mb-4">
                     How to sign up for Panalobet BD: step-by-step instructions?
                 </h3>
                 <div className="flex flex-col items-center gap-4 md:flex-row-reverse md:justify-between">

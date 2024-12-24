@@ -26,13 +26,8 @@ export default function All() {
     return (
         <>
             <section className="bg-[#fff]">
-                <div className="max-w-7xl mx-auto px-[10px] py-[16px] mt-4">
-                    <h3
-                        className="text-[1.25rem] text-left font-semibold mb-4
-                relative md:mb-10 md:after:content-[''] md:after:h-[3px] md:after:bg-[rgb(231,64,55)]
-                md:after:max-w-[150px] md:after:absolute md:after:w-full md:after:bottom-[-6px]
-                md:after:left-0"
-                    >
+                <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4">
+                    <h3 className="text-[1.25rem] text-left font-semibold mb-4">
                         Promo Code sa App
                     </h3>
                     <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-10">
@@ -60,13 +55,8 @@ export default function All() {
                 </div>
             </section>
             <section className="bg-[#fff]">
-                <div className="max-w-7xl mx-auto px-[10px] py-[16px] mt-4">
-                    <h3
-                        className="text-[1.25rem] text-left font-semibold mb-4
-                relative md:mb-10 md:after:content-[''] md:after:h-[3px] md:after:bg-[rgb(231,64,55)]
-                md:after:max-w-[150px] md:after:absolute md:after:w-full md:after:bottom-[-6px]
-                md:after:left-0"
-                    >
+                <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4">
+                    <h3 className="text-[1.25rem] text-left font-semibold mb-4">
                         Paano Kumuha ng Panalobet PH Mobile Bonus?
                     </h3>
 
@@ -131,13 +121,8 @@ export default function All() {
             </section>
 
             <section className="bg-[#fff]">
-                <div className="max-w-7xl mx-auto px-[10px] py-[16px] mt-4">
-                    <h3
-                        className="text-[1.25rem] text-left font-semibold mb-4
-                relative md:mb-10 md:after:content-[''] md:after:h-[3px] md:after:bg-[rgb(231,64,55)]
-                md:after:max-w-[150px] md:after:absolute md:after:w-full md:after:bottom-[-6px]
-                md:after:left-0"
-                    >
+                <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4">
+                    <h3 className="text-[1.25rem] text-left font-semibold mb-4">
                         Mga Paraan ng Pagbabayad
                     </h3>
 
@@ -240,13 +225,8 @@ export default function All() {
             </section>
 
             <section className="bg-[#fff]">
-                <div className="max-w-7xl mx-auto px-[10px] py-[16px] mt-4">
-                    <h3
-                        className="text-[1.25rem] text-left font-semibold mb-4
-                relative md:mb-10 md:after:content-[''] md:after:h-[3px] md:after:bg-[rgb(231,64,55)]
-                md:after:max-w-[150px] md:after:absolute md:after:w-full md:after:bottom-[-6px]
-                md:after:left-0"
-                    >
+                <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4">
+                    <h3 className="text-[1.25rem] text-left font-semibold mb-4">
                         Paano Maglagay ng Taya sa App?
                     </h3>
                     <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-5">
@@ -301,13 +281,8 @@ export default function All() {
             </section>
 
             <section className="bg-[#fff]">
-                <div className="max-w-7xl mx-auto px-[10px] py-[16px] mt-4">
-                    <h3
-                        className="text-[1.25rem] text-left font-semibold mb-4
-                relative md:mb-10 md:after:content-[''] md:after:h-[3px] md:after:bg-[rgb(231,64,55)]
-                md:after:max-w-[150px] md:after:absolute md:after:w-full md:after:bottom-[-6px]
-                md:after:left-0"
-                    >
+                <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4">
+                    <h3 className="text-[1.25rem] text-left font-semibold mb-4">
                         Pagtaya sa Palakasan
                     </h3>
                     <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-5">
@@ -422,15 +397,8 @@ export default function All() {
             </section>
 
             <section className="bg-[#fff]">
-                <div className="max-w-7xl mx-auto px-[10px] py-[16px] mt-4">
-                    <h3
-                        className="text-[1.25rem] text-left font-semibold mb-4
-                relative md:mb-10 md:after:content-[''] md:after:h-[3px] md:after:bg-[rgb(231,64,55)]
-                md:after:max-w-[150px] md:after:absolute md:after:w-full md:after:bottom-[-6px]
-                md:after:left-0"
-                    >
-                        Cybersports
-                    </h3>
+                <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4">
+                    <h3 className="text-[1.25rem] text-left font-semibold mb-4">Cybersports</h3>
                     <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-5">
                         <div className="w-full md:w-[50%]">
                             <ResImage
@@ -512,13 +480,8 @@ export default function All() {
             </section>
 
             <section className="bg-[#fff]">
-                <div className="max-w-7xl mx-auto px-[10px] py-[16px] mt-4">
-                    <h3
-                        className="text-[1.25rem] text-left font-semibold mb-4
-                relative md:mb-10 md:after:content-[''] md:after:h-[3px] md:after:bg-[rgb(231,64,55)]
-                md:after:max-w-[150px] md:after:absolute md:after:w-full md:after:bottom-[-6px]
-                md:after:left-0"
-                    >
+                <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4">
+                    <h3 className="text-[1.25rem] text-left font-semibold mb-4">
                         Mga tampok ng Panalobet App
                     </h3>
                     <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-5">
@@ -587,13 +550,8 @@ export default function All() {
             </section>
 
             <section className="bg-[#fff]">
-                <div className="max-w-7xl mx-auto px-[10px] py-[16px] mt-4">
-                    <h3
-                        className="text-[1.25rem] text-left font-semibold mb-4
-                relative md:mb-10 md:after:content-[''] md:after:h-[3px] md:after:bg-[rgb(231,64,55)]
-                md:after:max-w-[150px] md:after:absolute md:after:w-full md:after:bottom-[-6px]
-                md:after:left-0"
-                    >
+                <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4">
+                    <h3 className="text-[1.25rem] text-left font-semibold mb-4">
                         Paano Gamitin ang Web Bersyon ng Panalobet
                     </h3>
 
@@ -625,13 +583,8 @@ export default function All() {
             </section>
 
             <section className="bg-[#fff]">
-                <div className="max-w-7xl mx-auto px-[10px] py-[16px] mt-4">
-                    <h3
-                        className="text-[1.25rem] text-left font-semibold mb-4
-                relative md:mb-10 md:after:content-[''] md:after:h-[3px] md:after:bg-[rgb(231,64,55)]
-                md:after:max-w-[150px] md:after:absolute md:after:w-full md:after:bottom-[-6px]
-                md:after:left-0"
-                    >
+                <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4">
+                    <h3 className="text-[1.25rem] text-left font-semibold mb-4">
                         Mga Pagkakaiba sa pagitan ng Panalobet App at ng Website
                     </h3>
                     <p className="font-light leading-tight text-[1rem] md:mb-4">
@@ -642,7 +595,7 @@ export default function All() {
 
                     <Table datas={diffAppAndWeb} />
 
-                    <p className="font-light leading-tight text-[1rem] md:mt-4">
+                    <p className="font-light leading-tight text-[1rem] md:pt-4">
                         Kung hindi, ang dalawang bersyon ay halos magkapareho. Maaari kang tumaya
                         pareho sa website at sa app. Ang pangalawang opsyon lang ay nagbibigay ng
                         mas mataas na antas ng kaginhawaan.
@@ -651,7 +604,7 @@ export default function All() {
             </section>
 
             <section className="bg-[#fff]">
-                <div className="max-w-7xl mx-auto px-[10px] py-[16px] mt-4">
+                <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4">
                     <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-5">
                         <div className="w-full md:w-[50%]">
                             <ResImage

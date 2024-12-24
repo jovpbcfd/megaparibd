@@ -7,7 +7,7 @@ type Faq = {
     answer: string
 }
 
-export default function Faq({ questions }: { questions: Faq[] }) {
+export default function Faq({ questions, description }: { questions: Faq[]; description: string }) {
     const [openIndex, setOpenIndex] = useState<number | null>(null)
 
     const toggleFAQ = (index: number) => {
@@ -15,18 +15,9 @@ export default function Faq({ questions }: { questions: Faq[] }) {
     }
     return (
         <section className="bg-[#fff]">
-            <div className="max-w-7xl mx-auto px-[10px] py-[16px] mt-4">
-                <h3
-                    className="text-[1.25rem] text-center font-semibold mb-4 relative md:mb-10 md:after:content-[''] md:after:h-[3px] md:after:bg-[rgb(231,64,55)]
-                md:after:max-w-[150px] md:after:absolute md:after:w-full md:after:bottom-[-6px]
-                md:after:left-[50%] md:after:translate-x-[-50%]"
-                >
-                    FAQ
-                </h3>
-                <p className="font-light leading-tight text-[1rem] text-center">
-                    Below we provide answers to a few common player questions. Before you send a
-                    support request, make sure that the information you need is not listed below.
-                </p>
+            <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4">
+                <h3 className="text-[1.25rem] text-center font-semibold mb-4">FAQ</h3>
+                <p className="font-light leading-tight text-[1rem] text-center">{description}</p>
 
                 <div className="md:px-24">
                     {questions.map((faq, index) => (

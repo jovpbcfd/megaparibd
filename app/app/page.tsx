@@ -1,14 +1,87 @@
-import Header from '@/components/header'
-import Footer from '../_components/footer'
 import Hero from '@/components/hero'
 import Faq from '@/components/faq'
 import Update from '@/components/update'
+import TableOfContents from '@/components/table-content'
 
 import HomeBanner from '@/public/img/panalobet-main-hero.webp'
 import About from './_components/about'
 import Mobile from './_components/mobile'
 import VideoInstruction from './_components/video-instruction'
 import All from './_components/all'
+
+const tableOfContentsData = [
+    { title: 'Impormasyon tungkol sa Panalobet PH app', link: '#' },
+    {
+        title: 'Panalobet Mobile App Para sa Android At iOS',
+        link: '#',
+        children: [
+            {
+                title: 'I-download ang Panalobet app para sa Android',
+                link: '#',
+                children: [
+                    {
+                        title: 'Minimum na kinakailangan ng system',
+                        link: '#',
+                    },
+                ],
+            },
+            {
+                title: 'Panalobet PH App para sa iOS',
+                link: '#',
+                children: [
+                    {
+                        title: 'Minimum na kinakailangan ng system',
+                        link: '#',
+                    },
+                ],
+            },
+        ],
+    },
+    {
+        title: 'Pagpaparehistro sa pamamagitan ng App',
+        link: '#',
+    },
+    {
+        title: 'Promo Code sa App',
+        link: '#',
+    },
+    {
+        title: 'Paano Kumuha ng Panalobet PH Mobile Bonus?',
+        link: '#',
+    },
+    {
+        title: 'Mga Paraan ng Pagbabayad',
+        link: '#',
+    },
+    {
+        title: 'Paano Maglagay ng Taya sa App?',
+        link: '#',
+    },
+    {
+        title: 'Pagtaya sa Palakasan',
+        link: '#',
+    },
+    {
+        title: 'Cybersports',
+        link: '#',
+    },
+    {
+        title: 'Paano Gamitin ang Web Bersyon ng Panalobet',
+        link: '#',
+    },
+    {
+        title: 'Mga Pagkakaiba sa pagitan ng Panalobet App at ng Website',
+        link: '#',
+    },
+    {
+        title: 'Online na casino Panalobet',
+        link: '#',
+    },
+    {
+        title: 'Q&A',
+        link: '#',
+    },
+]
 
 const appPage = {
     image: HomeBanner,
@@ -35,10 +108,6 @@ const questions = [
         answer: 'Isang beses lang matatanggap ang Welcome Bonus. Hindi ito maaaring i-activate muli.',
     },
     {
-        question: 'Can I bet on PHP?',
-        answer: 'Yes, you need to select PHP as your primary account currency when registering your account.',
-    },
-    {
         question:
             'Ano ang mangyayari kung makatanggap ako ng tawag sa telepono habang naglalaro ng mga laro sa casino?',
         answer: 'Ang app ay mababawasan at ikaw ay titigil sa pagtaya. Makakabalik ka sa laro kapag natapos na ang pag-uusap.',
@@ -48,22 +117,19 @@ const questions = [
 export default function AppPage() {
     return (
         <>
-            <Header />
-            <main>
-                <Hero
-                    image={appPage.image}
-                    title={appPage.title}
-                    description={appPage.description}
-                    buttonText={appPage.buttonText}
-                />
-                <About />
-                <Mobile />
-                <VideoInstruction />
-                <All />
-                <Faq questions={questions} />
-                <Update />
-            </main>
-            <Footer />
+            <Hero
+                image={appPage.image}
+                title={appPage.title}
+                description={appPage.description}
+                buttonText={appPage.buttonText}
+            />
+            <TableOfContents content={tableOfContentsData} />
+            <About />
+            <Mobile />
+            <VideoInstruction />
+            <All />
+            <Faq questions={questions} description="" />
+            <Update />
         </>
     )
 }

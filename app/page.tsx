@@ -1,9 +1,8 @@
-import Header from '@/components/header'
 import Hero from '@/components/hero'
 import Update from '@/components/update'
 import Faq from '@/components/faq'
+import TableOfContents from '@/components/table-content'
 
-import TableOfContents from './_components/table-of-contents'
 import About from './_components/about'
 import WelcomeBonus from './_components/welcom-bonus'
 import OfficialSite from './_components/official-site'
@@ -19,7 +18,6 @@ import BettingOdds from './_components/betting-odds'
 import OnlineCasino from './_components/online-casino'
 import MethodsToDeposit from './_components/methods-to-deposit'
 import PlayerSupport from './_components/player-support'
-import Footer from './_components/footer'
 
 import HomeBanner from '@/public/img/panalobet-main-hero.webp'
 
@@ -34,6 +32,48 @@ const homepage = {
                         for newcomers of up to 20,000 PHP.`,
     buttonText: 'Start Betting',
 }
+
+const tableOfContentsData = [
+    { title: 'About Panalobet', link: '#' },
+    { title: 'Welcome bonus for new users up to 20,000 PHP', link: '#' },
+    { title: 'The official site of Panalobet for sports betting in Philippines', link: '#' },
+    { title: 'How to sign up for Panalobet PH: step-by-step instructions?', link: '#' },
+    { title: 'How to start betting?', link: '#' },
+    {
+        title: 'Panalobet PH mobile app for Android and iOS',
+        link: '#',
+        children: [
+            {
+                title: 'Download Panalobet PH app on Android',
+                link: '#',
+                children: [{ title: 'Android System Requirements', link: '#' }],
+            },
+            {
+                title: 'Download Panalobet PH app on iOS',
+                link: '#',
+                children: [{ title: 'iOS system requirements', link: '#' }],
+            },
+        ],
+    },
+    { title: 'Panalobet Philippines video review', link: '#' },
+    { title: 'Advantages of Panalobet', link: '#' },
+    {
+        title: 'Types of sports betting at Panalobet PH',
+        link: '#',
+        children: [
+            { title: 'CockFighting', link: '#' },
+            { title: 'Soccer', link: '#' },
+            { title: 'Tennis', link: '#' },
+        ],
+    },
+    { title: 'Betting on virtual sports', link: '#' },
+    { title: 'Live Betting', link: '#' },
+    { title: 'Betting odds', link: '#' },
+    { title: 'Online Casino MegaPari', link: '#' },
+    { title: 'Methods to deposit and withdraw money', link: '#' },
+    { title: 'Player Support', link: '#' },
+    { title: 'FAQ', link: '#' },
+]
 
 const questions = [
     {
@@ -61,34 +101,30 @@ const questions = [
 export default function Home() {
     return (
         <>
-            <Header />
-            <main>
-                <Hero
-                    image={homepage.image}
-                    title={homepage.title}
-                    description={homepage.description}
-                    buttonText={homepage.buttonText}
-                />
-                <TableOfContents />
-                <About />
-                <WelcomeBonus />
-                <OfficialSite />
-                <SignUp />
-                <StartBetting />
-                <MobileApp />
-                <Review />
-                <Advantage />
-                <TypesOfSports />
-                <Virtual />
-                <Live />
-                <BettingOdds />
-                <OnlineCasino />
-                <MethodsToDeposit />
-                <PlayerSupport />
-                <Faq questions={questions} />
-                <Update />
-            </main>
-            <Footer />
+            <Hero
+                image={homepage.image}
+                title={homepage.title}
+                description={homepage.description}
+                buttonText={homepage.buttonText}
+            />
+            <TableOfContents content={tableOfContentsData} />
+            <About />
+            <WelcomeBonus />
+            <OfficialSite />
+            <SignUp />
+            <StartBetting />
+            <MobileApp />
+            <Review />
+            <Advantage />
+            <TypesOfSports />
+            <Virtual />
+            <Live />
+            <BettingOdds />
+            <OnlineCasino />
+            <MethodsToDeposit />
+            <PlayerSupport />
+            <Faq questions={questions} description="" />
+            <Update />
         </>
     )
 }
