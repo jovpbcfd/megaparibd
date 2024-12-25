@@ -45,11 +45,11 @@ export default function TableOfContents({ content }: TableOfContentsProps) {
     }
 
     return (
-        <section className="bg-[#fff]">
-            <div className="max-w-7xl mx-auto flex items-center justify-between mt-4 px-[10px] py-[16px] rounded-md shadow-md">
-                <h2 className="text-[1.25rem] font-semibold leading-tight">Table of Contents</h2>
+        <section className="bg-[#fff] md:py-10">
+            <div className="max-w-[500px] mx-auto flex items-center justify-between pt-4 px-[2rem] py-[16px] rounded-md shadow-md">
+                <h2 className="text-[1.25rem] font-semibold leading-tight">Talaan ng Nilalaman</h2>
                 <button onClick={toggleTableContent} className="text-blue-500">
-                    {isTableContentOpen ? 'Hide' : 'Show'}
+                    {isTableContentOpen ? 'Itago' : 'Ipakita'}
                 </button>
                 {isTableContentOpen && (
                     <div

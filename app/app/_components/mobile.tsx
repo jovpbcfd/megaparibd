@@ -42,7 +42,7 @@ const iosMinRequirements = [
 export default function Mobile() {
     return (
         <section className="bg-[#fff]">
-            <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4">
+            <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                 <div>
                     <h3 className="text-[1.25rem] text-left font-semibold mb-4">
                         Panalobet Mobile App Para sa Android At iOS
@@ -117,7 +117,7 @@ export default function Mobile() {
                             </div>
                         </div>
 
-                        <div className="pt-4">
+                        <div className="pt-4 md:pb-8">
                             <h4 className="font-medium text-[1.05rem] leading-tight mb-4 md:text-[1.125rem] md:leading-[1.5] font-[500]">
                                 Minimum na kinakailangan ng system.
                             </h4>
@@ -135,91 +135,301 @@ export default function Mobile() {
                                 makakapagpusta at makakagamit ng anumang iba pang function at
                                 feature ng kliyente.
                             </p>
-                            <p className="font-light leading-tight text-[1rem]">
+                            <p className="font-light mb-4 leading-tight text-[1rem]">
                                 Ang Panalobet App para sa Android ay Magagamit sa Sumusunod na Mga
                                 Android Device:
                             </p>
 
-                            <ul>
-                                <li
-                                    className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                                >
-                                    Samsung Galaxy Note 9;
+                            <ul className="grid grid-cols-2 md:mt-5 md:grid-cols-4">
+                                <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                    <div className="self-start bg-blue-50 p-2 rounded-md">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            className="text-blue-300"
+                                        >
+                                            <rect
+                                                width="14"
+                                                height="20"
+                                                x="5"
+                                                y="2"
+                                                rx="2"
+                                                ry="2"
+                                            />
+                                            <path d="M12 18h.01" />
+                                        </svg>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <p className="leading-tight">Samsung Galaxy Note 9;</p>
+                                    </div>
                                 </li>
-                                <li
-                                    className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                                >
-                                    One Plus 6;
+                                <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                    <div className="self-start bg-blue-50 p-2 rounded-md">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            className="text-blue-300"
+                                        >
+                                            <rect
+                                                width="14"
+                                                height="20"
+                                                x="5"
+                                                y="2"
+                                                rx="2"
+                                                ry="2"
+                                            />
+                                            <path d="M12 18h.01" />
+                                        </svg>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <p className="leading-tight">One Plus 6</p>
+                                    </div>
                                 </li>
-                                <li
-                                    className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                                >
-                                    Huawei Honor 9;
+                                <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                    <div className="self-start bg-blue-50 p-2 rounded-md">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            className="text-blue-300"
+                                        >
+                                            <rect
+                                                width="14"
+                                                height="20"
+                                                x="5"
+                                                y="2"
+                                                rx="2"
+                                                ry="2"
+                                            />
+                                            <path d="M12 18h.01" />
+                                        </svg>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <p className="leading-tight">Huawei Honor 9</p>
+                                    </div>
                                 </li>
-                                <li
-                                    className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                                >
-                                    Samsung Galaxy S8;
+                                <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                    <div className="self-start bg-blue-50 p-2 rounded-md">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            className="text-blue-300"
+                                        >
+                                            <rect
+                                                width="14"
+                                                height="20"
+                                                x="5"
+                                                y="2"
+                                                rx="2"
+                                                ry="2"
+                                            />
+                                            <path d="M12 18h.01" />
+                                        </svg>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <p className="leading-tight">Samsung Galaxy S8</p>
+                                    </div>
                                 </li>
-                                <li
-                                    className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                                >
-                                    LG G7;
+                                <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                    <div className="self-start bg-blue-50 p-2 rounded-md">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            className="text-blue-300"
+                                        >
+                                            <rect
+                                                width="14"
+                                                height="20"
+                                                x="5"
+                                                y="2"
+                                                rx="2"
+                                                ry="2"
+                                            />
+                                            <path d="M12 18h.01" />
+                                        </svg>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <p className="leading-tight">lG G7</p>
+                                    </div>
                                 </li>
-                                <li
-                                    className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                                >
-                                    Lenovo K6 Note;
+                                <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                    <div className="self-start bg-blue-50 p-2 rounded-md">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            className="text-blue-300"
+                                        >
+                                            <rect
+                                                width="14"
+                                                height="20"
+                                                x="5"
+                                                y="2"
+                                                rx="2"
+                                                ry="2"
+                                            />
+                                            <path d="M12 18h.01" />
+                                        </svg>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <p className="leading-tight">Lenovo K6 Note</p>
+                                    </div>
                                 </li>
-                                <li
-                                    className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                                >
-                                    Xiaomi Mi 6;
+                                <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                    <div className="self-start bg-blue-50 p-2 rounded-md">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            className="text-blue-300"
+                                        >
+                                            <rect
+                                                width="14"
+                                                height="20"
+                                                x="5"
+                                                y="2"
+                                                rx="2"
+                                                ry="2"
+                                            />
+                                            <path d="M12 18h.01" />
+                                        </svg>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <p className="leading-tight">Xiomi Mi 6</p>
+                                    </div>
                                 </li>
-                                <li
-                                    className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                                >
-                                    Nokia G20;
+                                <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                    <div className="self-start bg-blue-50 p-2 rounded-md">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            className="text-blue-300"
+                                        >
+                                            <rect
+                                                width="14"
+                                                height="20"
+                                                x="5"
+                                                y="2"
+                                                rx="2"
+                                                ry="2"
+                                            />
+                                            <path d="M12 18h.01" />
+                                        </svg>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <p className="leading-tight">Nokia G20</p>
+                                    </div>
                                 </li>
-                                <li
-                                    className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                                >
-                                    Oppo A53;
+                                <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                    <div className="self-start bg-blue-50 p-2 rounded-md">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            className="text-blue-300"
+                                        >
+                                            <rect
+                                                width="14"
+                                                height="20"
+                                                x="5"
+                                                y="2"
+                                                rx="2"
+                                                ry="2"
+                                            />
+                                            <path d="M12 18h.01" />
+                                        </svg>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <p className="leading-tight">Oppo A53</p>
+                                    </div>
                                 </li>
-                                <li
-                                    className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                                >
-                                    Motorola E7i.
+                                <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                    <div className="self-start bg-blue-50 p-2 rounded-md">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            className="text-blue-300"
+                                        >
+                                            <rect
+                                                width="14"
+                                                height="20"
+                                                x="5"
+                                                y="2"
+                                                rx="2"
+                                                ry="2"
+                                            />
+                                            <path d="M12 18h.01" />
+                                        </svg>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <p className="leading-tight">Motorola 37i</p>
+                                    </div>
                                 </li>
                             </ul>
 
@@ -311,74 +521,248 @@ export default function Mobile() {
                                 Ang mga kinakailangang ito ay natutugunan ng karamihan sa mga
                                 modernong smartphone at maging ng mga modelo ng mga nakaraang taon.
                             </p>
-                            <p className="font-light leading-tight text-[1rem]">
+                            <p className="font-light mb-4 leading-tight text-[1rem]">
                                 Ang Panalobet PH App para sa iOS ay Mahusay na Gumagana sa:
                             </p>
 
-                            <ul>
-                                <li
-                                    className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                                >
-                                    iPhone 6s at 6s Plus;
+                            <ul className="grid grid-cols-2 md:mt-5 md:grid-cols-4">
+                                <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                    <div className="self-start bg-blue-50 p-2 rounded-md">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            className="text-blue-300"
+                                        >
+                                            <rect
+                                                width="14"
+                                                height="20"
+                                                x="5"
+                                                y="2"
+                                                rx="2"
+                                                ry="2"
+                                            />
+                                            <path d="M12 18h.01" />
+                                        </svg>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <p className="leading-tight">iPhone 6s at 6s Plus</p>
+                                    </div>
                                 </li>
-                                <li
-                                    className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                                >
-                                    iPhone SE
+                                <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                    <div className="self-start bg-blue-50 p-2 rounded-md">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            className="text-blue-300"
+                                        >
+                                            <rect
+                                                width="14"
+                                                height="20"
+                                                x="5"
+                                                y="2"
+                                                rx="2"
+                                                ry="2"
+                                            />
+                                            <path d="M12 18h.01" />
+                                        </svg>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <p className="leading-tight">iPhone SE</p>
+                                    </div>
                                 </li>
-                                <li
-                                    className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                                >
-                                    iPhone 7 at 7 Plus;
+                                <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                    <div className="self-start bg-blue-50 p-2 rounded-md">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            className="text-blue-300"
+                                        >
+                                            <rect
+                                                width="14"
+                                                height="20"
+                                                x="5"
+                                                y="2"
+                                                rx="2"
+                                                ry="2"
+                                            />
+                                            <path d="M12 18h.01" />
+                                        </svg>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <p className="leading-tight">Iphone 7 at 7 Plus</p>
+                                    </div>
                                 </li>
-                                <li
-                                    className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                                >
-                                    iPhone Xs, Xs Max at XR;
+                                <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                    <div className="self-start bg-blue-50 p-2 rounded-md">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            className="text-blue-300"
+                                        >
+                                            <rect
+                                                width="14"
+                                                height="20"
+                                                x="5"
+                                                y="2"
+                                                rx="2"
+                                                ry="2"
+                                            />
+                                            <path d="M12 18h.01" />
+                                        </svg>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <p className="leading-tight">iPhone Xs, Xs Max at XR</p>
+                                    </div>
                                 </li>
-                                <li
-                                    className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                                >
-                                    iPhone 11, 11 Pro at 11 Pro Max;
+                                <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                    <div className="self-start bg-blue-50 p-2 rounded-md">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            className="text-blue-300"
+                                        >
+                                            <rect
+                                                width="14"
+                                                height="20"
+                                                x="5"
+                                                y="2"
+                                                rx="2"
+                                                ry="2"
+                                            />
+                                            <path d="M12 18h.01" />
+                                        </svg>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <p className="leading-tight">
+                                            iPhone 11, 11 Pro at 11 Pro Max
+                                        </p>
+                                    </div>
                                 </li>
-                                <li
-                                    className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                                >
-                                    iPhone 12, Mini, 12 Pro at Pro Max;
+                                <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                    <div className="self-start bg-blue-50 p-2 rounded-md">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            className="text-blue-300"
+                                        >
+                                            <rect
+                                                width="14"
+                                                height="20"
+                                                x="5"
+                                                y="2"
+                                                rx="2"
+                                                ry="2"
+                                            />
+                                            <path d="M12 18h.01" />
+                                        </svg>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <p className="leading-tight">
+                                            Iphone 12 Mini, 12 Pro at Pro Max
+                                        </p>
+                                    </div>
                                 </li>
-                                <li
-                                    className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                                >
-                                    iPhone 13, Mini, 13 Pro at Pro Max;
+                                <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                    <div className="self-start bg-blue-50 p-2 rounded-md">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            className="text-blue-300"
+                                        >
+                                            <rect
+                                                width="14"
+                                                height="20"
+                                                x="5"
+                                                y="2"
+                                                rx="2"
+                                                ry="2"
+                                            />
+                                            <path d="M12 18h.01" />
+                                        </svg>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <p className="leading-tight">
+                                            iPhone 13 Mini, 13 Pro at Pro Max
+                                        </p>
+                                    </div>
                                 </li>
-                                <li
-                                    className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                                >
-                                    iPad 3, 4, Mini, Air, Pro.
+                                <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                    <div className="self-start bg-blue-50 p-2 rounded-md">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            className="text-blue-300"
+                                        >
+                                            <rect
+                                                width="14"
+                                                height="20"
+                                                x="5"
+                                                y="2"
+                                                rx="2"
+                                                ry="2"
+                                            />
+                                            <path d="M12 18h.01" />
+                                        </svg>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <p className="leading-tight">iPad 3, 4, Mini, Air, Pro</p>
+                                    </div>
                                 </li>
                             </ul>
 

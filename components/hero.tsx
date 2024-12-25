@@ -12,9 +12,8 @@ export default function Hero({
     description: string
     buttonText: string
 }) {
-    console.log(buttonText)
     return (
-        <section>
+        <section className="md:pb-16">
             <div className="max-w-7xl mx-auto py-[1rem] px-[10px] md:flex md:gap-5 md:flex-row-reverse justify-between items-center">
                 <div className="w-full md:w-[40%]">
                     <ResImage
