@@ -1,10 +1,13 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import Hero from '@/components/hero'
 import TableOfContents from '@/components/table-content'
 import Faq from '@/components/faq'
 import Update from '@/components/update'
 
-import HomeBanner from '@/public/img/panalobet-main-hero.webp'
+import HeroImage from '@/public/img/prod/support/HERO SUPPORT.webp'
+import EmailImage from '@/public/img/prod/support/Email.webp'
+import OnsiteImage from '@/public/img/prod/support/On-site Chat.webp'
 
 const tableOfContents = [
     {
@@ -22,7 +25,7 @@ const tableOfContents = [
 ]
 
 const supportPage = {
-    image: HomeBanner,
+    image: HeroImage,
     title: 'Serbisyo sa Customer ng Panalobet Philippines',
     description: `Upang makapagbigay ng napapanahong suporta sa mga manlalaro, 
     magbigay ng payo at sagutin ang iba't ibang tanong, ang opisina ng bookmaker na Panalobet Philippines ay may espesyal na serbisyo. Maaari kang makipag-ugnayan sa team ng suporta para sa anumang problema at humingi ng tulong sa paglutas nito sa lalong madaling panahon. 
@@ -59,10 +62,10 @@ export default function SupportPage() {
                 buttonText={supportPage.buttonText}
             />
             <TableOfContents content={tableOfContents} />
-            <section className="bg-[#fff]">
+            <section className="bg-[#fffdf4]">
                 <div className="grid grid-cols-1 gap-4  max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:grid-cols-2 md:gap-16 md:pb-16">
                     <div>
-                        <div>
+                        <div className="mb-12">
                             <h3 className="text-[1.25rem] text-left font-semibold mb-4">Email</h3>
                             <p>
                                 Ang pinaka maraming nalalaman na paraan upang makipag-ugnayan sa
@@ -97,8 +100,14 @@ export default function SupportPage() {
                                 insulto.
                             </p>
                         </div>
-                        <div className="flex items-center justify-center border-2 border-dashed rounded-md">
-                            image
+                        <div className="flex items-center justify-center">
+                            <Image
+                                src={EmailImage}
+                                width={500}
+                                height={200}
+                                alt="Email Support"
+                                className="rounded-xl"
+                            />
                         </div>
                     </div>
                     <div>
@@ -241,8 +250,14 @@ export default function SupportPage() {
                             kailangan mo.
                         </p>
                     </div>
-                    <div className="flex items-center justify-center border-2 border-dashed rounded-md">
-                        image
+                    <div className="flex items-center justify-center">
+                        <Image
+                            src={OnsiteImage}
+                            width={500}
+                            height={200}
+                            alt="On-site Chat Support"
+                            className="rounded-xl"
+                        />
                     </div>
                 </div>
             </section>

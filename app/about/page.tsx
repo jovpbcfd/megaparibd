@@ -1,10 +1,13 @@
-import Hero from '@/components/hero'
+import Image from 'next/image'
 
-import HomeBanner from '@/public/img/panalobet-hero-main.webp'
+import Hero from '@/components/hero'
 import Update from '@/components/update'
 
+import HeroImage from '@/public/img/prod/about/HERO ABOUT.webp'
+import StartImage from '@/public/img/prod/about/how to start.webp'
+
 const aboutPage = {
-    image: HomeBanner,
+    image: HeroImage,
     title: 'Tungkol sa Amin',
     description: `Nag-aalok ang Panalobet sa mga user ng malaking hanay ng entertainment sa pagsusugal, mula sa pagtaya sa sports hanggang sa mga online na casino at lottery. Ang platform ay pangunahing nakatuon sa rehiyon ng Asya, na makikita sa suporta ng mga pambansang pera ng mga lokal na bansa, kabilang ang PHP.`,
     buttonText: '',
@@ -19,7 +22,7 @@ export default function AboutPage() {
                 description={aboutPage.description}
                 buttonText=""
             />
-            <section className="bg-[#fff]">
+            <section className="bg-[#fffdf4]">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pt-16 md:pb-10">
                     <h3 className="text-[1.25rem] text-left font-semibold mb-4">
                         Paano Magsisimula?
@@ -122,8 +125,15 @@ export default function AboutPage() {
                             </p>
                         </div>
 
-                        <div className="flex items-center justify-center border-2 border-dashed rounded-md">
-                            image
+                        <div className="flex items-center justify-center">
+                            <Image
+                                src={StartImage}
+                                width={598}
+                                height={404}
+                                alt="How to start"
+                                priority={true}
+                                className="rounded-xl"
+                            />
                         </div>
                     </div>
                 </div>

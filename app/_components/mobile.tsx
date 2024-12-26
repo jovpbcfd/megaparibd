@@ -1,23 +1,64 @@
 import ResImage from '@/components/res-image'
-import OfficialBanner from '@/public/img/The-official-site-of-Mega-Pari-for-sports-betting-in-Bangladesh4.webp'
+import Table from '@/components/table'
+
+const homeAndriodData = [
+    {
+        dataLeft: 'bersyon ng Android',
+        dataRight: '5.1',
+    },
+    {
+        dataLeft: 'Pangunahing memorya',
+        dataRight: '1 Gb',
+    },
+    {
+        dataLeft: 'Libreng espasyo',
+        dataRight: '46 Mb',
+    },
+    {
+        dataLeft: 'Processor',
+        dataRight: '1 Ghz',
+    },
+]
+const homeiOSData = [
+    {
+        dataLeft: 'bersyon ng iOS',
+        dataRight: '8.0',
+    },
+    {
+        dataLeft: 'Pangunahing memorya',
+        dataRight: '1 Gb',
+    },
+    {
+        dataLeft: 'Libreng espasyo',
+        dataRight: '46 Mb',
+    },
+    {
+        dataLeft: 'Processor',
+        dataRight: '1 Ghz',
+    },
+]
+
+import iosImage from '@/public/img/prod/home/7_Download Panalobet PH app on iOS.webp'
+import andriodImage from '@/public/img/prod/home/Download Panalobet PH app on Android.webp'
 
 export default function MobileApp() {
     return (
-        <section className="bg-[#fff]">
-            <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4">
-                <h3 className="text-[1.25rem] text-center font-semibold mb-4">
-                    Panalobet PH mobile app for Android and iOS
+        <section className="bg-[#fffdf4]">
+            <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
+                <h3 className="text-[1.25rem] text-center font-semibold mb-4 md:text-[2rem]">
+                    Panalobet PH mobile app para sa Android at iOS
                 </h3>
                 <p className="font-light leading-tight text-[1rem]">
-                    If you want to feel an even greater level of comfort when betting on sports,
-                    download the mobile application of the bookmaker’s office on your smartphone. We
-                    have developed two separate versions of the client for popular operating systems
-                    and offer to download them for free on the official website for everyone.
+                    Kung gusto mong makaramdam ng mas higit na antas ng kaginhawahan kapag tumataya
+                    sa sports, i-download ang mobile application ng opisina ng bookmaker sa iyong
+                    smartphone. Nakabuo kami ng dalawang magkahiwalay na bersyon ng client para sa
+                    mga sikat na operating system at nag-aalok na i-download ang mga ito nang libre
+                    sa opisyal na website para sa lahat.
                 </p>
                 <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-10">
                     <div className="w-full md:w-[50%]">
                         <ResImage
-                            path={OfficialBanner}
+                            path={andriodImage}
                             priority={true}
                             mobileSize={{ width: 390, height: 240 }}
                             desktopSize={{ width: 530, height: 330 }}
@@ -27,109 +68,58 @@ export default function MobileApp() {
                         />
                     </div>
                     <div className="w-full md:w-[50%]">
-                        <h3
-                            className="text-[1.25rem] text-center font-semibold mb-4 md:text-left relative md:after:content-[''] md:after:h-[3px] md:after:bg-[rgb(231,64,55)]
-                md:after:max-w-[150px] md:after:absolute md:after:w-full md:after:bottom-[-6px]
-                md:after:left-0"
-                        >
-                            Download Panalobet PH app on Android
+                        <h3 className="text-[1.25rem] text-center font-semibold mb-4 md:text-left">
+                            I-download ang Panalobet PH app sa Android
                         </h3>
                         <p className="font-light leading-tight text-[1rem]">
-                            If you are using an Android mobile device, download this version. It can
-                            only be downloaded from our website. The application is not available on
-                            Play Market. To download and install the program on your smartphone, do
-                            the following:
+                            Kung gumagamit ka ng Android mobile device, i-download ang bersyong ito.
+                            Maaari lamang itong i-download mula sa aming website. Ang application ay
+                            hindi magagamit sa Play Market. Upang i-download at i-install ang
+                            program sa iyong smartphone, gawin ang sumusunod:
                         </p>
 
                         <ol className="list-decimal list-inside">
                             <li className="font-light leading-tight my-[1.5rem]">
-                                <strong className="font-bold">Open the website. </strong>
-                                On the home page of our website, click on “Smartphone App”;
+                                <strong className="font-bold">Buksan ang website. </strong>
+                                Sa home page ng aming website, mag-click sa &quot;Smartphone
+                                App&quot;
                             </li>
                             <li className="font-light leading-tight my-[1.5rem]">
-                                <strong className="font-bold">Download the APK file. </strong>
-                                Click the button to download the app and wait for it to complete;
+                                <strong className="font-bold">I-download ang APK file. </strong>
+                                I-click ang button para i-download ang app at hintayin itong
+                                makumpleto
                             </li>
                             <li className="font-light leading-tight my-[1.5rem]">
-                                <strong className="font-bold">Allow installation. </strong>
-                                Open the cell phone’s security settings and allow apps from unknown
-                                sources to be installed;
+                                <strong className="font-bold">Payagan ang pag-install. </strong>
+                                Buksan ang mga setting ng seguridad ng cell phone at payagan ang mga
+                                app mula sa hindi kilalang mga mapagkukunan na mai-install
                             </li>
                             <li className="font-light leading-tight my-[1.5rem]">
-                                <strong className="font-bold">Install the program. </strong>
-                                When the Panalobet Philippines APK is finished downloading, open
-                                this file and confirm the installation.
+                                <strong className="font-bold">I-install ang program. </strong>
+                                Kapag natapos na ang pag-download ng Panalobet Philippines APK,
+                                buksan ang file na ito at kumpirmahin ang pag-install.
                             </li>
                         </ol>
                         <p className="font-light leading-tight text-[1rem] mb-4">
-                            In just a minute you will be able to log in to the application through
-                            the shortcut on the desktop, enter your username and password and start
-                            betting on your favorite sports.
+                            Sa loob lamang ng isang minuto, makakapag-log in ka sa application sa
+                            pamamagitan ng shortcut sa desktop, ipasok ang iyong username at
+                            password at magsimulang tumaya sa iyong paboritong sports.
                         </p>
                     </div>
                 </div>
 
                 <div className="pt-4">
                     <h4 className="font-medium text-[1.05rem] leading-tight mb-4">
-                        Android System Requirements
+                        Mga Kinakailangan sa Android System
                     </h4>
 
-                    <div>
-                        <table className="table-fixed w-full  md:border-collapse md:border md:border-[#7e8993] md:table">
-                            <tbody>
-                                <tr
-                                    className="flex flex-col justify-center items-center w-full border border-[#7e8993] rounded-xl my-4 
-                            md:table-row md:w-auto md:rounded-none md:my-0"
-                                >
-                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                        Android version
-                                    </td>
-                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                        5.1
-                                    </td>
-                                </tr>
-                                <tr
-                                    className="flex flex-col justify-center items-center w-full border border-[#7e8993] bg-[#f1f1f1] rounded-xl my-4 
-                            md:table-row md:w-auto md:rounded-none md:my-0"
-                                >
-                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                        Main memory
-                                    </td>
-                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                        1 Gb
-                                    </td>
-                                </tr>
-                                <tr
-                                    className="flex flex-col justify-center items-center w-full border border-[#7e8993] rounded-xl my-4 
-                            md:table-row md:w-auto md:rounded-none md:my-0"
-                                >
-                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                        Free space
-                                    </td>
-                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                        46 Mb
-                                    </td>
-                                </tr>
-                                <tr
-                                    className="flex flex-col justify-center items-center w-full border border-[#7e8993] bg-[#f1f1f1] rounded-xl my-4 
-                            md:table-row md:w-auto md:rounded-none md:my-0"
-                                >
-                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                        Processor
-                                    </td>
-                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                        1 GHz
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                    <Table datas={homeAndriodData} />
                 </div>
 
                 <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-10">
                     <div className="w-full md:w-[50%]">
                         <ResImage
-                            path={OfficialBanner}
+                            path={iosImage}
                             priority={true}
                             mobileSize={{ width: 390, height: 240 }}
                             desktopSize={{ width: 530, height: 330 }}
@@ -140,99 +130,48 @@ export default function MobileApp() {
                     </div>
 
                     <div className="w-full md:w-[50%]">
-                        <h3
-                            className="text-[1.25rem] text-center font-semibold mb-4 md:text-left relative md:after:content-[''] md:after:h-[3px] md:after:bg-[rgb(231,64,55)]
-                md:after:max-w-[150px] md:after:absolute md:after:w-full md:after:bottom-[-6px]
-                md:after:left-0"
-                        >
-                            Download MegaPari BD app on iOS
+                        <h3 className="text-[1.25rem] text-center font-semibold mb-4 md:text-left">
+                            I-download ang Panalobet PH app sa iOS
                         </h3>
                         <p className="font-light leading-tight text-[1rem]">
-                            For iPhone and iPad users, we have prepared another version of the
-                            application running on the iOS operating system. You can also download
-                            it from the official website. To do this, just follow a few steps:
+                            Para sa mga user ng iPhone at iPad, naghanda kami ng isa pang bersyon ng
+                            application na tumatakbo sa iOS operating system. Maaari mo ring
+                            i-download ito mula sa opisyal na website. Upang gawin ito, sundin
+                            lamang ang ilang hakbang:
                         </p>
 
                         <ol className="list-decimal list-inside">
                             <li className="font-light leading-tight my-[1.5rem]">
-                                <strong className="font-bold">Open the site. </strong>
-                                Go to your browser on your smartphone and open the home page of the
-                                site. Then select the “Smartphone App” section;
+                                <strong className="font-bold">Buksan ang site. </strong>
+                                Pumunta sa iyong browser sa iyong smartphone at buksan ang home page
+                                ng site. Pagkatapos ay piliin ang seksyong &quot;Smartphone
+                                App&quot;
                             </li>
                             <li className="font-light leading-tight my-[1.5rem]">
-                                <strong className="font-bold">Go to the App Store. </strong>
-                                Click the button to download the app to get to its official page in
-                                the App Store;
+                                <strong className="font-bold">Pumunta sa App Store. </strong>
+                                I-click ang button para i-download ang app para makapunta sa opisyal
+                                na page nito sa App Store
                             </li>
                             <li className="font-light leading-tight my-[1.5rem]">
-                                <strong className="font-bold">Install the client. </strong>
-                                Follow the instructions in the Apple Digital Store to install the
+                                <strong className="font-bold">I-install ang kliyente. </strong>
+                                Sundin ang mga tagubilin sa Apple Digital Store para i-install ang
                                 software.
                             </li>
                         </ol>
                         <p className="font-light leading-tight text-[1rem] mb-4">
-                            The MegaPari Bangladesh mobile app for iOS does not differ in features
-                            and appearance from the Android version. You will be able to make any
-                            kind of bet, get bonuses and other benefits.
+                            Ang Panalobet Philippines mobile app para sa iOS ay hindi naiiba sa mga
+                            tampok at hitsura mula sa bersyon ng Android. Magagawa mong gumawa ng
+                            anumang uri ng taya, makakuha ng mga bonus at iba pang benepisyo.
                         </p>
                     </div>
                 </div>
 
                 <div className="pt-4">
                     <h4 className="font-medium text-[1.05rem] leading-tight mb-4">
-                        iOS system requirements
+                        Mga kinakailangan sa system ng iOS
                     </h4>
 
-                    <div>
-                        <table className="table-fixed w-full  md:border-collapse md:border md:border-[#7e8993] md:table">
-                            <tbody>
-                                <tr
-                                    className="flex flex-col justify-center items-center w-full border border-[#7e8993] rounded-xl my-4 
-                            md:table-row md:w-auto md:rounded-none md:my-0"
-                                >
-                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                        Android version
-                                    </td>
-                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                        8.0
-                                    </td>
-                                </tr>
-                                <tr
-                                    className="flex flex-col justify-center items-center w-full border border-[#7e8993] bg-[#f1f1f1] rounded-xl my-4 
-                            md:table-row md:w-auto md:rounded-none md:my-0"
-                                >
-                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                        Main memory
-                                    </td>
-                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                        1 Gb
-                                    </td>
-                                </tr>
-                                <tr
-                                    className="flex flex-col justify-center items-center w-full border border-[#7e8993] rounded-xl my-4 
-                            md:table-row md:w-auto md:rounded-none md:my-0"
-                                >
-                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                        Free space
-                                    </td>
-                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                        46 Mb
-                                    </td>
-                                </tr>
-                                <tr
-                                    className="flex flex-col justify-center items-center w-full border border-[#7e8993] bg-[#f1f1f1] rounded-xl my-4 
-                            md:table-row md:w-auto md:rounded-none md:my-0"
-                                >
-                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                        Processor
-                                    </td>
-                                    <td className="text-center leading-tight p-[10px]  w-full font-bold md:font-normal md:w-auto md:border md:border-[#7e8993]">
-                                        1 GHz
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                    <Table datas={homeiOSData} />
                 </div>
             </div>
         </section>

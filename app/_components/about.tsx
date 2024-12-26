@@ -2,28 +2,28 @@ import Table from '@/components/table'
 
 const homeAboutData = [
     {
-        dataLeft: 'Year of registration',
+        dataLeft: 'Taon ng pagpaparehistro',
         dataRight: '2019',
     },
     {
-        dataLeft: 'Host Indian Players',
-        dataRight: 'Yes',
+        dataLeft: 'Nagho-host ng mga manlalarong Indian',
+        dataRight: 'Oo',
     },
     {
-        dataLeft: 'Accepts PHP',
-        dataRight: 'Yes',
+        dataLeft: 'Tumatanggap ng PHP',
+        dataRight: 'Oo',
     },
     {
-        dataLeft: 'License',
+        dataLeft: 'Lisensya',
         dataRight: 'Curacao',
     },
     {
-        dataLeft: 'Services',
-        dataRight: '2019',
+        dataLeft: 'Mga serbisyo',
+        dataRight: 'Pagtaya sa sports, online casino, poker',
     },
     {
-        dataLeft: 'Year of registration',
-        dataRight: 'Sports betting, online casinos, poker',
+        dataLeft: 'Mga bersyon ng software',
+        dataRight: 'Opisyal na website, smartphone app',
     },
     {
         dataLeft: 'Software versions',
@@ -31,60 +31,66 @@ const homeAboutData = [
     },
     {
         dataLeft: 'Welcome Bonus',
-        dataRight: '+100% to the first deposit up to 20,000 INR',
+        dataRight: '+100% sa unang deposito hanggang 20,000 INR',
     },
     {
-        dataLeft: 'Deposit methods',
-        dataRight: 'Nagad, Bkash, Rocket, Upay, AstroPay, Jeton Wallet, Kvitu',
+        dataLeft: 'Mga paraan ng pagdedeposito',
+        dataRight: 'Nagad, Bkash, Rocket, Upay, AstroPay, Jeton Wallet, Kvitum, Cryptocurrencies',
     },
     {
-        dataLeft: 'Minimum deposit',
+        dataLeft: 'Pinakamababang deposito',
         dataRight: '75 PHP',
     },
     {
-        dataLeft: 'Minimum output',
+        dataLeft: 'Minimum na output',
         dataRight: '150 PHP',
     },
     {
-        dataLeft: 'Customer Service',
-        dataRight: 'E-mail, chat on the site',
+        dataLeft: 'Serbisyo sa Customer',
+        dataRight: 'E-mail, makipag-chat sa site',
     },
 ]
 
 export default function About() {
     return (
-        <section className="bg-[#fff]">
-            <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4">
-                <h3 className="text-[1.25rem] text-center font-semibold mb-4">About Panalobet</h3>
+        <section className="bg-[#fffdf4]">
+            <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
+                <h3 className="text-[1.25rem] text-center font-semibold mb-4 md:text-[2rem]">
+                    Tungkol sa Panalobet
+                </h3>
                 <p className="text-[1rem] font-light leading-tight">
-                    Despite its young age, the bookmaker’s office is able to offer users a lot of
-                    important advantages, including lucrative bonuses and a large number of options
-                    for betting. Registration of the company took place in 2019. To work in
-                    Philippines legally, we obtained a license from the Curacao Gaming Commission.
-                    It confirms the reliability and safety of the company and allows us to offer our
-                    services to residents of dozens of countries.
+                    Sa kabila ng murang edad nito, ang opisina ng bookmaker ay nagagawang mag-alok
+                    sa mga user ng maraming mahahalagang bentahe, kabilang ang mga kapaki-pakinabang
+                    na bonus at isang malaking bilang ng mga pagpipilian para sa pagtaya. Naganap
+                    ang pagpaparehistro ng kumpanya noong 2019. Upang legal na magtrabaho sa
+                    Pilipinas, kumuha kami ng lisensya mula sa Curacao Gaming Commission.
+                    Kinukumpirma nito ang pagiging maaasahan at kaligtasan ng kumpanya at
+                    pinapayagan kaming mag-alok ng aming mga serbisyo sa mga residente ng
+                    dose-dosenang mga bansa.
                 </p>
                 <p className="text-[1rem] font-light leading-tight my-4">
-                    Today the total number of registered users of Panalobet Philippines exceeds 500
-                    thousand people. Popularity among players is explained by the fact that we are
-                    constantly improving, offering new opportunities and benefits to each of our
-                    clients.
+                    Ngayon ang kabuuang bilang ng mga rehistradong gumagamit ng Panalobet
+                    Philippines ay lumampas sa 500 libong tao. Ang katanyagan sa mga manlalaro ay
+                    ipinaliwanag sa pamamagitan ng katotohanan na kami ay patuloy na nagpapabuti,
+                    nag-aalok ng mga bagong pagkakataon at benepisyo sa bawat isa sa aming mga
+                    kliyente.
                 </p>
 
                 <Table datas={homeAboutData} />
 
                 <p className="font-light leading-tight text-[1rem] my-4">
-                    To provide users with maximum convenience when interacting with the site, we
-                    have developed a clear and user-friendly interface. Even absolute beginners who
-                    have never bet before will be able to understand the navigation. One-click on
-                    the button will take you to any section and get the information you are
-                    interested in.
+                    Upang mabigyan ang mga user ng maximum na kaginhawahan kapag nakikipag-ugnayan
+                    sa site, bumuo kami ng isang malinaw at madaling gamitin na interface. Kahit na
+                    ang mga ganap na baguhan na hindi pa tumaya noon ay mauunawaan ang nabigasyon.
+                    Ang isang pag-click sa pindutan ay magdadala sa iyo sa anumang seksyon at makuha
+                    ang impormasyong interesado ka.
                 </p>
 
                 <p className="font-light leading-tight text-[1rem] mt-4">
-                    The design of the site is adapted for viewing from cell phones. Regardless of
-                    what model of smartphone you use and what operating system is installed on it,
-                    the pages will automatically adjust to the size of the display.
+                    Ang disenyo ng site ay iniangkop para sa pagtingin mula sa mga cell phone.
+                    Anuman ang modelo ng smartphone na iyong ginagamit at kung anong operating
+                    system ang naka-install dito, ang mga pahina ay awtomatikong mag-aadjust sa laki
+                    ng display.
                 </p>
             </div>
         </section>

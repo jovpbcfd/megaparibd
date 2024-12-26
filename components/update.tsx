@@ -1,7 +1,7 @@
 export default function Update() {
     return (
-        <section className="bg-[#fff]">
-            <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4">
+        <section className="bg-[#fffdf4]">
+            <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-16">
                 <p className="text-center md:text-left">Updated: Thu, 11 Jan 2024 10:31:16</p>
 
                 <div className="md:mx-auto md:max-w-2xl md:mt-10">

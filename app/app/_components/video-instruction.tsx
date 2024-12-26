@@ -4,7 +4,7 @@ import OfficialBanner from '@/public/img/official-site-of-panalobet.webp'
 
 export default function VideoInstruction() {
     return (
-        <section className="bg-[#fff]">
+        <section className="bg-[#fffdf4]">
             <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4">
                 <h3 className="text-[1.25rem] text-left font-semibold mb-4">
                     Mga Tagubilin sa Video para sa Pag-download at Pag-install ng Panalobet

@@ -1,10 +1,12 @@
+import Image from 'next/image'
 import Hero from '@/components/hero'
 import Update from '@/components/update'
 
-import HomeBanner from '@/public/img/panalobet-hero-main.webp'
+import HeroImage from '@/public/img/prod/contacts/HERO CONTACT.webp'
+import ListContactImage from '@/public/img/prod/contacts/Contact List.webp'
 
 const contactPage = {
-    image: HomeBanner,
+    image: HeroImage,
     title: 'Makipag-ugnayan sa Panalobet Philippines',
     description: `Ang Panalobet betting company ay tumatakbo sa Pilipinas sa ilalim ng opisyal na lisensya na ibinigay ng Curacao Gambling Commission. Ang numero ng lisensya ay 8099/JAZ, at pinapayagan nito ang kumpanya na legal na magsagawa ng mga aktibidad sa pagsusugal sa dose-dosenang mga bansa. Ang mga function ng pamamahala ay ginagawa ng kumpanya Panalobet Ltd, nakarehistro sa Cyprus.`,
     buttonText: '',
@@ -19,7 +21,7 @@ export default function ContactPage() {
                 description={contactPage.description}
                 buttonText=""
             />
-            <section className="bg-[#fff]">
+            <section className="bg-[#fffdf4]">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pt-16 md:pb-10">
                     <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:mt-12 md:gap-16">
                         <div>
@@ -129,7 +131,14 @@ export default function ContactPage() {
                         </div>
 
                         <div className="flex items-center justify-center border-2 border-dashed rounded-md">
-                            image
+                            <Image
+                                src={ListContactImage}
+                                width={598}
+                                height={506}
+                                alt="List of Contact"
+                                priority={true}
+                                className="rounded-xl"
+                            />
                         </div>
                     </div>
                 </div>

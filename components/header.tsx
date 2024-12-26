@@ -62,10 +62,22 @@ export default function Header() {
                                 />
                             </div>
                             <div className="flex flex-col items-center gap-3 px-[10px] pt-[16px] mt-[24px]">
-                                <button className="w-full bg-white text-[#000] border border-white px-[.5rem] py-[.7rem] transition-hover duration-200 ease-out hover:bg-black hover:text-white">
+                                <button
+                                    className={`text-[1.1rem] px-6 py-2 font-bold rounded-full
+                                        bg-gradient-to-br from-white/30 to-gray-100/20 backdrop-blur-md
+                                        text-gray-900 border border-white/40 shadow-md
+                                        transition-all duration-200 ease-out
+                                        hover:bg-gradient-to-br hover:from-red-500 hover:to-blue-600 hover:text-white hover:shadow-xl`}
+                                >
                                     Registration
                                 </button>
-                                <button className="w-full bg-white text-[#000] border border-white px-[.5rem] py-[.7rem] transition-hover duration-200 ease-out hover:bg-black hover:text-white">
+                                <button
+                                    className={`text-[1.1rem] px-6 py-2 font-bold rounded-full
+                                        bg-gradient-to-br from-white/30 to-gray-100/20 backdrop-blur-md
+                                        text-gray-900 border border-white/40 shadow-md
+                                        transition-all duration-200 ease-out
+                                        hover:bg-gradient-to-br hover:from-red-500 hover:to-blue-600 hover:text-white hover:shadow-xl`}
+                                >
                                     Download
                                 </button>
                             </div>
@@ -115,17 +127,21 @@ export default function Header() {
                     >
                         <button
                             disabled={isOpen}
-                            className={`w-full bg-white text-[#000] border border-white px-[.5rem] py-[.7rem] transition-hover duration-200 ease-out md:w-[150px] hover:bg-black hover:text-white
-                            ${isOpen ? 'cursor-not-allowed' : ''}
-                        `}
+                            className={`text-[1.1rem] px-6 py-2 font-bold rounded-full
+                                bg-gradient-to-br from-white/30 to-gray-100/20 backdrop-blur-md
+                                text-gray-900 border border-white/40 shadow-md
+                                transition-all duration-200 ease-out
+                                hover:bg-gradient-to-br hover:from-red-500 hover:to-blue-600 hover:text-white hover:shadow-xl ${isOpen ? 'cursor-not-allowed' : ''}`}
                         >
                             Registration
                         </button>
                         <button
                             disabled={isOpen}
-                            className={`w-full bg-white text-[#000] border border-white px-[.5rem] py-[.7rem] transition-hover duration-200 ease-out md:w-[150px] hover:bg-black hover:text-white
-                            ${isOpen ? 'cursor-not-allowed' : ''}
-                        `}
+                            className={`text-[1.1rem] px-6 py-2 font-bold rounded-full
+                                bg-gradient-to-br from-white/30 to-gray-100/20 backdrop-blur-md
+                                text-gray-900 border border-white/40 shadow-md
+                                transition-all duration-200 ease-out
+                                hover:bg-gradient-to-br hover:from-red-500 hover:to-blue-600 hover:text-white hover:shadow-xl ${isOpen ? 'cursor-not-allowed' : ''}`}
                         >
                             Download
                         </button>

@@ -41,7 +41,7 @@ const iosMinRequirements = [
 
 export default function Mobile() {
     return (
-        <section className="bg-[#fff]">
+        <section className="bg-[#fffdf4]">
             <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                 <div>
                     <h3 className="text-[1.25rem] text-left font-semibold mb-4">

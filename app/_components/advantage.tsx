@@ -3,10 +3,10 @@ import OfficialBanner from '@/public/img/advantage-main.webp'
 
 export default function Advantage() {
     return (
-        <section className="bg-[#fff]">
-            <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4">
-                <h3 className="text-[1.25rem] text-center font-semibold mb-4">
-                    Advantages of Panalobet
+        <div className="text-white">
+            <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
+                <h3 className="text-[1.25rem] text-center font-semibold mb-4 md:text-[2rem]">
+                    Mga kalamangan ng Panalobet
                 </h3>
                 <div className="flex flex-col items-center gap-4 md:flex-row-reverse md:justify-between">
                     <div className="w-full md:w-[50%]">
@@ -21,63 +21,148 @@ export default function Advantage() {
                         />
                     </div>
                     <div className="w-full md:w-[50%]">
-                        <p className="font-light leading-tight text-[1rem]">
-                            We do our best to provide the most comfortable conditions for betting to
-                            all our clients. After registering and depositing your account at
-                            panalobet Philippines you can count on many important benefits that will
-                            make your gambling experience unforgettable:
+                        <p className="font-light leading-tight text-[1rem] mb-8">
+                            Ginagawa namin ang aming makakaya upang magbigay ng pinaka komportableng
+                            kondisyon para sa pagtaya sa lahat ng aming mga kliyente. Pagkatapos
+                            magrehistro at magdeposito ng iyong account sa panalobet Philippines
+                            maaari kang umasa sa maraming mahahalagang benepisyo na gagawing hindi
+                            malilimutan ang iyong karanasan sa pagsusugal:
                         </p>
                         <ul>
-                            <li
-                                className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                            >
-                                Large welcome bonus for new players of up to 20,000 PHP;
+                            <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                <div className="self-start bg-blue-50 p-2 rounded-md">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        className="text-blue-300"
+                                    >
+                                        <circle cx="12" cy="12" r="10" />
+                                        <path d="m9 12 2 2 4-4" />
+                                    </svg>
+                                </div>
+                                <div className="flex items-center">
+                                    <p className="leading-tight">
+                                        Malaking welcome bonus para sa mga bagong manlalaro na
+                                        hanggang 20,000 PHP
+                                    </p>
+                                </div>
                             </li>
-                            <li
-                                className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                            >
-                                A functional mobile application for Android and iOS smartphones;
+                            <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                <div className="self-start bg-blue-50 p-2 rounded-md">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        className="text-blue-300"
+                                    >
+                                        <circle cx="12" cy="12" r="10" />
+                                        <path d="m9 12 2 2 4-4" />
+                                    </svg>
+                                </div>
+                                <div className="flex items-center">
+                                    <p className="leading-tight">
+                                        Isang functional na mobile application para sa Android at
+                                        iOS smartphone
+                                    </p>
+                                </div>
                             </li>
-                            <li
-                                className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                            >
-                                More than 40 sports and 1000 events for betting every day;
+                            <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                <div className="self-start bg-blue-50 p-2 rounded-md">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        className="text-blue-300"
+                                    >
+                                        <circle cx="12" cy="12" r="10" />
+                                        <path d="m9 12 2 2 4-4" />
+                                    </svg>
+                                </div>
+                                <div className="flex items-center">
+                                    <p className="leading-tight">
+                                        Higit sa 40 palakasan at 1000 kaganapan para sa pagtaya
+                                        araw-araw
+                                    </p>
+                                </div>
                             </li>
-                            <li
-                                className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                            >
-                                24-hour support service, ready to help solve any problem;
+                            <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                <div className="self-start bg-blue-50 p-2 rounded-md">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        className="text-blue-300"
+                                    >
+                                        <circle cx="12" cy="12" r="10" />
+                                        <path d="m9 12 2 2 4-4" />
+                                    </svg>
+                                </div>
+                                <div className="flex items-center">
+                                    <p className="leading-tight">
+                                        24 na oras na serbisyo sa suporta, handang tumulong sa
+                                        paglutas ng anumang problema
+                                    </p>
+                                </div>
                             </li>
-                            <li
-                                className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                            >
-                                Dozens of types of payment systems at the box office.
+                            <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                <div className="self-start bg-blue-50 p-2 rounded-md">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        className="text-blue-300"
+                                    >
+                                        <circle cx="12" cy="12" r="10" />
+                                        <path d="m9 12 2 2 4-4" />
+                                    </svg>
+                                </div>
+                                <div className="flex items-center">
+                                    <p className="leading-tight">
+                                        Dose-dosenang mga uri ng sistema ng pagbabayad sa takilya.
+                                    </p>
+                                </div>
                             </li>
                         </ul>
 
                         <p className="font-light leading-tight text-[1rem]">
-                            We are constantly evolving, offering new features and functions to our
-                            players. Stay with Panalobet and there will be even more profitable
-                            betting opportunities ahead of you.
+                            Patuloy kaming nagbabago, nag-aalok ng mga bagong feature at function sa
+                            aming mga manlalaro. Manatili sa Panalobet at magkakaroon ng higit pang
+                            kumikitang mga pagkakataon sa pagtaya sa unahan mo.
                         </p>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     )
 }

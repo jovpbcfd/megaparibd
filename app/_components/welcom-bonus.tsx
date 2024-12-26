@@ -1,13 +1,13 @@
 import ResImage from '@/components/res-image'
 
-import WelcomBannerHome from '@/public/img/official-site-of-panalobet.webp'
+import WelcomBannerHome from '@/public/img/prod/home/Welcome bonus for new users up to 20,000 PHP.webp'
 
 export default function WelcomeBonus() {
     return (
-        <section className="bg-[#fff]">
-            <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4">
-                <h3 className="text-[1.25rem] text-center font-semibold mb-4">
-                    Welcome bonus for new users up to 20,000 PHP
+        <div>
+            <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
+                <h3 className="text-[1.25rem] text-center font-semibold mb-4 md:text-[2rem]">
+                    Welcome bonus para sa mga bagong user hanggang 20,000 PHP
                 </h3>
                 <div className="flex flex-col items-center gap-4 md:flex-row-reverse md:justify-between">
                     <div className="w-full md:w-[50%]">
@@ -24,49 +24,52 @@ export default function WelcomeBonus() {
                     </div>
                     <div className="w-full md:w-[50%]">
                         <p className="font-light leading-tight text-[1rem]">
-                            After registering and making your first deposit, you’ll be able to
-                            receive a Panalobet starter bonus. We will double any first deposit
-                            amount up to 20,000 PHP and allow you to withdraw this money after
-                            several conditions are met. To take part in the promotion, you only need
-                            to do a few actions:
+                            Pagkatapos magrehistro at gawin ang iyong unang deposito, makakatanggap
+                            ka ng Panalobet starter bonus. Dodoblehin namin ang anumang halaga ng
+                            unang deposito hanggang 20,000 PHP at hahayaan kang i-withdraw ang
+                            perang ito pagkatapos matugunan ang ilang kundisyon. Upang makilahok sa
+                            pag-promote, kailangan mo lamang gawin ang ilang mga aksyon:
                         </p>
                         <ol className="list-decimal ml-4">
                             <li className="font-light leading-tight my-[1.5rem]">
-                                <strong className="font-bold">Registration. </strong>
-                                Create an account on the official Panalobet Philippines website. To
-                                do this, open the main page, click on the Registration button,
-                                choose how to create an account, and fill in all the blank fields.
+                                <strong className="font-bold">Pagpaparehistro. </strong>
+                                Gumawa ng account sa opisyal na website ng Panalobet Philippines.
+                                Upang gawin ito, buksan ang pangunahing pahina, mag-click sa
+                                pindutan ng Pagpaparehistro, piliin kung paano lumikha ng isang
+                                account, at punan ang lahat ng mga blangkong field.
                             </li>
                             <li className="font-light leading-tight my-[1.5rem]">
                                 <strong className="font-bold">
-                                    Specify personal information.{' '}
+                                    Tukuyin ang personal na impormasyon.{' '}
                                 </strong>
-                                Go to the account settings and enter your information in all the
-                                empty fields. Only use real information. If you make a mistake or
-                                enter false information on purpose, you won’t be able to verify your
-                                account in the future;
+                                Pumunta sa mga setting ng account at ilagay ang iyong impormasyon sa
+                                lahat ng walang laman na field. Gumamit lamang ng totoong
+                                impormasyon. Kung nagkamali ka o sinasadyang maglagay ng maling
+                                impormasyon, hindi mo mabe-verify ang iyong account sa hinaharap;
                             </li>
                             <li className="font-light leading-tight my-[1.5rem]">
-                                <strong className="font-bold">Deposit. </strong>
-                                Press the Deposit button to go to the cashier’s desk. Then select a
-                                payment system, fill in the details and confirm the operation. The
-                                minimum deposit amount to activate a bonus is 100 PHP. The maximum
-                                amount of the bonus – 26,000 PHP.
+                                <strong className="font-bold">Deposito. </strong>
+                                Pindutin ang pindutan ng Deposit upang pumunta sa mesa ng cashier.
+                                Pagkatapos ay pumili ng isang sistema ng pagbabayad, punan ang mga
+                                detalye at kumpirmahin ang operasyon. Ang pinakamababang halaga ng
+                                deposito para ma-activate ang isang bonus ay 100 PHP. Ang maximum na
+                                halaga ng bonus – 26,000 PHP.
                             </li>
                         </ol>
 
                         <p className="font-light leading-tight text-[1rem]">
-                            When the money arrives on your balance, the bonus will be automatically
-                            credited to your account. But you will not be able to withdraw the money
-                            immediately. To be able to get them to a bank card or e-wallet, you must
-                            meet the conditions of wagering. To do this you will need to make bets
-                            for 5 times the amount of bonus within 3 months. In this case, bets must
-                            be of an express type for 3 or more events with odds of not less than
-                            1.4 for each.
+                            Kapag ang pera ay dumating sa iyong balanse, ang bonus ay awtomatikong
+                            maikredito sa iyong account. Ngunit hindi mo agad mai-withdraw ang pera.
+                            Upang makuha ang mga ito sa isang bank card o e-wallet, dapat mong
+                            matugunan ang mga kondisyon ng pagtaya. Upang gawin ito, kailangan mong
+                            tumaya para sa 5 beses ang halaga ng bonus sa loob ng 3 buwan. Sa kasong
+                            ito, ang mga taya ay dapat na isang express type para sa 3 o higit pang
+                            mga kaganapan na may posibilidad na hindi bababa sa 1.4 para sa bawat
+                            isa.
                         </p>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     )
 }

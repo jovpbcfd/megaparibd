@@ -1,15 +1,14 @@
 import ResImage from '@/components/res-image'
-import OfficialBanner from '@/public/img/The-official-site-of-Mega-Pari-for-sports-betting-in-Bangladesh4.webp'
+import PlayerSupportImage from '@/public/img/prod/home/18_Play Support.webp'
 
 export default function PlayerSupport() {
     return (
-        <section className="bg-[#fff]">
-            <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4">
-                <h3 className="text-[1.25rem] text-center font-semibold mb-4">Player Support</h3>
+        <div className="text-white">
+            <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                 <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between">
                     <div className="w-full md:w-[50%]">
                         <ResImage
-                            path={OfficialBanner}
+                            path={PlayerSupportImage}
                             priority={true}
                             mobileSize={{ width: 390, height: 240 }}
                             desktopSize={{ width: 530, height: 330 }}
@@ -19,6 +18,9 @@ export default function PlayerSupport() {
                         />
                     </div>
                     <div className="w-full md:w-[50%]">
+                        <h3 className="text-[1.25rem] text-left font-semibold mb-4 md:text-[2rem]">
+                            Player Support
+                        </h3>
                         <p className="font-light leading-tight text-[1rem]">
                             To solve problems and answer users’ questions, there is a 24-hour
                             support service. You can send any questions to it and always count on a
@@ -37,6 +39,6 @@ export default function PlayerSupport() {
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     )
 }

@@ -14,22 +14,25 @@ export default function Faq({ questions, description }: { questions: Faq[]; desc
         setOpenIndex(openIndex === index ? null : index)
     }
     return (
-        <section className="bg-[#fff]">
-            <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4">
+        <section className="bg-[#fffdf4]">
+            <div className="max-w-7xl mx-auto px-[10px] py-[16px] md:py-16">
                 <h3 className="text-[1.25rem] text-center font-semibold mb-4">FAQ</h3>
                 <p className="font-light leading-tight text-[1rem] text-center">{description}</p>
 
                 <div className="md:px-24">
                     {questions.map((faq, index) => (
-                        <div key={index} className="border-dotted border-b border-[#000] my-4">
+                        <div
+                            key={index}
+                            className="bg-gradient-to-br from-[#7f1d1d] via-[#1f2460] to-[#313380] text-white my-4"
+                        >
                             <h3>
                                 <button
                                     onClick={() => toggleFAQ(index)}
-                                    className="w-full text-left flex justify-between items-center text-lg font-medium text-gray-900 py-[1rem] md:py-[1.5rem]"
+                                    className="w-full text-left flex justify-between items-center text-lg font-medium text-gray-900 p-[1rem] md:py-[1.5rem]"
                                     aria-expanded={openIndex === index}
                                     aria-controls={`faq-content-${index}`}
                                 >
-                                    <span>{faq.question}</span>
+                                    <span className="text-white">{faq.question}</span>
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         width="24"
@@ -40,7 +43,7 @@ export default function Faq({ questions, description }: { questions: Faq[]; desc
                                         strokeWidth="2"
                                         strokeLinecap="round"
                                         strokeLinejoin="round"
-                                        className={`ml-2 transform transition-transform duration-300 ${
+                                        className={`ml-2 transform transition-transform duration-300 text-white ${
                                             openIndex === index ? 'rotate-180' : 'rotate-0'
                                         }`}
                                         aria-hidden="true"
@@ -57,7 +60,7 @@ export default function Faq({ questions, description }: { questions: Faq[]; desc
                                 }`}
                                 aria-hidden={openIndex !== index}
                             >
-                                <p className="text-gray-700 pb-4 md:py-4">{faq.answer}</p>
+                                <p className="text-white pb-4 md:p-4">{faq.answer}</p>
                             </div>
                         </div>
                     ))}

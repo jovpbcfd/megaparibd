@@ -1,8 +1,15 @@
+import Image from 'next/image'
+
 import Hero from '@/components/hero'
 import TableOfContents from '@/components/table-content'
 import Faq from '@/components/faq'
 
-import HomeBanner from '@/public/img/panalobet-main-hero.webp'
+import HeroImage from '@/public/img/prod/withdrawal/PANALOBET HERO SECTION WITHDRAWAL.webp'
+import StepOneImage from '@/public/img/prod/withdrawal/1. Open a Cash Register.webp'
+import StepTwoImage from '@/public/img/prod/withdrawal/2. Specify the Payment System.webp'
+import StepThreeImage from '@/public/img/prod/withdrawal/3. Fill Out the Fields.webp'
+import ConditionWithdrawImage from '@/public/img/prod/withdrawal/Mga Kundisyon sa Pag-withdraw sa Panalobet Philippines.webp'
+import SystemWithdrawImage from '@/public/img/prod/withdrawal/Mga Sistema ng Pagbabayad.webp'
 
 const tableOfContentsData = [
     {
@@ -24,7 +31,7 @@ const tableOfContentsData = [
 ]
 
 const withdrawalPage = {
-    image: HomeBanner,
+    image: HeroImage,
     title: 'Paano Mag-withdraw ng Pera sa Panalobet Philippines',
     description: `Kapag nakuha mo ang iyong unang panalo mula sa pagtaya sa Panalobet Philippines bookmaker, magagawa mong i-withdraw ang mga ito. Ang lahat ng mga transaksyon sa pagbabayad sa site at sa app ay ginawa sa pamamagitan ng cashier. 
                 Nagbigay kami ng suporta para sa dose-dosenang mga sistema ng pagbabayad, kabilang ang mga sikat sa Pilipinas. 
@@ -61,13 +68,13 @@ export default function WithdrawalPage() {
                 buttonText={withdrawalPage.buttonText}
             />
             <TableOfContents content={tableOfContentsData} />
-            <section className="bg-[#fff]">
-                <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4">
+            <section className="bg-[#fffdf4]">
+                <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:py-16">
                     <div className="mb-10">
                         <h3 className="text-[1.25rem] text-left font-semibold mb-4">
                             Paano Mag-withdraw ng Pera: Hakbang sa Hakbang na Mga Tagubilin?
                         </h3>
-                        <p>
+                        <p className="md:pb-16">
                             Ang pamamaraan ng withdrawal sa opisina ng Panalobet bookmaker ay kasing
                             simple hangga&apos;t maaari. Kasama lang dito ang ilang hakbang. Para
                             gumawa ng kahilingan para sa funds transfer, sundin ang mga hakbang na
@@ -75,7 +82,7 @@ export default function WithdrawalPage() {
                         </p>
                     </div>
 
-                    <div className="w-full grid gap-4 md:grid-cols-2 md:gap-16">
+                    <div className="w-full grid gap-4 md:grid-cols-2 md:gap-24">
                         <div className="md:order-1">
                             <p className="text-[3rem] font-medium leading-none text-[#ddd] mb-2 md:text-[4.5rem]">
                                 01
@@ -92,8 +99,14 @@ export default function WithdrawalPage() {
                                 </p>
                             </div>
                         </div>
-                        <div className="flex items-center justify-center border-2 border-dashed rounded-md md:order-2">
-                            Image
+                        <div className="flex items-center justify-center md:p-2 md:border-2 md:border-dashed md:order-2">
+                            <Image
+                                src={StepOneImage}
+                                width={598}
+                                height={248}
+                                alt="Step One"
+                                priority={true}
+                            />
                         </div>
                         <div className="md:order-4">
                             <p className="text-[3rem] font-medium leading-none text-[#ddd] mb-2 md:text-[4.5rem]">
@@ -110,14 +123,20 @@ export default function WithdrawalPage() {
                                 </p>
                             </div>
                         </div>
-                        <div className="flex items-center justify-center border-2 border-dashed rounded-md md:order-3">
-                            Image
+                        <div className="flex items-center justify-center md:p-2 md:border-2 md:border-dashed  md:order-3">
+                            <Image
+                                src={StepTwoImage}
+                                width={598}
+                                height={248}
+                                alt="Step One"
+                                priority={true}
+                            />
                         </div>
                         <div className="md:order-5">
                             <p className="text-[3rem] font-medium leading-none text-[#ddd] mb-2 md:text-[4.5rem]">
                                 03
                             </p>
-                            <div className="bg-gray-100 p-3 text-center md:text-right md:p-4">
+                            <div className="bg-gray-100 p-3 text-center md:text-right md:p-4 md:bg-[#252b73] md:text-white md:rounded-xl">
                                 <h4 className="text-md mb-2 font-medium md:text-xl">
                                     Punan ang mga Patlang
                                 </h4>
@@ -129,154 +148,179 @@ export default function WithdrawalPage() {
                                 </p>
                             </div>
                         </div>
-                        <div className="flex items-center justify-center border-2 border-dashed rounded-md md:order-6">
-                            Image
+                        <div className="flex items-center justify-center md:p-2 md:border-2 md:border-dashed md:order-6">
+                            <Image
+                                src={StepThreeImage}
+                                width={598}
+                                height={248}
+                                alt="Step One"
+                                priority={true}
+                            />
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section className="bg-[#fff]">
-                <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pt-16 md:pb-10">
-                    <div className="md:flex md:gap-16">
-                        <div className="md:w-[50%]">
-                            <h3 className="text-[1.25rem] text-left font-semibold mb-4">
-                                Mga Sistema ng Pagbabayad
-                            </h3>
-                            <p className="mb-2 md:mb-10">
-                                Upang bigyan ang mga user ng maximum na kaginhawahan,
-                                nakikipagtulungan kami sa isang malaking bilang ng mga serbisyo sa
-                                pagbabayad na sikat sa Pilipinas. Tingnan ang kanilang kumpletong
-                                listahan sa cashier&apos;s desk. Narito ang mga serbisyong madalas
-                                piliin ng aming mga kliyente:
-                            </p>
+            <section className="bg-gradient-to-br from-[#7f1d1d] via-[#1f2460] to-[#313380]">
+                <div className="text-white">
+                    <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pt-24 md:pb-10">
+                        <div className="md:flex md:gap-16">
+                            <div className="md:w-[50%]">
+                                <h3 className="text-[1.25rem] text-left font-semibold mb-4">
+                                    Mga Sistema ng Pagbabayad
+                                </h3>
+                                <p className="mb-2 md:mb-10">
+                                    Upang bigyan ang mga user ng maximum na kaginhawahan,
+                                    nakikipagtulungan kami sa isang malaking bilang ng mga serbisyo
+                                    sa pagbabayad na sikat sa Pilipinas. Tingnan ang kanilang
+                                    kumpletong listahan sa cashier&apos;s desk. Narito ang mga
+                                    serbisyong madalas piliin ng aming mga kliyente:
+                                </p>
 
-                            <div>
-                                <ul className="grid grid-cols-2 md:grid-cols-3">
-                                    <li className="flex items-center gap-5 mb-2 md:mb-4">
-                                        <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
-                                        <p className="leading-tight md:w-[70%] md:mr-auto">
-                                            Nagad;
-                                        </p>
-                                    </li>
-                                    <li className="flex items-center gap-5 mb-2 md:mb-4">
-                                        <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
-                                        <p className="leading-tight md:w-[70%] md:mr-auto">
-                                            Bkash;
-                                        </p>
-                                    </li>
-                                    <li className="flex items-center gap-5 mb-2 md:mb-4">
-                                        <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
-                                        <p className="leading-tight md:w-[70%] md:mr-auto">
-                                            Rocket;
-                                        </p>
-                                    </li>
-                                    <li className="flex items-center gap-5 mb-2 md:mb-4">
-                                        <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
-                                        <p className="leading-tight md:w-[70%] md:mr-auto">Upay;</p>
-                                    </li>
-                                    <li className="flex items-center gap-5 mb-2 md:mb-4">
-                                        <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
-                                        <p className="leading-tight md:w-[70%] md:mr-auto">
-                                            AstroPay;
-                                        </p>
-                                    </li>
-                                    <li className="flex items-center gap-5 mb-2 md:mb-4">
-                                        <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
-                                        <p className="leading-tight md:w-[70%] md:mr-auto">
-                                            Jeton Wallet;
-                                        </p>
-                                    </li>
-                                    <li className="flex items-center gap-5 mb-2 md:mb-4">
-                                        <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
-                                        <p className="leading-tight md:w-[70%] md:mr-auto">
-                                            Kvitum;
-                                        </p>
-                                    </li>
-                                    <li className="flex items-center gap-5 mb-2 md:mb-4">
-                                        <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
-                                        <p className="leading-tight md:w-[70%] md:mr-auto">
-                                            Cryptocurrencies.
-                                        </p>
-                                    </li>
-                                </ul>
+                                <div>
+                                    <ul className="grid grid-cols-2 md:grid-cols-3">
+                                        <li className="flex items-center gap-5 mb-2 md:mb-4">
+                                            <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
+                                            <p className="leading-tight md:w-[70%] md:mr-auto">
+                                                Nagad;
+                                            </p>
+                                        </li>
+                                        <li className="flex items-center gap-5 mb-2 md:mb-4">
+                                            <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
+                                            <p className="leading-tight md:w-[70%] md:mr-auto">
+                                                Bkash;
+                                            </p>
+                                        </li>
+                                        <li className="flex items-center gap-5 mb-2 md:mb-4">
+                                            <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
+                                            <p className="leading-tight md:w-[70%] md:mr-auto">
+                                                Rocket;
+                                            </p>
+                                        </li>
+                                        <li className="flex items-center gap-5 mb-2 md:mb-4">
+                                            <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
+                                            <p className="leading-tight md:w-[70%] md:mr-auto">
+                                                Upay;
+                                            </p>
+                                        </li>
+                                        <li className="flex items-center gap-5 mb-2 md:mb-4">
+                                            <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
+                                            <p className="leading-tight md:w-[70%] md:mr-auto">
+                                                AstroPay;
+                                            </p>
+                                        </li>
+                                        <li className="flex items-center gap-5 mb-2 md:mb-4">
+                                            <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
+                                            <p className="leading-tight md:w-[70%] md:mr-auto">
+                                                Jeton Wallet;
+                                            </p>
+                                        </li>
+                                        <li className="flex items-center gap-5 mb-2 md:mb-4">
+                                            <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
+                                            <p className="leading-tight md:w-[70%] md:mr-auto">
+                                                Kvitum;
+                                            </p>
+                                        </li>
+                                        <li className="flex items-center gap-5 mb-2 md:mb-4">
+                                            <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
+                                            <p className="leading-tight md:w-[70%] md:mr-auto">
+                                                Cryptocurrencies.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <p>
+                                    Ang lahat ng mga sistema ng pagbabayad na ito ay gumagana nang
+                                    bilateral, iyon ay, maaari mong gamitin ang mga ito upang
+                                    magdeposito at mag-withdraw ng pera.
+                                </p>
                             </div>
 
-                            <p>
-                                Ang lahat ng mga sistema ng pagbabayad na ito ay gumagana nang
-                                bilateral, iyon ay, maaari mong gamitin ang mga ito upang
-                                magdeposito at mag-withdraw ng pera.
-                            </p>
-                        </div>
-
-                        <div className="flex items-center justify-center border-2 border-dashed rounded-md md:w-[50%]">
-                            Image
+                            <div className="flex items-center justify-center md:w-[50%]">
+                                <Image
+                                    src={SystemWithdrawImage}
+                                    width={598}
+                                    height={248}
+                                    alt="Step One"
+                                    priority={true}
+                                    className="rounded-xl"
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>
-            </section>
 
-            <section className="bg-[#fff]">
-                <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pt-16 md:pb-10">
-                    <div className="md:flex md:gap-16">
-                        <div className="md:w-[50%]">
-                            <h3 className="text-[1.25rem] text-left font-semibold mb-4">
-                                Mga Kundisyon sa Pag-withdraw sa Panalobet Philippines
-                            </h3>
-                            <p className="mb-2 md:mb-10">
-                                Bago gumawa ng withdrawal application, tiyaking pamilyar ka sa mga
-                                tuntuning inaalok ng bawat indibidwal na sistema ng pagbabayad.
-                                gayundin, ang ilang kundisyon ay tinukoy ng aming tanggapan ng
-                                bookmaker. Tungkol saan ito:
-                            </p>
+                <div className="text-white">
+                    <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pt-16 md:pb-10">
+                        <div className="md:flex md:gap-16">
+                            <div className="md:w-[50%]">
+                                <h3 className="text-[1.25rem] text-left font-semibold mb-4">
+                                    Mga Kundisyon sa Pag-withdraw sa Panalobet Philippines
+                                </h3>
+                                <p className="mb-2 md:mb-10">
+                                    Bago gumawa ng withdrawal application, tiyaking pamilyar ka sa
+                                    mga tuntuning inaalok ng bawat indibidwal na sistema ng
+                                    pagbabayad. gayundin, ang ilang kundisyon ay tinukoy ng aming
+                                    tanggapan ng bookmaker. Tungkol saan ito:
+                                </p>
 
-                            <div>
-                                <ul className="grid grid-cols-2 md:grid-cols-1">
-                                    <li className="flex items-center gap-5 pb-2 md:pb-4">
-                                        <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
-                                        <p className="leading-tight md:w-[70%] md:mr-auto">
-                                            Ang pinakamababang halaga ng withdrawal ay 150 PHP.
-                                            Hindi ka makakapag-withdraw ng mas mababa kaysa doon;
-                                        </p>
-                                    </li>
-                                    <li className="flex items-center gap-5 mb-2 md:mb-4">
-                                        <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
-                                        <p className="leading-tight md:w-[70%] md:mr-auto">
-                                            Ang oras ng pagpoproseso ng aplikasyon ay hindi hihigit
-                                            sa 7 araw, ngunit sa pagsasagawa ang pera ay dumarating
-                                            sa average na 2-3 oras;
-                                        </p>
-                                    </li>
-                                    <li className="flex items-center gap-5 mb-2 md:mb-4">
-                                        <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
-                                        <p className="leading-tight md:w-[70%] md:mr-auto">
-                                            Ang mga withdrawal ay maaari lamang gawin sa mga
-                                            e-wallet at bank card na pagmamay-ari ng may-ari ng
-                                            account;
-                                        </p>
-                                    </li>
-                                    <li className="flex items-center gap-5 mb-2 md:mb-4">
-                                        <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
-                                        <p className="leading-tight md:w-[70%] md:mr-auto">
-                                            Isang kahilingan sa pag-withdraw lamang ang maaaring
-                                            gawin sa isang pagkakataon. Ipoproseso ang mga kasunod
-                                            na kahilingan ayon sa priyoridad.
-                                        </p>
-                                    </li>
-                                </ul>
+                                <div>
+                                    <ul className="grid grid-cols-2 md:grid-cols-1">
+                                        <li className="flex items-center gap-5 pb-2 md:pb-4">
+                                            <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
+                                            <p className="leading-tight md:w-[70%] md:mr-auto">
+                                                Ang pinakamababang halaga ng withdrawal ay 150 PHP.
+                                                Hindi ka makakapag-withdraw ng mas mababa kaysa
+                                                doon;
+                                            </p>
+                                        </li>
+                                        <li className="flex items-center gap-5 mb-2 md:mb-4">
+                                            <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
+                                            <p className="leading-tight md:w-[70%] md:mr-auto">
+                                                Ang oras ng pagpoproseso ng aplikasyon ay hindi
+                                                hihigit sa 7 araw, ngunit sa pagsasagawa ang pera ay
+                                                dumarating sa average na 2-3 oras;
+                                            </p>
+                                        </li>
+                                        <li className="flex items-center gap-5 mb-2 md:mb-4">
+                                            <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
+                                            <p className="leading-tight md:w-[70%] md:mr-auto">
+                                                Ang mga withdrawal ay maaari lamang gawin sa mga
+                                                e-wallet at bank card na pagmamay-ari ng may-ari ng
+                                                account;
+                                            </p>
+                                        </li>
+                                        <li className="flex items-center gap-5 mb-2 md:mb-4">
+                                            <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
+                                            <p className="leading-tight md:w-[70%] md:mr-auto">
+                                                Isang kahilingan sa pag-withdraw lamang ang maaaring
+                                                gawin sa isang pagkakataon. Ipoproseso ang mga
+                                                kasunod na kahilingan ayon sa priyoridad.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <p>
+                                    Ang lahat ng mga sistema ng pagbabayad na ito ay gumagana nang
+                                    bilateral, iyon ay, maaari mong gamitin ang mga ito upang
+                                    magdeposito at mag-withdrawAngPanalobet Philippines ay hindi
+                                    naniningil ng bayad sa pag-withdraw, ngunit maaaring ito ay
+                                    itinakda ng sistema ng pagbabayad. Isaalang-alang ito.
+                                </p>
                             </div>
 
-                            <p>
-                                Ang lahat ng mga sistema ng pagbabayad na ito ay gumagana nang
-                                bilateral, iyon ay, maaari mong gamitin ang mga ito upang
-                                magdeposito at mag-withdrawAngPanalobet Philippines ay hindi
-                                naniningil ng bayad sa pag-withdraw, ngunit maaaring ito ay itinakda
-                                ng sistema ng pagbabayad. Isaalang-alang ito.
-                            </p>
-                        </div>
-
-                        <div className="flex items-center justify-center border-2 border-dashed rounded-md md:w-[50%]">
-                            Image
+                            <div className="flex items-center justify-center md:w-[50%]">
+                                <Image
+                                    src={ConditionWithdrawImage}
+                                    width={598}
+                                    height={248}
+                                    alt="Step One"
+                                    priority={true}
+                                    className="rounded-xl"
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>

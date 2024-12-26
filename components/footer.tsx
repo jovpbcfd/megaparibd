@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Footer() {
     return (
-        <footer className="bg-gradient-to-br from-gray-800 via-gray-600 to-gray-800 shadow-lg">
+        <footer className="bg-gradient-to-br from-[#7f1d1d] via-[#1f2460] to-[#313380] shadow-lg">
             <div className="container mx-auto p-[10px] md:py-[2rem]">
                 <p
                     className="relative text-white text-[1rem] font-bold block mb-[1rem] pb-[10px] 

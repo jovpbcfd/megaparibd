@@ -1,23 +1,25 @@
 import ResImage from '@/components/res-image'
-import OfficialBanner from '@/public/img/The-official-site-of-Mega-Pari-for-sports-betting-in-Bangladesh4.webp'
+import CricketImage from '@/public/img/prod/home/9_Cricket.webp'
+import SoccerImage from '@/public/img/prod/home/10_Soccer.webp'
+import TennisImage from '@/public/img/prod/home/11_Tennis.webp'
 
 export default function TypesOfSports() {
     return (
-        <section className="bg-[#fff]">
-            <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4">
-                <h3 className="text-[1.25rem] text-center font-semibold mb-4 md:mb-10">
-                    Types of sports betting at Panalobet BD
+        <div className="text-white">
+            <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
+                <h3 className="text-[1.25rem] text-center font-semibold mb-4 md:mb-5 md:text-[2rem]">
+                    Mga uri ng pagtaya sa sports sa Panalobet BD
                 </h3>
-                <p className="font-light leading-tight text-[1rem]">
-                    One of the main advantages of the bookmaker’s office is the support of a large
-                    number of sports for betting. With us, you will be able to make predictions on
-                    the most popular sports.
+                <p className="font-light leading-tight text-[1rem] text-center md:mb-16">
+                    Ang isa sa mga pangunahing bentahe ng opisina ng bookmaker ay ang suporta ng
+                    isang malaking bilang ng mga sports para sa pagtaya. Sa amin, makakagawa ka ng
+                    mga hula sa pinakasikat na palakasan.
                 </p>
 
-                <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between">
+                <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:mb-8">
                     <div className="w-full md:w-[50%]">
                         <ResImage
-                            path={OfficialBanner}
+                            path={CricketImage}
                             priority={true}
                             mobileSize={{ width: 390, height: 240 }}
                             desktopSize={{ width: 530, height: 330 }}
@@ -27,75 +29,159 @@ export default function TypesOfSports() {
                         />
                     </div>
                     <div className="w-full md:w-[50%]">
-                        <h3 className="text-[1.25rem] text-left font-semibold mb-4">Cricket</h3>
-                        <p className="font-light leading-tight text-[1rem]">
-                            This sport is especially popular in Asian countries. After registering
-                            on the Panalobet website, you will be able to bet on hundreds of matches
-                            in all major championships:
+                        <h3 className="text-[1.25rem] text-left font-semibold mb-4">Kuliglig</h3>
+                        <p className="font-light leading-tight text-[1rem] mb-8">
+                            Lalo na sikat ang isport na ito sa mga bansang Asyano. Pagkatapos
+                            magrehistro sa website ng Panalobet, magagawa mong tumaya sa daan-daang
+                            mga laban sa lahat ng mga pangunahing kampeonato:
                         </p>
-                        <ul>
-                            <li
-                                className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                            >
-                                IPL;
+                        <ul className="grid grid-cols-1 md:grid-cols-3">
+                            <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                <div className="self-start bg-blue-50 p-2 rounded-md">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        className="text-blue-300"
+                                    >
+                                        <circle cx="12" cy="12" r="10" />
+                                        <path d="m9 12 2 2 4-4" />
+                                    </svg>
+                                </div>
+                                <div className="flex items-center">
+                                    <p className="leading-tight">IPL</p>
+                                </div>
                             </li>
-                            <li
-                                className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                            >
-                                ODI;
+                            <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                <div className="self-start bg-blue-50 p-2 rounded-md">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        className="text-blue-300"
+                                    >
+                                        <circle cx="12" cy="12" r="10" />
+                                        <path d="m9 12 2 2 4-4" />
+                                    </svg>
+                                </div>
+                                <div className="flex items-center">
+                                    <p className="leading-tight">ODI</p>
+                                </div>
                             </li>
-                            <li
-                                className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                            >
-                                Ashes series;
+                            <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                <div className="self-start bg-blue-50 p-2 rounded-md">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        className="text-blue-300"
+                                    >
+                                        <circle cx="12" cy="12" r="10" />
+                                        <path d="m9 12 2 2 4-4" />
+                                    </svg>
+                                </div>
+                                <div className="flex items-center">
+                                    <p className="leading-tight">Serye ng abo</p>
+                                </div>
                             </li>
-                            <li
-                                className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                            >
-                                Twenty20;
+                            <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                <div className="self-start bg-blue-50 p-2 rounded-md">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        className="text-blue-300"
+                                    >
+                                        <circle cx="12" cy="12" r="10" />
+                                        <path d="m9 12 2 2 4-4" />
+                                    </svg>
+                                </div>
+                                <div className="flex items-center">
+                                    <p className="leading-tight">Dalawampu&apos;t20</p>
+                                </div>
                             </li>
-                            <li
-                                className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                            >
-                                Australia vs England;
+                            <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                <div className="self-start bg-blue-50 p-2 rounded-md">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        className="text-blue-300"
+                                    >
+                                        <circle cx="12" cy="12" r="10" />
+                                        <path d="m9 12 2 2 4-4" />
+                                    </svg>
+                                </div>
+                                <div className="flex items-center">
+                                    <p className="leading-tight">Australia laban sa England</p>
+                                </div>
                             </li>
-                            <li
-                                className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                            >
-                                Africa vs India, etc.
+                            <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                <div className="self-start bg-blue-50 p-2 rounded-md">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        className="text-blue-300"
+                                    >
+                                        <circle cx="12" cy="12" r="10" />
+                                        <path d="m9 12 2 2 4-4" />
+                                    </svg>
+                                </div>
+                                <div className="flex items-center">
+                                    <p className="leading-tight">Africa vs India, atbp</p>
+                                </div>
                             </li>
                         </ul>
+                        <p className="font-light leading-tight text-[1rem]">
+                            Ang pagpili ng isang partikular na kaganapan, makikita mo ang isang
+                            listahan ng lahat ng mga posibilidad na magagamit para sa pagtaya.
+                            Idagdag ang mga ito sa kupon, tukuyin ang uri ng taya at ang halaga at
+                            gawin ang iyong hula.
+                        </p>
                     </div>
                 </div>
 
-                <p className="font-light leading-tight text-[1rem]">
-                    Selecting a particular event, you will see a list of all the odds available for
-                    betting. Add them to the coupon, specify the type of bet and the amount and make
-                    your prediction.
-                </p>
-
-                <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between">
+                <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:mb-8">
                     <div className="w-full md:w-[50%]">
                         <ResImage
-                            path={OfficialBanner}
+                            path={SoccerImage}
                             priority={true}
                             mobileSize={{ width: 390, height: 240 }}
                             desktopSize={{ width: 530, height: 330 }}
@@ -106,59 +192,119 @@ export default function TypesOfSports() {
                     </div>
                     <div className="w-full md:w-[50%]">
                         <h3 className="text-[1.25rem] text-left font-semibold mb-4">Soccer</h3>
-                        <p className="font-light leading-tight text-[1rem]">
-                            Soccer is very popular in European countries, but the people of
-                            Philippines also love it. This is the widest category for betting,
-                            offering more than 1,000 possible outcomes every day. We support dozens
-                            of competitions:
+                        <p className="font-light leading-tight text-[1rem] mb-8">
+                            Sikat na sikat ang soccer sa mga bansang Europeo, ngunit gusto rin ito
+                            ng mga mamamayan ng Pilipinas. Ito ang pinakamalawak na kategorya para
+                            sa pagtaya, na nag-aalok ng higit sa 1,000 posibleng resulta araw-araw.
+                            Sinusuportahan namin ang dose-dosenang mga kumpetisyon:
                         </p>
                         <ul>
-                            <li
-                                className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                            >
-                                Champions League;
+                            <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                <div className="self-start bg-blue-50 p-2 rounded-md">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        className="text-blue-300"
+                                    >
+                                        <circle cx="12" cy="12" r="10" />
+                                        <path d="m9 12 2 2 4-4" />
+                                    </svg>
+                                </div>
+                                <div className="flex items-center">
+                                    <p className="leading-tight">Champions League</p>
+                                </div>
                             </li>
-                            <li
-                                className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                            >
-                                Europa League;
+                            <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                <div className="self-start bg-blue-50 p-2 rounded-md">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        className="text-blue-300"
+                                    >
+                                        <circle cx="12" cy="12" r="10" />
+                                        <path d="m9 12 2 2 4-4" />
+                                    </svg>
+                                </div>
+                                <div className="flex items-center">
+                                    <p className="leading-tight">Liga ng Europa</p>
+                                </div>
                             </li>
-                            <li
-                                className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                            >
-                                Championships in Italy, England, France, Germany and dozens of other
-                                countries;
+                            <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                <div className="self-start bg-blue-50 p-2 rounded-md">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        className="text-blue-300"
+                                    >
+                                        <circle cx="12" cy="12" r="10" />
+                                        <path d="m9 12 2 2 4-4" />
+                                    </svg>
+                                </div>
+                                <div className="flex items-center">
+                                    <p className="leading-tight">
+                                        Mga kampeonato sa Italy, England, France, Germany at
+                                        dose-dosenang iba pang mga bansa
+                                    </p>
+                                </div>
                             </li>
-                            <li
-                                className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                            >
-                                World Championships, Europe, etc
+                            <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                <div className="self-start bg-blue-50 p-2 rounded-md">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        className="text-blue-300"
+                                    >
+                                        <circle cx="12" cy="12" r="10" />
+                                        <path d="m9 12 2 2 4-4" />
+                                    </svg>
+                                </div>
+                                <div className="flex items-center">
+                                    <p className="leading-tight">
+                                        World Championships, Europe, atbp.
+                                    </p>
+                                </div>
                             </li>
                         </ul>
+                        <p className="font-light leading-tight text-[1rem]">
+                            Maaaring ilagay ang mga taya sa parehong seasonal at friendly na mga
+                            laban. At ang pagpili ng mga posibleng resulta ay magpapasaya kahit na
+                            ang pinaka masugid na tagahanga ng pagtaya.
+                        </p>
                     </div>
                 </div>
 
-                <p className="font-light leading-tight text-[1rem]">
-                    Bets can be placed on both seasonal and friendly matches. And the choice of
-                    possible outcomes will please even the most avid betting fan.
-                </p>
-
-                <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between">
+                <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:mb-8">
                     <div className="w-full md:w-[50%]">
                         <ResImage
-                            path={OfficialBanner}
+                            path={TennisImage}
                             priority={true}
                             mobileSize={{ width: 390, height: 240 }}
                             desktopSize={{ width: 530, height: 330 }}
@@ -169,66 +315,134 @@ export default function TypesOfSports() {
                     </div>
                     <div className="w-full md:w-[50%]">
                         <h3 className="text-[1.25rem] text-left font-semibold mb-4">Tennis</h3>
-                        <p className="font-light leading-tight text-[1rem]">
-                            Many users love tennis and prefer to bet on this sport because of the
-                            wide possibilities and variability of the outcomes. At the same time, it
-                            is easier to predict the results than in soccer, hockey, and other team
-                            sports. At the Panalobet Philippines bookmaker office you can bet on
-                            different competitions:
+                        <p className="font-light leading-tight text-[1rem] mb-8">
+                            Maraming mga gumagamit ang mahilig sa tennis at mas gustong tumaya sa
+                            sport na ito dahil sa malawak na posibilidad at pagkakaiba-iba ng mga
+                            resulta. Kasabay nito, mas madaling hulaan ang mga resulta kaysa sa
+                            soccer, hockey, at iba pang sports ng koponan. Sa opisina ng bookmaker
+                            ng Panalobet Philippines maaari kang tumaya sa iba&apos;t ibang
+                            kumpetisyon:
                         </p>
-                        <ul>
-                            <li
-                                className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                            >
-                                WTA;
+                        <ul className="grid grid-cols-2">
+                            <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                <div className="self-start bg-blue-50 p-2 rounded-md">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        className="text-blue-300"
+                                    >
+                                        <circle cx="12" cy="12" r="10" />
+                                        <path d="m9 12 2 2 4-4" />
+                                    </svg>
+                                </div>
+                                <div className="flex items-center">
+                                    <p className="leading-tight">WTA.</p>
+                                </div>
                             </li>
-                            <li
-                                className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                            >
-                                UTR;
+                            <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                <div className="self-start bg-blue-50 p-2 rounded-md">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        className="text-blue-300"
+                                    >
+                                        <circle cx="12" cy="12" r="10" />
+                                        <path d="m9 12 2 2 4-4" />
+                                    </svg>
+                                </div>
+                                <div className="flex items-center">
+                                    <p className="leading-tight">UTR.</p>
+                                </div>
                             </li>
-                            <li
-                                className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                            >
-                                ITF;
+                            <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                <div className="self-start bg-blue-50 p-2 rounded-md">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        className="text-blue-300"
+                                    >
+                                        <circle cx="12" cy="12" r="10" />
+                                        <path d="m9 12 2 2 4-4" />
+                                    </svg>
+                                </div>
+                                <div className="flex items-center">
+                                    <p className="leading-tight">ITF.</p>
+                                </div>
                             </li>
-                            <li
-                                className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                            >
-                                ATF;
+                            <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                <div className="self-start bg-blue-50 p-2 rounded-md">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        className="text-blue-300"
+                                    >
+                                        <circle cx="12" cy="12" r="10" />
+                                        <path d="m9 12 2 2 4-4" />
+                                    </svg>
+                                </div>
+                                <div className="flex items-center">
+                                    <p className="leading-tight">ATF.</p>
+                                </div>
                             </li>
-                            <li
-                                className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                            >
-                                Challenger, etc.
+                            <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                <div className="self-start bg-blue-50 p-2 rounded-md">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        className="text-blue-300"
+                                    >
+                                        <circle cx="12" cy="12" r="10" />
+                                        <path d="m9 12 2 2 4-4" />
+                                    </svg>
+                                </div>
+                                <div className="flex items-center">
+                                    <p className="leading-tight">Challenger, atbp.</p>
+                                </div>
                             </li>
                         </ul>
                         <p className="font-light leading-tight text-[1rem]">
-                            Select one of them from the list, specify the specific opposition,
-                            select the odds and place a bet in a few minutes.
+                            Pumili ng isa sa kanila mula sa listahan, tukuyin ang partikular na
+                            pagsalungat, piliin ang mga logro at maglagay ng taya sa loob ng ilang
+                            minuto.
                         </p>
                     </div>
                 </div>
-                <p className="font-light leading-tight text-[1rem]">
-                    Select one of them from the list, specify the specific opposition, select the
-                    odds and place a bet in a few minutes.
-                </p>
             </div>
-        </section>
+        </div>
     )
 }

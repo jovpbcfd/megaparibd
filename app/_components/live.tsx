@@ -1,15 +1,14 @@
 import ResImage from '@/components/res-image'
-import OfficialBanner from '@/public/img/The-official-site-of-Mega-Pari-for-sports-betting-in-Bangladesh4.webp'
+import LiveImage from '@/public/img/prod/home/13_Live Betting.webp'
 
 export default function Live() {
     return (
-        <section className="bg-[#fff]">
-            <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4">
-                <h3 className="text-[1.25rem] text-center font-semibold mb-4">Live Betting</h3>
+        <div className="text-white">
+            <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                 <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between">
                     <div className="w-full md:w-[50%]">
                         <ResImage
-                            path={OfficialBanner}
+                            path={LiveImage}
                             priority={true}
                             mobileSize={{ width: 390, height: 240 }}
                             desktopSize={{ width: 530, height: 330 }}
@@ -20,49 +19,102 @@ export default function Live() {
                     </div>
 
                     <div className="w-full md:w-[50%]">
-                        <p className="font-light leading-tight text-[1rem]">
-                            This category of sports betting will appeal to those who are well versed
-                            in at least one sport and are able to react quickly to events that occur
-                            on the field. The Live section presents matches that have already
-                            started. You can bet on them in real-time. This kind of prediction has a
-                            few important differences from the regular one:
+                        <h3 className="text-[1.25rem] text-left font-semibold mb-4 md:text-[2rem]">
+                            Live na Pagtaya
+                        </h3>
+                        <p className="font-light leading-tight text-[1rem] mb-8">
+                            Ang kategoryang ito ng pagtaya sa palakasan ay mag-aapela sa mga taong
+                            bihasa sa kahit isang isport at mabilis na makakapag-react sa mga
+                            kaganapang nagaganap sa field. Ang Live na seksyon ay nagpapakita ng mga
+                            laban na nagsimula na. Maaari kang tumaya sa kanila sa real-time. Ang
+                            ganitong uri ng hula ay may ilang mahahalagang pagkakaiba mula sa
+                            karaniwan:
                         </p>
                         <ul>
-                            <li
-                                className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                            >
-                                Every match presented here has already begun;
+                            <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                <div className="self-start bg-blue-50 p-2 rounded-md">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        className="text-blue-300"
+                                    >
+                                        <circle cx="12" cy="12" r="10" />
+                                        <path d="m9 12 2 2 4-4" />
+                                    </svg>
+                                </div>
+                                <div className="flex items-center">
+                                    <p className="leading-tight">
+                                        Ang bawat laban na ipinakita dito ay nagsimula na
+                                    </p>
+                                </div>
                             </li>
-                            <li
-                                className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                            >
-                                For many matches there are live broadcasts that you can watch;
+                            <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                <div className="self-start bg-blue-50 p-2 rounded-md">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        className="text-blue-300"
+                                    >
+                                        <circle cx="12" cy="12" r="10" />
+                                        <path d="m9 12 2 2 4-4" />
+                                    </svg>
+                                </div>
+                                <div className="flex items-center">
+                                    <p className="leading-tight">
+                                        Para sa maraming mga laban mayroong mga live na broadcast na
+                                        maaari mong panoorin
+                                    </p>
+                                </div>
                             </li>
-                            <li
-                                className="relative font-light leading-tight my-[1.5rem] pl-8
-                                after:content-[''] after:block after:absolute after:bg-red-500 after:w-[10px] after:h-[10px]
-                                after:rounded-full after:left-0 after:top-[5px] md:after:w-[14px] md:after:h-[14px]
-                                "
-                            >
-                                Coefficients can change frequently, reacting to changes in the
-                                course of the confrontation.
+                            <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
+                                <div className="self-start bg-blue-50 p-2 rounded-md">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        className="text-blue-300"
+                                    >
+                                        <circle cx="12" cy="12" r="10" />
+                                        <path d="m9 12 2 2 4-4" />
+                                    </svg>
+                                </div>
+                                <div className="flex items-center">
+                                    <p className="leading-tight">
+                                        Ang mga coefficient ay maaaring magbago nang madalas, na
+                                        tumutugon sa mga pagbabago sa kurso ng paghaharap.
+                                    </p>
+                                </div>
                             </li>
                         </ul>
 
                         <p className="font-light leading-tight text-[1rem]">
-                            You can combine live bets with regular bets, make individual
-                            predictions, or express. The number of events constantly available to
-                            users exceeds 100 matches.
+                            Maaari mong pagsamahin ang mga live na taya sa mga regular na taya,
+                            gumawa ng mga indibidwal na hula, o ipahayag. Ang bilang ng mga
+                            kaganapang palaging available sa mga user ay lumampas sa 100 tugma.
                         </p>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     )
 }

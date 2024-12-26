@@ -20,7 +20,7 @@ import MethodsToDeposit from './_components/methods-to-deposit'
 import PlayerSupport from './_components/player-support'
 
 // import HomeBanner from '@/public/img/Panalobet Website Content (398 x 398).webp'
-import HomeBanner from '@/public/img/prod/Panalobet  Official Website.webp'
+import HomeBanner from '@/public/img/prod/home/Panalobet  Official Website (1000 x 1000).webp'
 
 const homepage = {
     image: HomeBanner,
@@ -78,24 +78,24 @@ const tableOfContentsData = [
 
 const questions = [
     {
-        question: 'How many accounts can I create?',
-        answer: 'Users are allowed to have no more than one account. Re-registration is not allowed.',
+        question: 'Ilang account ang maaari kong gawin?',
+        answer: 'Pinapayagan ang mga user na magkaroon ng hindi hihigit sa isang account. Hindi pinapayagan ang muling pagpaparehistro.',
     },
     {
-        question: 'Can I get the bonus in installments?',
-        answer: 'No, you can only activate it once. The bonus can also be withdrawn only after the wagering conditions are met in full.',
+        question: 'Maaari ko bang makuha ang bonus nang installment?',
+        answer: 'Hindi, maaari mo lang itong i-activate nang isang beses. Ang bonus ay maaari ding bawiin pagkatapos lamang matugunan ang mga kondisyon sa pagtaya.',
     },
     {
-        question: 'Is sports betting legal?',
-        answer: 'Yes, if you do them at a licensed bookmaker’s office. Panalobet operates under a Curacao license.',
+        question: 'Legal ba ang pagtaya sa sports?',
+        answer: 'Oo, kung gagawin mo ang mga ito sa isang lisensyadong bookmaker office. Ang Panalobet ay tumatakbo sa ilalim ng lisensya ng Curacao.',
     },
     {
-        question: 'Can I bet on PHP?',
-        answer: 'Yes, you need to select PHP as your primary account currency when registering your account.',
+        question: 'Maaari ba akong tumaya sa PHP?',
+        answer: 'Oo, kailangan mong piliin ang PHP bilang iyong pangunahing account currency kapag nirerehistro ang iyong account.',
     },
     {
-        question: 'Can I change the email linked to my account?',
-        answer: 'You can’t change it yourself, but you can contact support.',
+        question: 'Maaari ko bang baguhin ang email na naka-link sa aking account?',
+        answer: 'Hindi mo ito mababago sa iyong sarili, ngunit maaari kang makipag-ugnayan sa suporta.',
     },
 ]
 
@@ -110,21 +110,29 @@ export default function Home() {
             />
             <TableOfContents content={tableOfContentsData} />
             <About />
-            <WelcomeBonus />
-            <OfficialSite />
-            <SignUp />
-            <StartBetting />
+            <section className="bg-gradient-to-br from-[#7f1d1d] via-[#1f2460] to-[#313380] text-white md:py-16">
+                <WelcomeBonus />
+                <OfficialSite />
+                <SignUp />
+                <StartBetting />
+            </section>
             <MobileApp />
-            <Review />
-            <Advantage />
-            <TypesOfSports />
-            <Virtual />
-            <Live />
-            <BettingOdds />
-            <OnlineCasino />
-            <MethodsToDeposit />
-            <PlayerSupport />
-            <Faq questions={questions} description="" />
+            <section className="bg-gradient-to-br from-[#7f1d1d] via-[#1f2460] to-[#313380] text-white md:py-16">
+                <Review />
+                <Advantage />
+                <TypesOfSports />
+                <Virtual />
+                <Live />
+                <BettingOdds />
+                <OnlineCasino />
+                <MethodsToDeposit />
+                <PlayerSupport />
+            </section>
+            <Faq
+                questions={questions}
+                description={`Sa ibaba ay nagbibigay kami ng mga sagot sa ilang karaniwang tanong ng manlalaro. Bago ka magpadala ng kahilingan sa suporta, tiyaking hindi nakalista sa ibaba ang impormasyong kailangan mo.
+`}
+            />
             <Update />
         </>
     )
