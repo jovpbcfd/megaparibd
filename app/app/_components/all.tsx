@@ -25,7 +25,7 @@ const diffAppAndWeb = [
 export default function All() {
     return (
         <>
-            <section className="bg-[#fffdf4]">
+            <section id="app-promo" className="bg-[#fffdf4]">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                     <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-10">
                         <div className="w-full md:w-[50%]">
@@ -54,7 +54,7 @@ export default function All() {
                     </div>
                 </div>
             </section>
-            <section className="bg-[#fffdf4]">
+            <section id="app-mobile-bonus" className="bg-[#fffdf4]">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                     <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-5">
                         <div className="w-full md:w-[50%]">
@@ -119,7 +119,7 @@ export default function All() {
                 </div>
             </section>
 
-            <section className="bg-[#fffdf4]">
+            <section id="app-pay" className="bg-[#fffdf4]">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                     <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-5">
                         <div className="w-full md:w-[50%]">
@@ -359,7 +359,7 @@ export default function All() {
                 </div>
             </section>
 
-            <section className="bg-[#fffdf4]">
+            <section id="app-bet" className="bg-[#fffdf4]">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                     <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-5">
                         <div className="w-full md:w-[50%]">
@@ -415,7 +415,7 @@ export default function All() {
                 </div>
             </section>
 
-            <section className="bg-[#fffdf4]">
+            <section id="app-sports" className="bg-[#fffdf4]">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                     <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-5">
                         <div className="w-full md:w-[50%]">
@@ -694,7 +694,7 @@ export default function All() {
                 </div>
             </section>
 
-            <section className="bg-[#fffdf4]">
+            <section id="app-cybersports" className="bg-[#fffdf4]">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                     <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-5">
                         <div className="w-full md:w-[50%]">
@@ -887,7 +887,7 @@ export default function All() {
                 </div>
             </section>
 
-            <section className="bg-[#fffdf4]">
+            <section id="app-features" className="bg-[#fffdf4]">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                     <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-5">
                         <div className="w-full md:w-[50%]">
@@ -1029,7 +1029,7 @@ export default function All() {
                 </div>
             </section>
 
-            <section className="bg-[#fffdf4]">
+            <section id="app-web" className="bg-[#fffdf4]">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                     <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-5">
                         <div className="w-full md:w-[50%]">
@@ -1061,7 +1061,7 @@ export default function All() {
                 </div>
             </section>
 
-            <section className="bg-[#fffdf4]">
+            <section id="app-diff" className="bg-[#fffdf4]">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                     <h3 className="text-[1.25rem] text-left font-semibold mb-4">
                         Mga Pagkakaiba sa pagitan ng Panalobet App at ng Website
@@ -1082,7 +1082,7 @@ export default function All() {
                 </div>
             </section>
 
-            <section className="bg-[#fffdf4]">
+            <section id="app-online" className="bg-[#fffdf4]">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-20">
                     <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-5">
                         <div className="w-full md:w-[50%]">

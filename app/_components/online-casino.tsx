@@ -3,7 +3,7 @@ import OnlineCasinoImage from '@/public/img/prod/home/15_Online Casino Panalobet
 
 export default function OnlineCasino() {
     return (
-        <div className="text-white">
+        <div id="home-casino" className="text-white">
             <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                 <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between">
                     <div className="w-full md:w-[50%]">

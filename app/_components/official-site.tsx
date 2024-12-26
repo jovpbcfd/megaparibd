@@ -4,7 +4,7 @@ import OfficialBanner from '@/public/img/prod/home/The official site of Panalobe
 
 export default function OfficialSite() {
     return (
-        <div className="text-white">
+        <div id="home-official-site" className="text-white">
             <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                 <h3 className="text-[1.25rem] text-center font-semibold mb-4 md:text-[2rem]">
                     Ang opisyal na site ng Panalobet para sa pagtaya sa sports sa Pilipinas

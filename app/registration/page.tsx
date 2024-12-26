@@ -8,23 +8,23 @@ import Update from '@/components/update'
 const tableOfContentsData = [
     {
         title: 'Pagpaparehistro ng Panalobet: Mga Hakbang-hakbang na Tagubilin',
-        link: '#',
+        link: '#register-step',
     },
     {
         title: 'Pagpaparehistro sa pamamagitan ng Mga Mobile Device',
-        link: '#',
+        link: '#register-mobile',
     },
     {
         title: 'Mga Kinakailangan sa Pagpaparehistro ng Panalobet Philippines',
-        link: '#',
+        link: '#register-video-instruction',
     },
     {
         title: 'Pagpapatunay ng Account',
-        link: '#',
+        link: '#register-requirements',
     },
     {
         title: 'Welcome Bonus',
-        link: '#',
+        link: '#register-welcome-bonus',
     },
 ]
 const registrationPage = {
@@ -67,7 +67,7 @@ export default function RegistrationPage() {
                 buttonText=""
             />
             <TableOfContents content={tableOfContentsData} />
-            <section className="bg-[#fff]">
+            <section id="register-step" className="bg-[#fff]">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4">
                     <div className="mb-10">
                         <h3 className="text-[1.25rem] text-left font-semibold mb-4">
@@ -160,7 +160,7 @@ export default function RegistrationPage() {
                 </div>
             </section>
 
-            <section className="bg-[#fff]">
+            <section id="register-mobile" className="bg-[#fff]">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pt-16">
                     <div className="mb-10 gap-4 md:flex md:gap-16">
                         <div className="md:w-[50%]">
@@ -183,7 +183,7 @@ export default function RegistrationPage() {
                 </div>
             </section>
 
-            <section className="bg-[#fff]">
+            <section id="register-video-instruction" className="bg-[#fff]">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pt-16">
                     <div className="mb-10">
                         <div>
@@ -200,7 +200,10 @@ export default function RegistrationPage() {
                             </p>
                         </div>
 
-                        <div className="grid grid-cols-1 gap-4 pt-4 md:gap-10">
+                        <div
+                            id="register-requirements"
+                            className="grid grid-cols-1 gap-4 pt-4 md:gap-10"
+                        >
                             <div className="md:ml-auto">
                                 <div className="bg-gradient-to-br from-gray-800 via-gray-600 to-gray-800 shadow-lg text-white rounded-xl p-3 text-center md:text-left md:p-10">
                                     <h4 className="font-medium mb-2">
@@ -291,7 +294,7 @@ export default function RegistrationPage() {
                 </div>
             </section>
 
-            <section className="bg-[#fff]">
+            <section id="register-welcome-bonus" className="bg-[#fff]">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pt-16">
                     <div className="mb-10 gap-4 md:flex md:gap-16">
                         <div className="md:w-[50%]">

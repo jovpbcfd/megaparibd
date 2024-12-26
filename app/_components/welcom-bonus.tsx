@@ -4,7 +4,7 @@ import WelcomBannerHome from '@/public/img/prod/home/Welcome bonus for new users
 
 export default function WelcomeBonus() {
     return (
-        <div>
+        <div id="home-welcome-bonus">
             <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                 <h3 className="text-[1.25rem] text-center font-semibold mb-4 md:text-[2rem]">
                     Welcome bonus para sa mga bagong user hanggang 20,000 PHP

@@ -4,7 +4,7 @@ import OfficialBanner from '@/public/img/prod/home/How to sign up for Panalobet 
 
 export default function SignUp() {
     return (
-        <div className="text-white">
+        <div id="home-sign-up" className="text-white">
             <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                 <h3 className="text-[1.25rem] text-center font-semibold mb-4 md:text-[2rem]">
                     Paano mag-sign up para sa Panalobet BD: sunud-sunod na mga tagubilin?

@@ -12,15 +12,15 @@ import OnsiteImage from '@/public/img/prod/support/On-site Chat.webp'
 const tableOfContents = [
     {
         title: 'Email',
-        link: '#',
+        link: '#support-email',
     },
     {
         title: 'On-site Chat',
-        link: '#',
+        link: '#support-onsite',
     },
     {
         title: 'FAQ',
-        link: '#',
+        link: '#faq',
     },
 ]
 
@@ -62,7 +62,7 @@ export default function SupportPage() {
                 buttonText={supportPage.buttonText}
             />
             <TableOfContents content={tableOfContents} />
-            <section className="bg-[#fffdf4]">
+            <section id="support-email" className="bg-[#fffdf4]">
                 <div className="grid grid-cols-1 gap-4  max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:grid-cols-2 md:gap-16 md:pb-16">
                     <div>
                         <div className="mb-12">
@@ -227,7 +227,7 @@ export default function SupportPage() {
                 </div>
             </section>
 
-            <section className="bg-[#fff]">
+            <section id="support-onsite" className="bg-[#fff]">
                 <div className="grid grid-cols-1 gap-4 max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:grid-cols-2 md:gap-16 md:pb-16">
                     <div>
                         <h3 className="text-[1.25rem] text-left font-semibold mb-4">

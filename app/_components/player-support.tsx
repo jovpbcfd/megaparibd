@@ -3,7 +3,7 @@ import PlayerSupportImage from '@/public/img/prod/home/18_Play Support.webp'
 
 export default function PlayerSupport() {
     return (
-        <div className="text-white">
+        <div id="home-player-support" className="text-white">
             <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                 <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between">
                     <div className="w-full md:w-[50%]">

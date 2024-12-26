@@ -3,7 +3,7 @@ import OfficialBanner from '@/public/img/advantage-main.webp'
 
 export default function Advantage() {
     return (
-        <div className="text-white">
+        <div id="home-advantage" className="text-white">
             <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                 <h3 className="text-[1.25rem] text-center font-semibold mb-4 md:text-[2rem]">
                     Mga kalamangan ng Panalobet

@@ -25,7 +25,7 @@ export default function RootLayout({
     // bg-gradient-to-br from-[#313380] via-[#3a4b8e] to-[#4e2a8a]
     // bg-gradient-to-br from-[#313380] via-[#2a3c7f] to-[#3c1a1a] 20%
     return (
-        <html lang="en">
+        <html lang="en" className="scroll-smooth">
             <body
                 className={`${rubik.className} antialiased bg-gradient-to-br from-red-500 via-gray-700 to-blue-600 h-screen`}
             >
