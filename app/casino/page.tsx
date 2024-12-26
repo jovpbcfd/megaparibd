@@ -26,25 +26,25 @@ const registrationPage = {
 const tableOfContents = [
     {
         title: 'Mga Online na Laro sa Panalobet Casino',
-        link: '#',
+        link: '#casino-online',
         children: [
-            { title: 'SuperAce', link: '#' },
-            { title: 'Sugar Rush', link: '#' },
-            { title: 'Magic Beans', link: '#' },
-            { title: ' 777', link: '#' },
+            { title: 'SuperAce', link: '#casino-super-ace' },
+            { title: 'Sugar Rush', link: '#casino-sugar-rush' },
+            { title: 'Magic Beans', link: '#casino-magic-beans' },
+            { title: ' 777', link: '#casino-777' },
         ],
     },
     {
         title: 'Paano Magsisimulang Maglaro sa Panalobet Casino',
-        link: '#',
+        link: '#casino-start',
     },
     {
         title: 'Mga Uri ng Laro sa Panalobet Casino Philippines',
-        link: '#',
+        link: '#casino-type',
         children: [
-            { title: 'Mga Puwang', link: '#' },
-            { title: 'Board Games', link: '#' },
-            { title: 'Mga Laro sa Mga Live na Dealer', link: '#' },
+            { title: 'Mga Puwang', link: '#casino-puwang' },
+            { title: 'Board Games', link: '#casino-board' },
+            { title: 'Mga Laro sa Mga Live na Dealer', link: '#casino-live' },
         ],
     },
     {
@@ -82,9 +82,9 @@ export default function CasinoPage() {
                 buttonText=""
             />
             <TableOfContents content={tableOfContents} />
-            <section className="bg-[#fffdf4]">
+            <section id="casino-online" className="bg-[#fffdf4]">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pt-16">
-                    <div className="mb-10 gap-4 md:flex md:gap-16">
+                    <div id="casino-super-ace" className="mb-10 gap-4 md:flex md:gap-16">
                         <div className="md:w-[50%] md:flex md:items-center md:justify-center">
                             <div className="text-center text-black rounded-xl pb-4 md:bg-[#252b73] md:p-4 md:text-white">
                                 <h3 className="text-[1.25rem] text-center font-semibold mb-4">
@@ -111,7 +111,7 @@ export default function CasinoPage() {
                 </div>
             </section>
 
-            <section className="bg-[#fffdf4]">
+            <section id="casino-sugar-rush" className="bg-[#fffdf4]">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pt-5">
                     <div className="mb-10 gap-4 md:flex md:gap-16">
                         <div className="md:w-[50%]  md:flex md:items-center md:justify-center">
@@ -140,7 +140,7 @@ export default function CasinoPage() {
                 </div>
             </section>
 
-            <section className="bg-[#fffdf4]">
+            <section id="casino-magic-beans" className="bg-[#fffdf4]">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pt-5">
                     <div className="mb-10 gap-4 md:flex md:gap-16">
                         <div className="md:w-[50%] md:flex md:items-center md:justify-center">
@@ -170,7 +170,7 @@ export default function CasinoPage() {
                 </div>
             </section>
 
-            <section className="bg-[#fffdf4]">
+            <section id="casino-777" className="bg-[#fffdf4]">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pt-5">
                     <div className="mb-10 gap-4 md:flex md:gap-16">
                         <div className="md:w-[50%] md:flex md:items-center md:justify-center">
@@ -201,7 +201,10 @@ export default function CasinoPage() {
 
             <section className="bg-gradient-to-br from-[#7f1d1d] via-[#1f2460] to-[#313380]">
                 <div>
-                    <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pt-16">
+                    <div
+                        id="casino-start"
+                        className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pt-16"
+                    >
                         <div className="mb-10 text-white">
                             <h3 className="text-[1.25rem] text-left font-semibold mb-4">
                                 Paano Magsimulang Maglaro sa Panalobet Casino
@@ -296,7 +299,7 @@ export default function CasinoPage() {
                     </div>
                 </div>
 
-                <div className="text-white">
+                <div id="casino-type" className="text-white">
                     <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:py-24">
                         <div className="mb-10">
                             <h3 className="text-[1.25rem] text-left font-semibold mb-4">
@@ -312,7 +315,7 @@ export default function CasinoPage() {
                         </div>
 
                         <div>
-                            <div className="mb-4 md:flex md:gap-16 md:mb-8">
+                            <div id="casino-puwang" className="mb-4 md:flex md:gap-16 md:mb-8">
                                 <div className="md:w-[50%]">
                                     <h3
                                         className="text-[1.25rem] text-left font-semibold mb-4
@@ -353,7 +356,7 @@ export default function CasinoPage() {
                                 </div>
                             </div>
 
-                            <div className="mb-4 md:flex md:gap-16 md:mb-8">
+                            <div id="casino-board" className="mb-4 md:flex md:gap-16 md:mb-8">
                                 <div className="md:w-[50%]">
                                     <h3
                                         className="text-[1.25rem] text-left font-semibold mb-4
@@ -416,7 +419,7 @@ export default function CasinoPage() {
                                 </div>
                             </div>
 
-                            <div className="md:flex md:gap-16">
+                            <div id="casino-live" className="md:flex md:gap-16">
                                 <div className="md:w-[50%]">
                                     <h3 className="text-[1.25rem] text-left font-semibold mb-4">
                                         Mga Laro sa Mga Live na Dealer

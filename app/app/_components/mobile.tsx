@@ -41,7 +41,7 @@ const iosMinRequirements = [
 
 export default function Mobile() {
     return (
-        <section className="bg-[#fffdf4]">
+        <section id="app-mobile" className="bg-[#fffdf4]">
             <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                 <div>
                     <h3 className="text-[1.25rem] text-left font-semibold mb-4">
@@ -54,7 +54,7 @@ export default function Mobile() {
                     </p>
 
                     {/* ANDROID OS */}
-                    <div>
+                    <div id="app-andriod">
                         <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-10">
                             <div className="w-full md:w-[50%]">
                                 <ResImage
@@ -117,7 +117,7 @@ export default function Mobile() {
                             </div>
                         </div>
 
-                        <div className="pt-4 md:pb-8">
+                        <div id="app-andriod-system" className="pt-4 md:pb-8">
                             <h4 className="font-medium text-[1.05rem] leading-tight mb-4 md:text-[1.125rem] md:leading-[1.5] font-[500]">
                                 Minimum na kinakailangan ng system.
                             </h4>
@@ -442,7 +442,7 @@ export default function Mobile() {
                     </div>
 
                     {/* IOS */}
-                    <div>
+                    <div id="app-ios">
                         <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-10">
                             <div className="w-full md:w-[50%]">
                                 <ResImage
@@ -504,7 +504,7 @@ export default function Mobile() {
                             </div>
                         </div>
 
-                        <div className="pt-4">
+                        <div id="app-ios-system" className="pt-4">
                             <h4 className="font-medium text-[1.05rem] leading-tight mb-4 md:text-[1.125rem] md:leading-[1.5] font-[500]">
                                 Minimum na kinakailangan ng system.
                             </h4>

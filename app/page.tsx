@@ -35,45 +35,64 @@ const homepage = {
 }
 
 const tableOfContentsData = [
-    { title: 'About Panalobet', link: '#' },
-    { title: 'Welcome bonus for new users up to 20,000 PHP', link: '#' },
-    { title: 'The official site of Panalobet for sports betting in Philippines', link: '#' },
-    { title: 'How to sign up for Panalobet PH: step-by-step instructions?', link: '#' },
-    { title: 'How to start betting?', link: '#' },
+    { title: 'Tungkol sa Panalobet', link: '#home-about' },
     {
-        title: 'Panalobet PH mobile app for Android and iOS',
-        link: '#',
+        title: 'Welcome bonus para sa mga bagong user hanggang 20,000 PHP',
+        link: '#home-welcome-bonus',
+    },
+    {
+        title: 'Ang opisyal na site ng Panalobet para sa pagtaya sa sports sa Pilipinas',
+        link: '#home-official-site',
+    },
+    {
+        title: 'Paano mag-sign up para sa Panalobet PH: step-by-step na mga tagubilin?',
+        link: '#home-sign-up',
+    },
+    { title: 'Paano simulan ang pagtaya?', link: '#home-start-betting' },
+    {
+        title: 'Panalobet PH mobile app para sa Android at iOS',
+        link: '#home-mobile-app',
         children: [
             {
-                title: 'Download Panalobet PH app on Android',
-                link: '#',
-                children: [{ title: 'Android System Requirements', link: '#' }],
+                title: 'I-download ang Panalobet PH app sa Android',
+                link: '#home-andriod-download',
+                children: [
+                    {
+                        title: 'Mga Kinakailangan sa Android System',
+                        link: '#home-andriod-system-requirements',
+                    },
+                ],
             },
             {
-                title: 'Download Panalobet PH app on iOS',
-                link: '#',
-                children: [{ title: 'iOS system requirements', link: '#' }],
+                title: 'I-download ang Panalobet PH app sa iOS',
+                link: '#home-ios-download',
+                children: [
+                    {
+                        title: 'Mga kinakailangan sa system ng iOS',
+                        link: '#home-ios-system-requirements',
+                    },
+                ],
             },
         ],
     },
-    { title: 'Panalobet Philippines video review', link: '#' },
-    { title: 'Advantages of Panalobet', link: '#' },
+    { title: 'Panalobet Philippines video review', link: '#home-review' },
+    { title: 'Mga kalamangan ng Panalobet', link: '#home-advantage' },
     {
-        title: 'Types of sports betting at Panalobet PH',
-        link: '#',
+        title: 'Mga uri ng pagtaya sa sports sa Panalobet PH',
+        link: '#home-type-sports',
         children: [
-            { title: 'CockFighting', link: '#' },
-            { title: 'Soccer', link: '#' },
-            { title: 'Tennis', link: '#' },
+            { title: 'Sabong', link: '#home-cockfighting' },
+            { title: 'Soccer', link: '#home-soccer' },
+            { title: 'Tennis', link: '#home-tennis' },
         ],
     },
-    { title: 'Betting on virtual sports', link: '#' },
-    { title: 'Live Betting', link: '#' },
-    { title: 'Betting odds', link: '#' },
-    { title: 'Online Casino MegaPari', link: '#' },
-    { title: 'Methods to deposit and withdraw money', link: '#' },
-    { title: 'Player Support', link: '#' },
-    { title: 'FAQ', link: '#' },
+    { title: 'Pagtaya sa virtual na palakasan', link: '#home-betting-virtual' },
+    { title: 'Live na Pagtaya', link: '#home-betting-live' },
+    { title: 'Mga logro sa pagtaya', link: '#home-betting-odds' },
+    { title: 'Online Casino Panalobet', link: '#home-casino' },
+    { title: 'Mga paraan upang magdeposito at mag-withdraw ng pera', link: '#home-deposits' },
+    { title: 'Suporta sa Manlalaro', link: '#home-player-support' },
+    { title: 'FAQ', link: '#faq' },
 ]
 
 const questions = [

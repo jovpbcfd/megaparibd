@@ -14,19 +14,19 @@ import SystemWithdrawImage from '@/public/img/prod/withdrawal/Mga Sistema ng Pag
 const tableOfContentsData = [
     {
         title: 'Paano Mag-withdraw ng Pera: Mga Hakbang-hakbang na Tagubilin',
-        link: '#',
+        link: '#withdrawal-step',
     },
     {
         title: 'Mga Sistema ng Pagbabayad',
-        link: '#',
+        link: '#withdrawal-methods',
     },
     {
         title: 'Mga Kundisyon sa Pag-withdraw sa Panalobet Philippines',
-        link: '#',
+        link: '#withdrawal-conditions',
     },
     {
         title: 'FAQ',
-        link: '#',
+        link: '#faq',
     },
 ]
 
@@ -68,7 +68,7 @@ export default function WithdrawalPage() {
                 buttonText={withdrawalPage.buttonText}
             />
             <TableOfContents content={tableOfContentsData} />
-            <section className="bg-[#fffdf4]">
+            <section id="withdrawal-step" className="bg-[#fffdf4]">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:py-16">
                     <div className="mb-10">
                         <h3 className="text-[1.25rem] text-left font-semibold mb-4">
@@ -162,7 +162,7 @@ export default function WithdrawalPage() {
             </section>
 
             <section className="bg-gradient-to-br from-[#7f1d1d] via-[#1f2460] to-[#313380]">
-                <div className="text-white">
+                <div id="withdrawal-methods" className="text-white">
                     <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pt-24 md:pb-10">
                         <div className="md:flex md:gap-16">
                             <div className="md:w-[50%]">
@@ -251,7 +251,7 @@ export default function WithdrawalPage() {
                     </div>
                 </div>
 
-                <div className="text-white">
+                <div id="withdrawal-conditions" className="text-white">
                     <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pt-16 md:pb-10">
                         <div className="md:flex md:gap-16">
                             <div className="md:w-[50%]">

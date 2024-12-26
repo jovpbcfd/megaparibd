@@ -10,28 +10,28 @@ import VideoInstruction from './_components/video-instruction'
 import All from './_components/all'
 
 const tableOfContentsData = [
-    { title: 'Impormasyon tungkol sa Panalobet PH app', link: '#' },
+    { title: 'Impormasyon tungkol sa Panalobet PH app', link: '#app-info' },
     {
         title: 'Panalobet Mobile App Para sa Android At iOS',
-        link: '#',
+        link: '#app-mobile',
         children: [
             {
                 title: 'I-download ang Panalobet app para sa Android',
-                link: '#',
+                link: '#app-andriod',
                 children: [
                     {
                         title: 'Minimum na kinakailangan ng system',
-                        link: '#',
+                        link: '#app-andriod-system',
                     },
                 ],
             },
             {
                 title: 'Panalobet PH App para sa iOS',
-                link: '#',
+                link: '#app-ios',
                 children: [
                     {
                         title: 'Minimum na kinakailangan ng system',
-                        link: '#',
+                        link: '#app-ios-system',
                     },
                 ],
             },
@@ -39,47 +39,51 @@ const tableOfContentsData = [
     },
     {
         title: 'Pagpaparehistro sa pamamagitan ng App',
-        link: '#',
+        link: '#app-register',
     },
     {
         title: 'Promo Code sa App',
-        link: '#',
+        link: '#app-promo',
     },
     {
         title: 'Paano Kumuha ng Panalobet PH Mobile Bonus?',
-        link: '#',
+        link: '#app-mobile-bonus',
     },
     {
         title: 'Mga Paraan ng Pagbabayad',
-        link: '#',
+        link: '#app-pay',
     },
     {
         title: 'Paano Maglagay ng Taya sa App?',
-        link: '#',
+        link: '#app-bet',
     },
     {
         title: 'Pagtaya sa Palakasan',
-        link: '#',
+        link: '#app-sports',
     },
     {
         title: 'Cybersports',
-        link: '#',
+        link: '#app-cybersports',
+    },
+    {
+        title: 'Mga tampok ng Panalobet App',
+        link: '#app-features',
     },
     {
         title: 'Paano Gamitin ang Web Bersyon ng Panalobet',
-        link: '#',
+        link: '#app-web',
     },
     {
         title: 'Mga Pagkakaiba sa pagitan ng Panalobet App at ng Website',
-        link: '#',
+        link: '#app-diff',
     },
     {
         title: 'Online na casino Panalobet',
-        link: '#',
+        link: '#app-online',
     },
     {
         title: 'Q&A',
-        link: '#',
+        link: '#faq',
     },
 ]
 

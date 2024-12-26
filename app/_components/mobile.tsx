@@ -43,7 +43,7 @@ import andriodImage from '@/public/img/prod/home/Download Panalobet PH app on An
 
 export default function MobileApp() {
     return (
-        <section className="bg-[#fffdf4]">
+        <section id="home-mobile-app" className="bg-[#fffdf4]">
             <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                 <h3 className="text-[1.25rem] text-center font-semibold mb-4 md:text-[2rem]">
                     Panalobet PH mobile app para sa Android at iOS
@@ -67,7 +67,7 @@ export default function MobileApp() {
                             className="ml-auto"
                         />
                     </div>
-                    <div className="w-full md:w-[50%]">
+                    <div id="home-andriod-download" className="w-full md:w-[50%]">
                         <h3 className="text-[1.25rem] text-center font-semibold mb-4 md:text-left">
                             I-download ang Panalobet PH app sa Android
                         </h3>
@@ -108,7 +108,7 @@ export default function MobileApp() {
                     </div>
                 </div>
 
-                <div className="pt-4">
+                <div id="home-andriod-system-requirements" className="pt-4">
                     <h4 className="font-medium text-[1.05rem] leading-tight mb-4">
                         Mga Kinakailangan sa Android System
                     </h4>
@@ -129,7 +129,7 @@ export default function MobileApp() {
                         />
                     </div>
 
-                    <div className="w-full md:w-[50%]">
+                    <div id="home-ios-download" className="w-full md:w-[50%]">
                         <h3 className="text-[1.25rem] text-center font-semibold mb-4 md:text-left">
                             I-download ang Panalobet PH app sa iOS
                         </h3>
@@ -166,7 +166,7 @@ export default function MobileApp() {
                     </div>
                 </div>
 
-                <div className="pt-4">
+                <div id="home-ios-system-requirements" className="pt-4">
                     <h4 className="font-medium text-[1.05rem] leading-tight mb-4">
                         Mga kinakailangan sa system ng iOS
                     </h4>

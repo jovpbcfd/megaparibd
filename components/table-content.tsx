@@ -28,7 +28,11 @@ export default function TableOfContents({ content }: TableOfContentsProps) {
                     return (
                         <li key={currentPrefix} className="py-[0.1rem]">
                             {item.link ? (
-                                <Link href={item.link} className="block">
+                                <Link
+                                    href={item.link}
+                                    className="block"
+                                    onClick={toggleTableContent}
+                                >
                                     {currentPrefix}. {item.title}
                                 </Link>
                             ) : (

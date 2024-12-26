@@ -5,7 +5,7 @@ import TennisImage from '@/public/img/prod/home/11_Tennis.webp'
 
 export default function TypesOfSports() {
     return (
-        <div className="text-white">
+        <div id="home-type-sports" className="text-white">
             <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                 <h3 className="text-[1.25rem] text-center font-semibold mb-4 md:mb-5 md:text-[2rem]">
                     Mga uri ng pagtaya sa sports sa Panalobet BD
@@ -178,7 +178,10 @@ export default function TypesOfSports() {
                     </div>
                 </div>
 
-                <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:mb-8">
+                <div
+                    id="home-soccer"
+                    className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:mb-8"
+                >
                     <div className="w-full md:w-[50%]">
                         <ResImage
                             path={SoccerImage}
@@ -301,7 +304,10 @@ export default function TypesOfSports() {
                     </div>
                 </div>
 
-                <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:mb-8">
+                <div
+                    id="home-tennis"
+                    className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:mb-8"
+                >
                     <div className="w-full md:w-[50%]">
                         <ResImage
                             path={TennisImage}

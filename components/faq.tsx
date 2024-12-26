@@ -14,7 +14,7 @@ export default function Faq({ questions, description }: { questions: Faq[]; desc
         setOpenIndex(openIndex === index ? null : index)
     }
     return (
-        <section className="bg-[#fffdf4]">
+        <section id="faq" className="bg-[#fffdf4]">
             <div className="max-w-7xl mx-auto px-[10px] py-[16px] md:py-16">
                 <h3 className="text-[1.25rem] text-center font-semibold mb-4">FAQ</h3>
                 <p className="font-light leading-tight text-[1rem] text-center">{description}</p>
