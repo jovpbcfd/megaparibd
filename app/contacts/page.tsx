@@ -5,20 +5,15 @@ import Update from '@/components/update'
 import HeroImage from '@/public/img/prod/contacts/HERO CONTACT.webp'
 import ListContactImage from '@/public/img/prod/contacts/Contact List.webp'
 
-const contactPage = {
-    image: HeroImage,
-    title: 'Makipag-ugnayan sa Panalobet Philippines',
-    description: `Ang Panalobet betting company ay tumatakbo sa Pilipinas sa ilalim ng opisyal na lisensya na ibinigay ng Curacao Gambling Commission. Ang numero ng lisensya ay 8099/JAZ, at pinapayagan nito ang kumpanya na legal na magsagawa ng mga aktibidad sa pagsusugal sa dose-dosenang mga bansa. Ang mga function ng pamamahala ay ginagawa ng kumpanya Panalobet Ltd, nakarehistro sa Cyprus.`,
-    buttonText: '',
-}
+import { hero } from '@/data/contact-page'
 
 export default function ContactPage() {
     return (
         <>
             <Hero
-                image={contactPage.image}
-                title={contactPage.title}
-                description={contactPage.description}
+                image={HeroImage}
+                title={hero.title}
+                description={hero.description}
                 buttonText=""
             />
             <section className="bg-[#fffdf4]">

@@ -5,21 +5,15 @@ import Update from '@/components/update'
 
 import HeroImage from '@/public/img/prod/about/HERO ABOUT.webp'
 import StartImage from '@/public/img/prod/about/how to start.webp'
-
-const aboutPage = {
-    image: HeroImage,
-    title: 'Tungkol sa Amin',
-    description: `Nag-aalok ang Panalobet sa mga user ng malaking hanay ng entertainment sa pagsusugal, mula sa pagtaya sa sports hanggang sa mga online na casino at lottery. Ang platform ay pangunahing nakatuon sa rehiyon ng Asya, na makikita sa suporta ng mga pambansang pera ng mga lokal na bansa, kabilang ang PHP.`,
-    buttonText: '',
-}
+import { hero } from '@/data/about-page'
 
 export default function AboutPage() {
     return (
         <>
             <Hero
-                image={aboutPage.image}
-                title={aboutPage.title}
-                description={aboutPage.description}
+                image={HeroImage}
+                title={hero.title}
+                description={hero.description}
                 buttonText=""
             />
             <section className="bg-[#fffdf4]">
@@ -112,16 +106,16 @@ export default function AboutPage() {
                             </ul>
 
                             <p className="leading-tight mb-4">
-                                To this end, we are constantly developing and improving, offering
-                                players new services, personalized bonuses and other gaming
-                                benefits.
+                                Sa layuning ito, kami ay patuloy na umuunlad at nagpapabuti,
+                                nag-aalok sa mga manlalaro ng mga bagong serbisyo, personalized na
+                                mga bonus at iba pang mga benepisyo sa paglalaro.
                             </p>
 
                             <p className="leading-tight">
-                                To start betting at the Megapari Bangladesh bookmaker’s office, just
-                                choose one of the outcomes on the website or in the app, click on
-                                the odds corresponding to it and fill in the betting slip,
-                                specifying its type and amount.
+                                Upang simulan ang pagtaya sa opisina ng bookmaker ng Panalobet
+                                Philippines, pumili lamang ng isa sa mga resulta sa website o sa
+                                app, i-click ang mga logro na naaayon dito at punan ang betting
+                                slip, na tinukoy ang uri at halaga nito.
                             </p>
                         </div>
 
