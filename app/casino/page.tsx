@@ -9,9 +9,9 @@ import SuperaceImage from '@/public/img/prod/casino/Super Ace.webp'
 import MagicBeansImage from '@/public/img/prod/casino/Magic Beans.webp'
 import SugarRushImage from '@/public/img/prod/casino/Sugar Rush.webp'
 import SevenImage from '@/public/img/prod/casino/777.webp'
-import StepOneImage from '@/public/img/prod/casino/1. Buksan ang Form.webp'
-import StepTwoImage from '@/public/img/prod/casino/2. Punan ang Mga Field at Pumili ng Bonus.webp'
-import StepThreeImage from '@/public/img/prod/casino/3. Kumpirmahin ang Email.webp'
+import StepOneImage from '@/public/img/prod/casino/1. New - Buksan ang Form..webp'
+import StepTwoImage from '@/public/img/prod/casino/2. New - Punan ang Mga Field at Pumili ng Bonus..webp'
+import StepThreeImage from '@/public/img/prod/casino/3. New - Kumpirmahin ang Email..webp'
 import BoardGamesImage from '@/public/img/prod/casino/BOARDGAMES.webp'
 import MgaPuwangImage from '@/public/img/prod/casino/Mga Puwang.webp'
 import DealerGamesImage from '@/public/img/prod/casino/LIVE CASINO.webp'
@@ -218,16 +218,16 @@ export default function CasinoPage() {
                             </p>
                         </div>
 
-                        <div className="w-full grid gap-4 md:grid-cols-2 md:gap-24">
-                            <div className="md:order-1">
+                        <div className="w-full grid gap-4 md:grid-cols-2 md:gap-16">
+                            <div className="md:order-2 md:self-center">
                                 <p className="text-[3rem] font-medium leading-none text-[#ddd] mb-2 md:text-[4.5rem]">
                                     01
                                 </p>
-                                <div className="bg-[#252b73] rounded-xl text-white p-3 text-center md:text-right md:p-4">
+                                <div className="bg-[#252b73] rounded-xl text-white p-3 text-center md:text-left md:p-4">
                                     <h4 className="text-md mb-2 font-medium md:text-xl">
                                         Buksan ang Form
                                     </h4>
-                                    <p className="leading-tight md:w-[70%] md:ml-auto">
+                                    <p className="leading-tight">
                                         Pumunta sa opisyal na website ng Panalobet Philippines at
                                         i-click ang button para magparehistro. Magbubukas ang isang
                                         form sa harap mo, kung saan maaari mong piliin kung paano
@@ -235,24 +235,24 @@ export default function CasinoPage() {
                                     </p>
                                 </div>
                             </div>
-                            <div className="flex items-center justify-center md:order-2">
+                            <div className="flex items-center justify-center md:order-1">
                                 <Image
                                     src={StepOneImage}
-                                    width={600}
-                                    height={270}
+                                    width={700}
+                                    height={500}
                                     alt="Super Ace"
                                     priority={true}
                                 />
                             </div>
-                            <div className="md:order-4">
+                            <div className="md:order-3 md:self-center">
                                 <p className="text-[3rem] font-medium leading-none text-[#ddd] mb-2 md:text-[4.5rem]">
                                     02
                                 </p>
-                                <div className="bg-[#252b73] rounded-xl text-white p-3 text-center md:text-right md:p-4">
+                                <div className="bg-[#252b73] rounded-xl text-white p-3 text-center md:text-left md:p-4">
                                     <h4 className="text-md mb-2 font-medium md:text-xl">
                                         Punan ang Mga Field at Pumili ng Bonus
                                     </h4>
-                                    <p className="leading-tight md:w-[70%] md:ml-auto">
+                                    <p className="leading-tight">
                                         Ilagay ang iyong personal at impormasyon sa
                                         pakikipag-ugnayan sa lahat ng mga blangkong linya. Gayundin,
                                         huwag kalimutang pumili ng isa sa mga bonus na inaalok ng
@@ -261,7 +261,7 @@ export default function CasinoPage() {
                                     </p>
                                 </div>
                             </div>
-                            <div className="flex items-center justify-center md:order-3">
+                            <div className="flex items-center justify-center md:order-4">
                                 <Image
                                     src={StepTwoImage}
                                     width={600}
@@ -270,15 +270,15 @@ export default function CasinoPage() {
                                     priority={true}
                                 />
                             </div>
-                            <div className="md:order-5">
+                            <div className="md:order-6 md:self-center">
                                 <p className="text-[3rem] font-medium leading-none text-[#ddd] mb-2 md:text-[4.5rem]">
                                     03
                                 </p>
-                                <div className="bg-[#252b73] rounded-xl text-white p-3 text-center md:text-right md:p-4">
+                                <div className="bg-[#252b73] rounded-xl text-white p-3 text-center md:text-left md:p-4">
                                     <h4 className="text-md mb-2 font-medium md:text-xl">
                                         Kumpirmahin ang Email
                                     </h4>
-                                    <p className="leading-tight md:w-[70%] md:ml-auto">
+                                    <p className="leading-tight">
                                         Isang email na may link sa pagkumpirma ay ipapadala sa email
                                         address na iyong tinukoy kanina. Kung pumili ka ng ibang
                                         paraan ng pagpaparehistro, magagawa mong kumpirmahin ang
@@ -286,11 +286,11 @@ export default function CasinoPage() {
                                     </p>
                                 </div>
                             </div>
-                            <div className="flex items-center justify-center md:order-6">
+                            <div className="flex items-center justify-center md:order-5 md:w-fit">
                                 <Image
                                     src={StepThreeImage}
-                                    width={600}
-                                    height={270}
+                                    width={700}
+                                    height={400}
                                     alt="Super Ace"
                                     priority={true}
                                 />

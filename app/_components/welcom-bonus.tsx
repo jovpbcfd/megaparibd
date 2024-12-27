@@ -18,7 +18,7 @@ export default function WelcomeBonus() {
                             desktopSize={{ width: 530, height: 330 }}
                             alt="Welcome Banner home"
                             screenSize={900}
-                            className="ml-auto"
+                            className="ml-auto md:rounded-xl"
                             quality={100}
                         />
                     </div>

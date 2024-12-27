@@ -19,7 +19,6 @@ import OnlineCasino from './_components/online-casino'
 import MethodsToDeposit from './_components/methods-to-deposit'
 import PlayerSupport from './_components/player-support'
 
-// import HomeBanner from '@/public/img/Panalobet Website Content (398 x 398).webp'
 import HomeBanner from '@/public/img/prod/home/Panalobet  Official Website (1000 x 1000).webp'
 
 const homepage = {

@@ -5,9 +5,9 @@ import TableOfContents from '@/components/table-content'
 import Faq from '@/components/faq'
 
 import HeroImage from '@/public/img/prod/withdrawal/PANALOBET HERO SECTION WITHDRAWAL.webp'
-import StepOneImage from '@/public/img/prod/withdrawal/1. Open a Cash Register.webp'
-import StepTwoImage from '@/public/img/prod/withdrawal/2. Specify the Payment System.webp'
-import StepThreeImage from '@/public/img/prod/withdrawal/3. Fill Out the Fields.webp'
+import StepOneImage from '@/public/img/prod/withdrawal/1. NEW - Open a Cash Register..webp'
+import StepTwoImage from '@/public/img/prod/withdrawal/2. NEW - Specify the Payment System..webp'
+import StepThreeImage from '@/public/img/prod/withdrawal/3. NEW - Fill Out the Fields..webp'
 import ConditionWithdrawImage from '@/public/img/prod/withdrawal/Mga Kundisyon sa Pag-withdraw sa Panalobet Philippines.webp'
 import SystemWithdrawImage from '@/public/img/prod/withdrawal/Mga Sistema ng Pagbabayad.webp'
 
@@ -68,7 +68,7 @@ export default function WithdrawalPage() {
                 buttonText={withdrawalPage.buttonText}
             />
             <TableOfContents content={tableOfContentsData} />
-            <section id="withdrawal-step" className="bg-[#fffdf4]">
+            <section id="withdrawal-step" className="bg-[#fffdf4] md:pb-12">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:py-16">
                     <div className="mb-10">
                         <h3 className="text-[1.25rem] text-left font-semibold mb-4">
@@ -82,16 +82,16 @@ export default function WithdrawalPage() {
                         </p>
                     </div>
 
-                    <div className="w-full grid gap-4 md:grid-cols-2 md:gap-24">
-                        <div className="md:order-1">
+                    <div className="w-full grid gap-4 md:grid-cols-2 md:gap-16">
+                        <div className="md:order-2 md:self-center">
                             <p className="text-[3rem] font-medium leading-none text-[#ddd] mb-2 md:text-[4.5rem]">
                                 01
                             </p>
-                            <div className="bg-gray-100 p-3 text-center md:text-right md:p-4">
+                            <div className="bg-gray-100 p-3 text-center md:text-left md:p-4">
                                 <h4 className="text-md mb-2 font-medium md:text-xl">
                                     Magbukas ng Cash Register
                                 </h4>
-                                <p className="leading-tight md:w-[70%] md:ml-auto">
+                                <p className="leading-tight">
                                     Pagkatapos mag-log in, pumunta sa seksyon ng Cashier. Magagawa
                                     mo ito sa pamamagitan ng pag-click sa status ng balanse, o sa
                                     pamamagitan ng mga setting ng profile. Pagkatapos pumunta sa
@@ -99,48 +99,50 @@ export default function WithdrawalPage() {
                                 </p>
                             </div>
                         </div>
-                        <div className="flex items-center justify-center md:p-2 md:border-2 md:border-dashed md:order-2">
+                        <div className="flex items-center justify-center md:p-2 md:border-2 md:border-dashed md:order-1">
                             <Image
                                 src={StepOneImage}
                                 width={598}
-                                height={248}
+                                height={576}
                                 alt="Step One"
                                 priority={true}
+                                quality={100}
                             />
                         </div>
-                        <div className="md:order-4">
+                        <div className="md:order-3 md:self-center">
                             <p className="text-[3rem] font-medium leading-none text-[#ddd] mb-2 md:text-[4.5rem]">
                                 02
                             </p>
-                            <div className="bg-gray-100 p-3 text-center md:text-right md:p-4">
+                            <div className="bg-gray-100 p-3 text-center md:text-left md:p-4">
                                 <h4 className="text-md mb-2 font-medium md:text-xl">
                                     Tukuyin ang Sistema ng Pagbabayad
                                 </h4>
-                                <p className="leading-tight md:w-[70%] md:ml-auto">
+                                <p className="leading-tight">
                                     Sa mga serbisyong ipinakita sa window na ito, piliin ang gusto
                                     mong gamitin para mag-withdraw ng mga pondo. Upang gawin ito,
                                     mag-click sa kaukulang logo.
                                 </p>
                             </div>
                         </div>
-                        <div className="flex items-center justify-center md:p-2 md:border-2 md:border-dashed  md:order-3">
+                        <div className="flex items-center justify-center md:p-2 md:border-2 md:border-dashed  md:order-4">
                             <Image
                                 src={StepTwoImage}
                                 width={598}
                                 height={248}
                                 alt="Step One"
                                 priority={true}
+                                quality={100}
                             />
                         </div>
-                        <div className="md:order-5">
+                        <div className="md:order-6 md:self-center">
                             <p className="text-[3rem] font-medium leading-none text-[#ddd] mb-2 md:text-[4.5rem]">
                                 03
                             </p>
-                            <div className="bg-gray-100 p-3 text-center md:text-right md:p-4 md:bg-[#252b73] md:text-white md:rounded-xl">
+                            <div className="bg-gray-100 p-3 text-center md:text-left md:p-4">
                                 <h4 className="text-md mb-2 font-medium md:text-xl">
                                     Punan ang mga Patlang
                                 </h4>
-                                <p className="leading-tight md:w-[70%] md:ml-auto">
+                                <p className="leading-tight">
                                     Ipasok ang mga detalye, contact at impormasyon sa pagbabayad sa
                                     lahat ng mga blangkong linya. Suriin ang impormasyon at
                                     kumpirmahin ang paglikha ng application. Pagkatapos ay hintayin
@@ -148,13 +150,14 @@ export default function WithdrawalPage() {
                                 </p>
                             </div>
                         </div>
-                        <div className="flex items-center justify-center md:p-2 md:border-2 md:border-dashed md:order-6">
+                        <div className="flex items-center justify-center md:p-2 md:border-2 md:border-dashed md:order-5">
                             <Image
                                 src={StepThreeImage}
                                 width={598}
                                 height={248}
                                 alt="Step One"
                                 priority={true}
+                                quality={100}
                             />
                         </div>
                     </div>

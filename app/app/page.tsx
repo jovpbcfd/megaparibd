@@ -3,11 +3,12 @@ import Faq from '@/components/faq'
 import Update from '@/components/update'
 import TableOfContents from '@/components/table-content'
 
-import HomeBanner from '@/public/img/panalobet-main-hero.webp'
 import About from './_components/about'
 import Mobile from './_components/mobile'
 import VideoInstruction from './_components/video-instruction'
 import All from './_components/all'
+
+import HeroImage from '@/public/img/prod/app/HERO APP.webp'
 
 const tableOfContentsData = [
     { title: 'Impormasyon tungkol sa Panalobet PH app', link: '#app-info' },
@@ -88,7 +89,7 @@ const tableOfContentsData = [
 ]
 
 const appPage = {
-    image: HomeBanner,
+    image: HeroImage,
     title: 'Panalobet App Download para sa Android (APK) at iOS',
     description: `Ang pagtaya sa Panalobet betting company ay maaaring gawin pareho sa opisyal na 
     website at sa mobile application. Ang kumpanya ay bumuo ng mga hiwalay na programa para sa mga 
@@ -131,7 +132,9 @@ export default function AppPage() {
             <About />
             <Mobile />
             <VideoInstruction />
-            <All />
+            <div className="bg-gradient-to-br from-[#7f1d1d] via-[#1f2460] to-[#313380]">
+                <All />
+            </div>
             <Faq questions={questions} description="" />
             <Update />
         </>

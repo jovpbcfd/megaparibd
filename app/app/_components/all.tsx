@@ -1,7 +1,15 @@
 import ResImage from '@/components/res-image'
 import Table from '@/components/table'
 
-import OfficialBanner from '@/public/img/official-site-of-panalobet.webp'
+import PromoCodeImage from '@/public/img/prod/app/Promo Code sa App.webp'
+import BonusImage from '@/public/img/prod/app/Paano Kumuha ng Panalobet PH Mobile Bonus.webp'
+import MethodImage from '@/public/img/prod/app/Mga Paraan ng Pagbabayad.webp'
+import StepImage from '@/public/img/prod/app/Paano Maglagay ng Taya sa App1.webp'
+import SportBettingImage from '@/public/img/prod/app/Pagtaya sa Palakasan.webp'
+import CybersportImage from '@/public/img/prod/app/Cybersports.webp'
+import PanalobetImage from '@/public/img/prod/app/Mga tampok ng Panalobet App.webp'
+import WebImage from '@/public/img/prod/app/Paano Gamitin ang Web Bersyon ng Panalobet.webp'
+import OnlineCasinoImage from '@/public/img/prod/app/Online casino Panalobet.webp'
 
 const diffAppAndWeb = [
     {
@@ -25,18 +33,18 @@ const diffAppAndWeb = [
 export default function All() {
     return (
         <>
-            <section id="app-promo" className="bg-[#fffdf4]">
+            <section id="app-promo" className="text-white">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                     <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-10">
                         <div className="w-full md:w-[50%]">
                             <ResImage
-                                path={OfficialBanner}
+                                path={PromoCodeImage}
                                 priority={true}
                                 mobileSize={{ width: 390, height: 240 }}
                                 desktopSize={{ width: 530, height: 330 }}
                                 alt="Official Banner home"
                                 screenSize={900}
-                                className="ml-auto"
+                                className="ml-auto md:rounded-xl"
                             />
                         </div>
                         <div className="w-full md:w-[50%]">
@@ -54,18 +62,18 @@ export default function All() {
                     </div>
                 </div>
             </section>
-            <section id="app-mobile-bonus" className="bg-[#fffdf4]">
+            <section id="app-mobile-bonus" className="text-white">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                     <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-5">
                         <div className="w-full md:w-[50%]">
                             <ResImage
-                                path={OfficialBanner}
+                                path={BonusImage}
                                 priority={true}
                                 mobileSize={{ width: 390, height: 240 }}
                                 desktopSize={{ width: 530, height: 330 }}
                                 alt="Official Banner home"
                                 screenSize={900}
-                                className="ml-auto"
+                                className="ml-auto md:rounded-xl"
                             />
                         </div>
 
@@ -119,18 +127,18 @@ export default function All() {
                 </div>
             </section>
 
-            <section id="app-pay" className="bg-[#fffdf4]">
+            <section id="app-pay" className="text-white">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                     <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-5">
                         <div className="w-full md:w-[50%]">
                             <ResImage
-                                path={OfficialBanner}
+                                path={MethodImage}
                                 priority={true}
                                 mobileSize={{ width: 390, height: 240 }}
                                 desktopSize={{ width: 530, height: 330 }}
                                 alt="Official Banner home"
                                 screenSize={900}
-                                className="ml-auto"
+                                className="ml-auto md:rounded-xl"
                             />
                         </div>
                         <div className="w-full md:w-[50%]">
@@ -359,18 +367,18 @@ export default function All() {
                 </div>
             </section>
 
-            <section id="app-bet" className="bg-[#fffdf4]">
+            <section id="app-bet" className="text-white">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                     <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-5">
                         <div className="w-full md:w-[50%]">
                             <ResImage
-                                path={OfficialBanner}
+                                path={StepImage}
                                 priority={true}
                                 mobileSize={{ width: 390, height: 240 }}
                                 desktopSize={{ width: 530, height: 330 }}
                                 alt="Official Banner home"
                                 screenSize={900}
-                                className="ml-auto"
+                                className="ml-auto md:rounded-xl"
                             />
                         </div>
                         <div className="w-full md:w-[50%]">
@@ -415,18 +423,18 @@ export default function All() {
                 </div>
             </section>
 
-            <section id="app-sports" className="bg-[#fffdf4]">
+            <section id="app-sports" className="text-white">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                     <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-5">
                         <div className="w-full md:w-[50%]">
                             <ResImage
-                                path={OfficialBanner}
+                                path={SportBettingImage}
                                 priority={true}
                                 mobileSize={{ width: 390, height: 240 }}
                                 desktopSize={{ width: 530, height: 330 }}
                                 alt="Official Banner home"
                                 screenSize={900}
-                                className="ml-auto"
+                                className="ml-auto md:rounded-xl"
                             />
                         </div>
                         <div className="w-full md:w-[50%]">
@@ -694,18 +702,18 @@ export default function All() {
                 </div>
             </section>
 
-            <section id="app-cybersports" className="bg-[#fffdf4]">
+            <section id="app-cybersports" className="text-white">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                     <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-5">
                         <div className="w-full md:w-[50%]">
                             <ResImage
-                                path={OfficialBanner}
+                                path={CybersportImage}
                                 priority={true}
                                 mobileSize={{ width: 390, height: 240 }}
                                 desktopSize={{ width: 530, height: 330 }}
                                 alt="Official Banner home"
                                 screenSize={900}
-                                className="ml-auto"
+                                className="ml-auto md:rounded-xl"
                             />
                         </div>
                         <div className="w-full md:w-[50%]">
@@ -887,18 +895,18 @@ export default function All() {
                 </div>
             </section>
 
-            <section id="app-features" className="bg-[#fffdf4]">
+            <section id="app-features" className="text-white">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                     <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-5">
                         <div className="w-full md:w-[50%]">
                             <ResImage
-                                path={OfficialBanner}
+                                path={PanalobetImage}
                                 priority={true}
                                 mobileSize={{ width: 390, height: 240 }}
                                 desktopSize={{ width: 530, height: 330 }}
                                 alt="Official Banner home"
                                 screenSize={900}
-                                className="ml-auto"
+                                className="ml-auto md:rounded-xl"
                             />
                         </div>
                         <div className="w-full md:w-[50%]">
@@ -1029,18 +1037,18 @@ export default function All() {
                 </div>
             </section>
 
-            <section id="app-web" className="bg-[#fffdf4]">
+            <section id="app-web" className="text-white">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                     <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-5">
                         <div className="w-full md:w-[50%]">
                             <ResImage
-                                path={OfficialBanner}
+                                path={WebImage}
                                 priority={true}
                                 mobileSize={{ width: 390, height: 240 }}
                                 desktopSize={{ width: 530, height: 330 }}
                                 alt="Official Banner home"
                                 screenSize={900}
-                                className="ml-auto"
+                                className="ml-auto md:rounded-xl"
                             />
                         </div>
                         <div className="w-full md:w-[50%]">
@@ -1061,7 +1069,7 @@ export default function All() {
                 </div>
             </section>
 
-            <section id="app-diff" className="bg-[#fffdf4]">
+            <section id="app-diff" className="bg-[#fffdf4] md:pt-24">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
                     <h3 className="text-[1.25rem] text-left font-semibold mb-4">
                         Mga Pagkakaiba sa pagitan ng Panalobet App at ng Website
@@ -1087,13 +1095,13 @@ export default function All() {
                     <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-5">
                         <div className="w-full md:w-[50%]">
                             <ResImage
-                                path={OfficialBanner}
+                                path={OnlineCasinoImage}
                                 priority={true}
                                 mobileSize={{ width: 390, height: 240 }}
                                 desktopSize={{ width: 530, height: 330 }}
                                 alt="Official Banner home"
                                 screenSize={900}
-                                className="ml-auto"
+                                className="ml-auto md:rounded-xl"
                             />
                         </div>
                         <div className="w-full md:w-[50%]">

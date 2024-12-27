@@ -1,11 +1,11 @@
 import ResImage from '@/components/res-image'
 
-import OfficialBanner from '@/public/img/official-site-of-panalobet.webp'
+import RegisterImage from '@/public/img/prod/app/Pagpaparehistro sa pamamagitan ng App.webp'
 
 export default function VideoInstruction() {
     return (
         <section className="bg-[#fffdf4]">
-            <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4">
+            <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-24">
                 <h3 className="text-[1.25rem] text-left font-semibold mb-4">
                     Mga Tagubilin sa Video para sa Pag-download at Pag-install ng Panalobet
                     Philippines App para sa Android at iOS
@@ -20,13 +20,13 @@ export default function VideoInstruction() {
                 <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-5">
                     <div className="w-full md:w-[50%]">
                         <ResImage
-                            path={OfficialBanner}
+                            path={RegisterImage}
                             priority={true}
                             mobileSize={{ width: 390, height: 240 }}
                             desktopSize={{ width: 530, height: 330 }}
                             alt="Official Banner home"
                             screenSize={900}
-                            className="ml-auto"
+                            className="ml-auto md:rounded-xl"
                         />
                     </div>
                     <div className="w-full md:w-[50%]">

@@ -14,7 +14,7 @@ export default function BettingOdds() {
                             desktopSize={{ width: 530, height: 330 }}
                             alt="Official Banner home"
                             screenSize={900}
-                            className="ml-auto"
+                            className="ml-auto md:rounded-xl"
                         />
                     </div>
 

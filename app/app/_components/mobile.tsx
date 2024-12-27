@@ -1,6 +1,8 @@
 import ResImage from '@/components/res-image'
 import Table from '@/components/table'
-import OfficialBanner from '@/public/img/official-site-of-panalobet.webp'
+
+import AndriodImage from '@/public/img/prod/app/I-download ang Panalobet app para sa Android.webp'
+import IosImage from '@/public/img/prod/app/Panalobet PH App para sa iOS.webp'
 
 const andriodMinRequirements = [
     {
@@ -39,6 +41,8 @@ const iosMinRequirements = [
     },
 ]
 
+// bg-gradient-to-br from-[#7f1d1d] via-[#1f2460] to-[#313380]
+
 export default function Mobile() {
     return (
         <section id="app-mobile" className="bg-[#fffdf4]">
@@ -58,13 +62,13 @@ export default function Mobile() {
                         <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-10">
                             <div className="w-full md:w-[50%]">
                                 <ResImage
-                                    path={OfficialBanner}
+                                    path={AndriodImage}
                                     priority={true}
                                     mobileSize={{ width: 390, height: 240 }}
                                     desktopSize={{ width: 530, height: 330 }}
                                     alt="Official Banner home"
                                     screenSize={900}
-                                    className="ml-auto"
+                                    className="ml-auto md:rounded-xl"
                                 />
                             </div>
                             <div className="w-full md:w-[50%]">
@@ -446,13 +450,13 @@ export default function Mobile() {
                         <div className="flex flex-col items-center gap-4 pt-4 md:flex-row-reverse md:justify-between md:pt-10">
                             <div className="w-full md:w-[50%]">
                                 <ResImage
-                                    path={OfficialBanner}
+                                    path={IosImage}
                                     priority={true}
                                     mobileSize={{ width: 390, height: 240 }}
                                     desktopSize={{ width: 530, height: 330 }}
                                     alt="Official Banner home"
                                     screenSize={900}
-                                    className="ml-auto"
+                                    className="ml-auto md:rounded-xl"
                                 />
                             </div>
                             <div className="w-full md:w-[50%]">
