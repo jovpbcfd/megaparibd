@@ -105,6 +105,7 @@ export default function CasinoPage() {
                                 height={200}
                                 alt="Super Ace"
                                 priority={true}
+                                className="md:rounded-xl"
                             />
                         </div>
                     </div>
@@ -134,6 +135,7 @@ export default function CasinoPage() {
                                 height={200}
                                 alt="Super Ace"
                                 priority={true}
+                                className="md:rounded-xl"
                             />
                         </div>
                     </div>
@@ -164,6 +166,7 @@ export default function CasinoPage() {
                                 height={200}
                                 alt="Super Ace"
                                 priority={true}
+                                className="md:rounded-xl"
                             />
                         </div>
                     </div>
@@ -193,6 +196,7 @@ export default function CasinoPage() {
                                 height={200}
                                 alt="Super Ace"
                                 priority={true}
+                                className="md:rounded-xl"
                             />
                         </div>
                     </div>
@@ -242,6 +246,7 @@ export default function CasinoPage() {
                                     height={500}
                                     alt="Super Ace"
                                     priority={true}
+                                    className="md:rounded-xl"
                                 />
                             </div>
                             <div className="md:order-3 md:self-center">
@@ -268,6 +273,7 @@ export default function CasinoPage() {
                                     height={270}
                                     alt="Super Ace"
                                     priority={true}
+                                    className="md:rounded-xl"
                                 />
                             </div>
                             <div className="md:order-6 md:self-center">
@@ -293,6 +299,7 @@ export default function CasinoPage() {
                                     height={400}
                                     alt="Super Ace"
                                     priority={true}
+                                    className="md:rounded-xl"
                                 />
                             </div>
                         </div>

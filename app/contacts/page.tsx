@@ -130,7 +130,7 @@ export default function ContactPage() {
                             </p>
                         </div>
 
-                        <div className="flex items-center justify-center border-2 border-dashed rounded-md">
+                        <div className="flex items-center justify-center">
                             <Image
                                 src={ListContactImage}
                                 width={598}
