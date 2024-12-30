@@ -65,7 +65,7 @@ export default function SupportPage() {
                                 width={500}
                                 height={200}
                                 alt="Email Support"
-                                className="rounded-xl"
+                                className="rounded-xl md:shadow-2xl"
                             />
                         </div>
                     </div>
@@ -215,7 +215,7 @@ export default function SupportPage() {
                             width={500}
                             height={200}
                             alt="On-site Chat Support"
-                            className="rounded-xl"
+                            className="rounded-xl md:shadow-2xl"
                         />
                     </div>
                 </div>

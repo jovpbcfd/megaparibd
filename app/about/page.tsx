@@ -126,7 +126,7 @@ export default function AboutPage() {
                                 height={404}
                                 alt="How to start"
                                 priority={true}
-                                className="rounded-xl"
+                                className="rounded-xl md:shadow-2xl"
                             />
                         </div>
                     </div>

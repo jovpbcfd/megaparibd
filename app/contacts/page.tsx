@@ -132,7 +132,7 @@ export default function ContactPage() {
                                 height={506}
                                 alt="List of Contact"
                                 priority={true}
-                                className="rounded-xl"
+                                className="rounded-xl md:shadow-2xl"
                             />
                         </div>
                     </div>
