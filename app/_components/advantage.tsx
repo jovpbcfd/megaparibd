@@ -1,5 +1,5 @@
 import ResImage from '@/components/res-image'
-import OfficialBanner from '@/public/img/advantage-main.webp'
+import HeroImage from '@/public/img/prod/home/8_Advantages of Panalobet.webp'
 
 export default function Advantage() {
     return (
@@ -11,13 +11,13 @@ export default function Advantage() {
                 <div className="flex flex-col items-center gap-4 md:flex-row-reverse md:justify-between">
                     <div className="w-full md:w-[50%]">
                         <ResImage
-                            path={OfficialBanner}
+                            path={HeroImage}
                             priority={true}
                             mobileSize={{ width: 390, height: 240 }}
                             desktopSize={{ width: 530, height: 330 }}
                             alt="Official Banner home"
                             screenSize={900}
-                            className="ml-auto md:rounded-xl"
+                            className="ml-auto md:rounded-xl md:shadow-2xl"
                         />
                     </div>
                     <div className="w-full md:w-[50%]">

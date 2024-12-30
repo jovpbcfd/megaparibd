@@ -10,15 +10,15 @@ export default function WelcomeBonus() {
                     Welcome bonus para sa mga bagong user hanggang 20,000 PHP
                 </h3>
                 <div className="flex flex-col items-center gap-4 md:flex-row-reverse md:justify-between">
-                    <div className="w-full md:w-[50%]">
+                    <div className="w-full flex items-center justify-center md:w-[50%]">
                         <ResImage
                             path={WelcomBannerHome}
                             priority={true}
-                            mobileSize={{ width: 390, height: 240 }}
+                            mobileSize={{ width: 300, height: 200 }}
                             desktopSize={{ width: 530, height: 330 }}
                             alt="Welcome Banner home"
                             screenSize={900}
-                            className="ml-auto md:rounded-xl"
+                            className="md:ml-auto md:rounded-xl md:shadow-2xl"
                             quality={100}
                         />
                     </div>

@@ -15,13 +15,13 @@ export default function Hero({
     return (
         <section className="md:pb-16">
             <div className="max-w-7xl mx-auto py-[1rem] px-[10px] md:flex md:gap-5 md:flex-row-reverse justify-between items-center">
-                <div className="w-full md:w-[40%]">
+                <div className="w-full flex items-center justify-center md:w-[40%]">
                     <ResImage
                         path={image}
                         priority={true}
                         mobileSize={{
-                            width: 300,
-                            height: 300,
+                            width: 200,
+                            height: 200,
                         }}
                         desktopSize={{
                             width: 530,

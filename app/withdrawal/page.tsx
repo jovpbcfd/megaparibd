@@ -54,7 +54,7 @@ export default function WithdrawalPage() {
                                 </p>
                             </div>
                         </div>
-                        <div className="flex items-center justify-center md:p-2 md:border-2 md:border-dashed md:order-1">
+                        <div className="flex items-center justify-center md:p-2 md:border-2 md:border-dashed md:rounded-xl md:order-1">
                             <Image
                                 src={StepOneImage}
                                 width={598}
@@ -62,6 +62,7 @@ export default function WithdrawalPage() {
                                 alt="Step One"
                                 priority={true}
                                 quality={100}
+                                className="md:rounded-xl md:shadow-2xl"
                             />
                         </div>
                         <div className="md:order-3 md:self-center">
@@ -79,7 +80,7 @@ export default function WithdrawalPage() {
                                 </p>
                             </div>
                         </div>
-                        <div className="flex items-center justify-center md:p-2 md:border-2 md:border-dashed  md:order-4">
+                        <div className="flex items-center justify-center md:p-2 md:border-2 md:border-dashed md:rounded-xl  md:order-4">
                             <Image
                                 src={StepTwoImage}
                                 width={598}
@@ -87,6 +88,7 @@ export default function WithdrawalPage() {
                                 alt="Step One"
                                 priority={true}
                                 quality={100}
+                                className="md:rounded-xl md:shadow-2xl"
                             />
                         </div>
                         <div className="md:order-6 md:self-center">
@@ -105,7 +107,7 @@ export default function WithdrawalPage() {
                                 </p>
                             </div>
                         </div>
-                        <div className="flex items-center justify-center md:p-2 md:border-2 md:border-dashed md:order-5">
+                        <div className="flex items-center justify-center md:p-2 md:border-2 md:border-dashed md:rounded-xl md:order-5">
                             <Image
                                 src={StepThreeImage}
                                 width={598}
@@ -113,6 +115,7 @@ export default function WithdrawalPage() {
                                 alt="Step One"
                                 priority={true}
                                 quality={100}
+                                className="md:rounded-xl md:shadow-2xl"
                             />
                         </div>
                     </div>
@@ -202,7 +205,7 @@ export default function WithdrawalPage() {
                                     height={248}
                                     alt="Step One"
                                     priority={true}
-                                    className="rounded-xl"
+                                    className="rounded-xl md:shadow-2xl"
                                 />
                             </div>
                         </div>
@@ -276,7 +279,7 @@ export default function WithdrawalPage() {
                                     height={248}
                                     alt="Step One"
                                     priority={true}
-                                    className="rounded-xl"
+                                    className="rounded-xl  md:shadow-2xl"
                                 />
                             </div>
                         </div>

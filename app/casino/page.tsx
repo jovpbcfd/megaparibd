@@ -51,7 +51,7 @@ export default function CasinoPage() {
                                 height={200}
                                 alt="Super Ace"
                                 priority={true}
-                                className="md:rounded-xl"
+                                className="md:rounded-xl md:shadow-2xl"
                             />
                         </div>
                     </div>
@@ -81,7 +81,7 @@ export default function CasinoPage() {
                                 height={200}
                                 alt="Super Ace"
                                 priority={true}
-                                className="md:rounded-xl"
+                                className="md:rounded-xl md:shadow-2xl"
                             />
                         </div>
                     </div>
@@ -112,7 +112,7 @@ export default function CasinoPage() {
                                 height={200}
                                 alt="Super Ace"
                                 priority={true}
-                                className="md:rounded-xl"
+                                className="md:rounded-xl md:shadow-2xl"
                             />
                         </div>
                     </div>
@@ -142,7 +142,7 @@ export default function CasinoPage() {
                                 height={200}
                                 alt="Super Ace"
                                 priority={true}
-                                className="md:rounded-xl"
+                                className="md:rounded-xl md:shadow-2xl"
                             />
                         </div>
                     </div>
@@ -185,14 +185,14 @@ export default function CasinoPage() {
                                     </p>
                                 </div>
                             </div>
-                            <div className="flex items-center justify-center md:order-1">
+                            <div className="flex items-center justify-center md:border-2 md:border-gray-600 md:border-dashed md:p-2 md:rounded-xl md:order-1">
                                 <Image
                                     src={StepOneImage}
                                     width={700}
                                     height={500}
                                     alt="Super Ace"
                                     priority={true}
-                                    className="md:rounded-xl"
+                                    className="md:rounded-xl md:shadow-2xl"
                                 />
                             </div>
                             <div className="md:order-3 md:self-center">
@@ -212,14 +212,14 @@ export default function CasinoPage() {
                                     </p>
                                 </div>
                             </div>
-                            <div className="flex items-center justify-center md:order-4">
+                            <div className="flex items-center justify-center md:order-4 md:border-2 md:border-gray-600 md:border-dashed md:p-2 md:rounded-xl">
                                 <Image
                                     src={StepTwoImage}
                                     width={600}
                                     height={270}
                                     alt="Super Ace"
                                     priority={true}
-                                    className="md:rounded-xl"
+                                    className="md:rounded-xl md:shadow-2xl"
                                 />
                             </div>
                             <div className="md:order-6 md:self-center">
@@ -238,14 +238,14 @@ export default function CasinoPage() {
                                     </p>
                                 </div>
                             </div>
-                            <div className="flex items-center justify-center md:order-5 md:w-fit">
+                            <div className="flex items-center justify-center md:order-5 md:w-fit md:border-2 md:border-gray-600 md:border-dashed md:p-2 md:rounded-xl">
                                 <Image
                                     src={StepThreeImage}
                                     width={700}
                                     height={400}
                                     alt="Super Ace"
                                     priority={true}
-                                    className="md:rounded-xl"
+                                    className="md:rounded-xl md:shadow-2xl"
                                 />
                             </div>
                         </div>
@@ -305,6 +305,7 @@ export default function CasinoPage() {
                                         height={270}
                                         alt="Super Ace"
                                         priority={true}
+                                        className="md:shadow-2xl md:rounded-xl"
                                     />
                                 </div>
                             </div>
@@ -368,6 +369,7 @@ export default function CasinoPage() {
                                         height={270}
                                         alt="Super Ace"
                                         priority={true}
+                                        className="md:shadow-2xl md:rounded-xl"
                                     />
                                 </div>
                             </div>
@@ -403,6 +405,7 @@ export default function CasinoPage() {
                                         height={270}
                                         alt="Super Ace"
                                         priority={true}
+                                        className="md:shadow-2xl md:rounded-xl"
                                     />
                                 </div>
                             </div>

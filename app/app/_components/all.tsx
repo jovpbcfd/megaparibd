@@ -44,7 +44,7 @@ export default function All() {
                                 desktopSize={{ width: 530, height: 330 }}
                                 alt="Official Banner home"
                                 screenSize={900}
-                                className="ml-auto md:rounded-xl"
+                                className="ml-auto md:rounded-xl md:shadow-2xl"
                             />
                         </div>
                         <div className="w-full md:w-[50%]">
@@ -73,7 +73,7 @@ export default function All() {
                                 desktopSize={{ width: 530, height: 330 }}
                                 alt="Official Banner home"
                                 screenSize={900}
-                                className="ml-auto md:rounded-xl"
+                                className="ml-auto md:rounded-xl md:shadow-2xl"
                             />
                         </div>
 
@@ -138,7 +138,7 @@ export default function All() {
                                 desktopSize={{ width: 530, height: 330 }}
                                 alt="Official Banner home"
                                 screenSize={900}
-                                className="ml-auto md:rounded-xl"
+                                className="ml-auto md:rounded-xl md:shadow-2xl"
                             />
                         </div>
                         <div className="w-full md:w-[50%]">
@@ -378,7 +378,7 @@ export default function All() {
                                 desktopSize={{ width: 530, height: 330 }}
                                 alt="Official Banner home"
                                 screenSize={900}
-                                className="ml-auto md:rounded-xl"
+                                className="ml-auto md:rounded-xl md:shadow-2xl"
                             />
                         </div>
                         <div className="w-full md:w-[50%]">
@@ -434,7 +434,7 @@ export default function All() {
                                 desktopSize={{ width: 530, height: 330 }}
                                 alt="Official Banner home"
                                 screenSize={900}
-                                className="ml-auto md:rounded-xl"
+                                className="ml-auto md:rounded-xl md:shadow-2xl"
                             />
                         </div>
                         <div className="w-full md:w-[50%]">
@@ -713,7 +713,7 @@ export default function All() {
                                 desktopSize={{ width: 530, height: 330 }}
                                 alt="Official Banner home"
                                 screenSize={900}
-                                className="ml-auto md:rounded-xl"
+                                className="ml-auto md:rounded-xl md:shadow-2xl"
                             />
                         </div>
                         <div className="w-full md:w-[50%]">
@@ -906,7 +906,7 @@ export default function All() {
                                 desktopSize={{ width: 530, height: 330 }}
                                 alt="Official Banner home"
                                 screenSize={900}
-                                className="ml-auto md:rounded-xl"
+                                className="ml-auto md:rounded-xl md:shadow-2xl"
                             />
                         </div>
                         <div className="w-full md:w-[50%]">
@@ -1048,7 +1048,7 @@ export default function All() {
                                 desktopSize={{ width: 530, height: 330 }}
                                 alt="Official Banner home"
                                 screenSize={900}
-                                className="ml-auto md:rounded-xl"
+                                className="ml-auto md:rounded-xl md:shadow-2xl"
                             />
                         </div>
                         <div className="w-full md:w-[50%]">
@@ -1101,7 +1101,7 @@ export default function All() {
                                 desktopSize={{ width: 530, height: 330 }}
                                 alt="Official Banner home"
                                 screenSize={900}
-                                className="ml-auto md:rounded-xl"
+                                className="ml-auto md:rounded-xl md:shadow-2xl"
                             />
                         </div>
                         <div className="w-full md:w-[50%]">
