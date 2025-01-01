@@ -33,10 +33,10 @@ export default function CasinoPage() {
                     <div id="casino-super-ace" className="mb-10 gap-4 md:flex md:gap-16">
                         <div className="md:w-[50%] md:flex md:items-center md:justify-center">
                             <div className="text-center text-black rounded-xl pb-4 md:bg-[#252b73] md:p-4 md:text-white">
-                                <h3 className="text-[1.25rem] text-center font-semibold mb-4">
+                                <h3 className="heading-content text-center font-semibold mb-4">
                                     Super Ace
                                 </h3>
-                                <p>
+                                <p className="body-content leading-tight">
                                     Isa sa pinakasikat na slot machine ng mga nakaraang taon, kung
                                     saan maaari kang manalo ng hanggang x50,000 mula sa paunang
                                     taya. Lahat ng pinakakawili-wiling bagay ay nangyayari sa bonus
@@ -63,10 +63,10 @@ export default function CasinoPage() {
                     <div className="mb-10 gap-4 md:flex md:gap-16">
                         <div className="md:w-[50%]  md:flex md:items-center md:justify-center">
                             <div className="text-center text-black rounded-xl pb-4 md:bg-[#252b73] md:p-4 md:text-white">
-                                <h3 className="text-[1.25rem] text-center font-semibold mb-4">
+                                <h3 className="heading-content text-center font-semibold mb-4">
                                     Sugar Rush
                                 </h3>
-                                <p>
+                                <p className="body-content leading-tight">
                                     Ang benchmark na mga klasikong slot sa tema ng mga aklat.
                                     Mangolekta ng tatlong libro sa limang reel at pumunta sa bonus
                                     round. Dito matutukoy ang isang random na simbolo, na lumalawak
@@ -93,10 +93,10 @@ export default function CasinoPage() {
                     <div className="mb-10 gap-4 md:flex md:gap-16">
                         <div className="md:w-[50%] md:flex md:items-center md:justify-center">
                             <div className="text-center text-black rounded-xl pb-4 md:bg-[#252b73] md:p-4 md:text-white">
-                                <h3 className="text-[1.25rem] text-center font-semibold mb-4">
+                                <h3 className="heading-content text-center font-semibold mb-4">
                                     Magic Beans
                                 </h3>
-                                <p>
+                                <p className="body-content leading-tight">
                                     Isa sa mga bagong development ng Fa Chai Gaming na may function
                                     ng cascading symbols. Nawawala ang mga nilalaro na larawan sa
                                     mga reel, na nagbibigay ng puwang para sa mga bago. At sa bonus
@@ -124,10 +124,10 @@ export default function CasinoPage() {
                     <div className="mb-10 gap-4 md:flex md:gap-16">
                         <div className="md:w-[50%] md:flex md:items-center md:justify-center">
                             <div className="text-center text-black rounded-xl pb-4 md:bg-[#252b73] md:p-4 md:text-white">
-                                <h3 className="text-[1.25rem] text-center font-semibold mb-4">
+                                <h3 className="heading-content text-center font-semibold mb-4">
                                     777
                                 </h3>
-                                <p>
+                                <p className="body-content leading-tight">
                                     Isa pang maliwanag na bagong bagay na may limang reel na may
                                     iba&apos;t ibang laki. Ang mga gumagamit ay naaakit ng bonus na
                                     laro, kung saan maaari silang pumili ng mga card na may mga
@@ -156,10 +156,10 @@ export default function CasinoPage() {
                         className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pt-16"
                     >
                         <div className="mb-10 text-white">
-                            <h3 className="text-[1.25rem] text-left font-semibold mb-4">
+                            <h3 className="heading-content text-left font-semibold mb-4">
                                 Paano Magsimulang Maglaro sa Panalobet Casino
                             </h3>
-                            <p>
+                            <p className="body-content leading-tight">
                                 Hindi mo kailangang gumawa ng hiwalay na account para magsimulang
                                 maglaro ng mga laro sa casino. Kung dati kang nakarehistro sa aming
                                 website, gamitin ang parehong username at password upang mag-log in
@@ -174,10 +174,10 @@ export default function CasinoPage() {
                                     01
                                 </p>
                                 <div className="bg-[#252b73] rounded-xl text-white p-3 text-center md:text-left md:p-4">
-                                    <h4 className="text-md mb-2 font-medium md:text-xl">
+                                    <h4 className="sub-heading-content mb-2 font-medium">
                                         Buksan ang Form
                                     </h4>
-                                    <p className="leading-tight">
+                                    <p className="leading-tight body-content">
                                         Pumunta sa opisyal na website ng Panalobet Philippines at
                                         i-click ang button para magparehistro. Magbubukas ang isang
                                         form sa harap mo, kung saan maaari mong piliin kung paano
@@ -200,10 +200,10 @@ export default function CasinoPage() {
                                     02
                                 </p>
                                 <div className="bg-[#252b73] rounded-xl text-white p-3 text-center md:text-left md:p-4">
-                                    <h4 className="text-md mb-2 font-medium md:text-xl">
+                                    <h4 className="sub-heading-content mb-2 font-medium">
                                         Punan ang Mga Field at Pumili ng Bonus
                                     </h4>
-                                    <p className="leading-tight">
+                                    <p className="leading-tight body-content">
                                         Ilagay ang iyong personal at impormasyon sa
                                         pakikipag-ugnayan sa lahat ng mga blangkong linya. Gayundin,
                                         huwag kalimutang pumili ng isa sa mga bonus na inaalok ng
@@ -227,10 +227,10 @@ export default function CasinoPage() {
                                     03
                                 </p>
                                 <div className="bg-[#252b73] rounded-xl text-white p-3 text-center md:text-left md:p-4">
-                                    <h4 className="text-md mb-2 font-medium md:text-xl">
+                                    <h4 className="mb-2 font-medium sub-heading-content">
                                         Kumpirmahin ang Email
                                     </h4>
-                                    <p className="leading-tight">
+                                    <p className="leading-tight body-content">
                                         Isang email na may link sa pagkumpirma ay ipapadala sa email
                                         address na iyong tinukoy kanina. Kung pumili ka ng ibang
                                         paraan ng pagpaparehistro, magagawa mong kumpirmahin ang
@@ -255,10 +255,10 @@ export default function CasinoPage() {
                 <div id="casino-type" className="text-white">
                     <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:py-24">
                         <div className="mb-10">
-                            <h3 className="text-[1.25rem] text-left font-semibold mb-4">
+                            <h3 className="heading-content text-left font-semibold mb-4">
                                 Mga Uri ng Laro sa Panalobet Casino Philippines
                             </h3>
-                            <p>
+                            <p className="leading-tight body-content">
                                 Sa catalog ng online casino entertainment ipinakita ang ilang libong
                                 laro. Sa ganitong pagkakaiba-iba, ang bawat customer ay makakahanap
                                 ng libangan ayon sa gusto nila at ma-enjoy ang kanilang oras sa
@@ -271,12 +271,12 @@ export default function CasinoPage() {
                             <div id="casino-puwang" className="mb-4 md:flex md:gap-16 md:mb-8">
                                 <div className="md:w-[50%]">
                                     <h3
-                                        className="text-[1.25rem] text-left font-semibold mb-4
+                                        className="sub-heading-content text-left font-semibold mb-4
                 "
                                     >
                                         Mga puwang
                                     </h3>
-                                    <p className="mb-2">
+                                    <p className="leading-tight body-content mb-2">
                                         Ito ay mga slot machine na kinakatawan ng dose-dosenang
                                         sikat na provider. Ang mga puwang ay hinihiling sa mga
                                         manlalaro dahil sa mga tuntunin sa elementarya. Hindi ito
@@ -288,7 +288,7 @@ export default function CasinoPage() {
                                         pumila, makukuha mo ang payout.
                                     </p>
 
-                                    <p className="mb-2 md:mb-10">
+                                    <p className="leading-tight body-content mb-2 md:mb-10">
                                         Ang bawat slot sa Panalobet Casino ay may mga fixed
                                         performance indicator na itinakda ng provider. Nalalapat ito
                                         sa RTP, pagkasumpungin, bilang ng mga linya at iba pang mga
@@ -313,12 +313,12 @@ export default function CasinoPage() {
                             <div id="casino-board" className="mb-4 md:flex md:gap-16 md:mb-8">
                                 <div className="md:w-[50%]">
                                     <h3
-                                        className="text-[1.25rem] text-left font-semibold mb-4
+                                        className="sub-heading-content text-left font-semibold mb-4
                 "
                                     >
                                         Board Games
                                     </h3>
-                                    <p className="mb-2 md:10">
+                                    <p className="leading-tight body-content mb-4 md:10">
                                         to ay mga slot machine na kinakatawan ng dose-dosenang sikat
                                         na provider. Ang mga puwang ay hinihiling sa mga manlalaro.
                                         Dito ang kalalabasan ay maaaring nakadepende hindi lamang sa
@@ -330,32 +330,32 @@ export default function CasinoPage() {
                                         <ul className="grid grid-cols-2">
                                             <li className="flex items-center gap-5 mb-2 md:mb-4">
                                                 <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
-                                                <p className="leading-tight md:w-[70%] md:mr-auto">
+                                                <p className="list-body-content leading-tight md:w-[70%] md:mr-auto">
                                                     Roulette;
                                                 </p>
                                             </li>
                                             <li className="flex items-center gap-5 mb-2 md:mb-4">
                                                 <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
-                                                <p className="leading-tight md:w-[70%] md:mr-auto">
+                                                <p className="list-body-content leading-tight md:w-[70%] md:mr-auto">
                                                     Blackjack;
                                                 </p>
                                             </li>
                                             <li className="flex items-center gap-5 mb-2 md:mb-4">
                                                 <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
-                                                <p className="leading-tight md:w-[70%] md:mr-auto">
+                                                <p className="list-body-content leading-tight md:w-[70%] md:mr-auto">
                                                     Poker;
                                                 </p>
                                             </li>
                                             <li className="flex items-center gap-5 mb-2 md:mb-4">
                                                 <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
-                                                <p className="leading-tight md:w-[70%] md:mr-auto">
+                                                <p className="list-body-content leading-tight md:w-[70%] md:mr-auto">
                                                     Mga dumi, atbp.
                                                 </p>
                                             </li>
                                         </ul>
                                     </div>
 
-                                    <p>
+                                    <p className="body-content leading-tight">
                                         Ang laro ay nilalaro laban sa isang computer na kalaban. Ang
                                         mga denominasyon ng mga card, dice at iba pang paraphernalia
                                         ay tinutukoy ng random number generator.
@@ -376,10 +376,10 @@ export default function CasinoPage() {
 
                             <div id="casino-live" className="md:flex md:gap-16">
                                 <div className="md:w-[50%]">
-                                    <h3 className="text-[1.25rem] text-left font-semibold mb-4">
+                                    <h3 className="heading-content text-left font-semibold mb-4">
                                         Mga Laro sa Mga Live na Dealer
                                     </h3>
-                                    <p className="mb-2 md:10">
+                                    <p className="body-content leading-tight mb-2 md:10">
                                         Ang parehong mga laro sa mesa, pati na rin ang iba pang
                                         libangan kung saan ang kalaban ng manlalaro ay hindi isang
                                         computer, ngunit isang live na tao - isang empleyado ng
@@ -388,7 +388,7 @@ export default function CasinoPage() {
                                         pamamagitan ng player.
                                     </p>
 
-                                    <p>
+                                    <p className="body-content leading-tight">
                                         Maaari mong panoorin ang mga aksyon ng dealer at
                                         makipag-chat sa kanya at sa iba pang mga manlalaro. Dahil
                                         ang mga resulta dito ay hindi gaanong nakadepende sa isang
