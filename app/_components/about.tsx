@@ -53,12 +53,12 @@ const homeAboutData = [
 
 export default function About() {
     return (
-        <section id="home-about" className="bg-[#fffdf4]">
+        <section id="home-about" className="bg-[#fffdf4] md:pt-[2rem]">
             <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
-                <h3 className="text-[1.25rem] text-center font-semibold mb-4 md:text-[2rem]">
+                <h3 className="text-[1.5rem] text-center font-semibold mb-4 md:text-[2.5rem]">
                     Tungkol sa Panalobet
                 </h3>
-                <p className="text-[1rem] font-light leading-tight">
+                <p className="text-[1.125rem] font-light leading-tight">
                     Sa kabila ng murang edad nito, ang opisina ng bookmaker ay nagagawang mag-alok
                     sa mga user ng maraming mahahalagang bentahe, kabilang ang mga kapaki-pakinabang
                     na bonus at isang malaking bilang ng mga pagpipilian para sa pagtaya. Naganap
@@ -68,7 +68,7 @@ export default function About() {
                     pinapayagan kaming mag-alok ng aming mga serbisyo sa mga residente ng
                     dose-dosenang mga bansa.
                 </p>
-                <p className="text-[1rem] font-light leading-tight my-4">
+                <p className="text-[1.125rem] font-light leading-tight my-4">
                     Ngayon ang kabuuang bilang ng mga rehistradong gumagamit ng Panalobet
                     Philippines ay lumampas sa 500 libong tao. Ang katanyagan sa mga manlalaro ay
                     ipinaliwanag sa pamamagitan ng katotohanan na kami ay patuloy na nagpapabuti,
@@ -78,7 +78,7 @@ export default function About() {
 
                 <Table datas={homeAboutData} />
 
-                <p className="font-light leading-tight text-[1rem] my-4">
+                <p className="font-light leading-tight text-[1.125rem] my-4">
                     Upang mabigyan ang mga user ng maximum na kaginhawahan kapag nakikipag-ugnayan
                     sa site, bumuo kami ng isang malinaw at madaling gamitin na interface. Kahit na
                     ang mga ganap na baguhan na hindi pa tumaya noon ay mauunawaan ang nabigasyon.
@@ -86,7 +86,7 @@ export default function About() {
                     ang impormasyong interesado ka.
                 </p>
 
-                <p className="font-light leading-tight text-[1rem] mt-4">
+                <p className="font-light leading-tight text-[1rem] mt-4 md:text-[1.125rem]">
                     Ang disenyo ng site ay iniangkop para sa pagtingin mula sa mga cell phone.
                     Anuman ang modelo ng smartphone na iyong ginagamit at kung anong operating
                     system ang naka-install dito, ang mga pahina ay awtomatikong mag-aadjust sa laki

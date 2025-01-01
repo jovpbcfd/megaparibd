@@ -5,7 +5,7 @@ export default function StartBetting() {
     return (
         <div id="home-start-betting" className="text-white">
             <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
-                <h3 className="text-[1.25rem] text-center font-semibold mb-4 md:text-[2rem]">
+                <h3 className="text-[1.25rem] text-center font-semibold mb-4 heading-content">
                     Paano simulan ang pagtaya?
                 </h3>
                 <div className="flex flex-col items-center gap-4 md:flex-row-reverse md:justify-between">
@@ -21,7 +21,7 @@ export default function StartBetting() {
                         />
                     </div>
                     <div className="w-full md:w-[50%]">
-                        <p className="font-light leading-tight text-[1rem]">
+                        <p className="font-light leading-tight list-body-content">
                             Upang makapagsimula kang tumaya sa opisina ng Panalobet Philippines
                             bookmaker, kailangan mong dumaan sa ilang hakbang, simula sa
                             pagpaparehistro, at pagtatapos sa paglalagay ng taya mismo. Sa ibaba ay
@@ -50,7 +50,7 @@ export default function StartBetting() {
                                 sa pamamagitan ng pagtukoy sa uri at halaga.
                             </li>
                         </ol>
-                        <p className="font-light leading-tight text-[1rem]">
+                        <p className="font-light leading-tight list-body-content">
                             Kung ang hula ay lumabas na tama, makakatanggap ka ng isang payout at
                             maaari mong bawiin ito sa pamamagitan ng cashier.
                         </p>

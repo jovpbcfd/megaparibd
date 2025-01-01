@@ -19,10 +19,10 @@ export default function MethodsToDeposit() {
                     </div>
 
                     <div className="w-full md:w-[50%]">
-                        <h3 className="text-[1.25rem] text-left font-semibold mb-4 md:text-[2rem]">
+                        <h3 className="text-[1.25rem] text-left font-semibold leading-tight mb-4 heading-content">
                             Mga paraan upang magdeposito at mag-withdraw ng pera
                         </h3>
-                        <p className="font-light leading-tight text-[1rem] mb-8">
+                        <p className="font-light leading-tight mb-8 body-content">
                             Sinusuportahan ng Panalobet Philippines ang dose-dosenang mga sistema ng
                             pagbabayad, mula sa mga bank card hanggang sa mga cryptocurrencies.
                             Nagbigay kami ng kakayahang magdeposito at mag-withdraw ng pera sa
@@ -49,7 +49,7 @@ export default function MethodsToDeposit() {
                                     </svg>
                                 </div>
                                 <div className="flex items-center">
-                                    <p className="leading-tight">Nagad</p>
+                                    <p className="leading-tight list-body-content">Nagad</p>
                                 </div>
                             </li>
                             <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
@@ -71,7 +71,7 @@ export default function MethodsToDeposit() {
                                     </svg>
                                 </div>
                                 <div className="flex items-center">
-                                    <p className="leading-tight">Bkash</p>
+                                    <p className="leading-tight list-body-content">Bkash</p>
                                 </div>
                             </li>
                             <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
@@ -93,7 +93,7 @@ export default function MethodsToDeposit() {
                                     </svg>
                                 </div>
                                 <div className="flex items-center">
-                                    <p className="leading-tight">Rocket</p>
+                                    <p className="leading-tight list-body-content">Rocket</p>
                                 </div>
                             </li>
                             <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
@@ -115,7 +115,7 @@ export default function MethodsToDeposit() {
                                     </svg>
                                 </div>
                                 <div className="flex items-center">
-                                    <p className="leading-tight">Upay</p>
+                                    <p className="leading-tight list-body-content">Upay</p>
                                 </div>
                             </li>
                             <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
@@ -137,7 +137,7 @@ export default function MethodsToDeposit() {
                                     </svg>
                                 </div>
                                 <div className="flex items-center">
-                                    <p className="leading-tight">AstroPay</p>
+                                    <p className="leading-tight list-body-content">AstroPay</p>
                                 </div>
                             </li>
                             <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
@@ -159,7 +159,7 @@ export default function MethodsToDeposit() {
                                     </svg>
                                 </div>
                                 <div className="flex items-center">
-                                    <p className="leading-tight">Jeton Wallet</p>
+                                    <p className="leading-tight list-body-content">Jeton Wallet</p>
                                 </div>
                             </li>
                             <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
@@ -181,7 +181,7 @@ export default function MethodsToDeposit() {
                                     </svg>
                                 </div>
                                 <div className="flex items-center">
-                                    <p className="leading-tight">Kvitum</p>
+                                    <p className="leading-tight list-body-content">Kvitum</p>
                                 </div>
                             </li>
                             <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
@@ -203,12 +203,14 @@ export default function MethodsToDeposit() {
                                     </svg>
                                 </div>
                                 <div className="flex items-center">
-                                    <p className="leading-tight">Cryptocurrencies.</p>
+                                    <p className="leading-tight list-body-content">
+                                        Cryptocurrencies.
+                                    </p>
                                 </div>
                             </li>
                         </ul>
 
-                        <p className="font-light leading-tight text-[1rem]">
+                        <p className="font-light leading-tight body-content">
                             Ang minimum na deposito ay 75 PHP lamang at ang pinakamababang
                             withdrawal – ay 150 PHP. Pakitandaan na maaaring mag-iba ang mga
                             limitasyong ito sa iba&apos;t ibang sistema ng pagbabayad. Ngunit anuman

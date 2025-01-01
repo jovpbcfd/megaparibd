@@ -19,10 +19,10 @@ export default function Virtual() {
                     </div>
 
                     <div className="w-full md:w-[50%]">
-                        <h3 className="text-[1.25rem] text-left font-semibold mb-4 md:text-[2rem]">
+                        <h3 className="text-left font-semibold mb-4 heading-content">
                             Pagtaya sa virtual na palakasan
                         </h3>
-                        <p className="font-light leading-tight text-[1rem] mb-8">
+                        <p className="font-light leading-tight mb-8 body-content">
                             Bawat taon ang cybersports ay nagiging mas at mas sikat at nakakaakit ng
                             mas maraming tao. Maraming tao ang gustong tumaya sa mga sports na ito.
                             Aktibong binuo ng Panalobet ang direksyong ito at nag-aalok na tumaya sa
@@ -48,7 +48,7 @@ export default function Virtual() {
                                     </svg>
                                 </div>
                                 <div className="flex items-center">
-                                    <p className="leading-tight">Dota 2</p>
+                                    <p className="leading-tight list-body-content">Dota 2</p>
                                 </div>
                             </li>
                             <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
@@ -70,7 +70,9 @@ export default function Virtual() {
                                     </svg>
                                 </div>
                                 <div className="flex items-center">
-                                    <p className="leading-tight">Liga ng mga Alamat</p>
+                                    <p className="leading-tight list-body-content">
+                                        Liga ng mga Alamat
+                                    </p>
                                 </div>
                             </li>
                             <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
@@ -92,7 +94,7 @@ export default function Virtual() {
                                     </svg>
                                 </div>
                                 <div className="flex items-center">
-                                    <p className="leading-tight">CS:GO</p>
+                                    <p className="leading-tight list-body-content">CS:GO</p>
                                 </div>
                             </li>
                             <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
@@ -114,7 +116,7 @@ export default function Virtual() {
                                     </svg>
                                 </div>
                                 <div className="flex items-center">
-                                    <p className="leading-tight">Halo</p>
+                                    <p className="leading-tight list-body-content">Halo</p>
                                 </div>
                             </li>
                             <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
@@ -136,7 +138,7 @@ export default function Virtual() {
                                     </svg>
                                 </div>
                                 <div className="flex items-center">
-                                    <p className="leading-tight">Rainbow Six</p>
+                                    <p className="leading-tight list-body-content">Rainbow Six</p>
                                 </div>
                             </li>
                             <li className="flex items-center items-stretch gap-4 mb-2 md:mb-8">
@@ -158,12 +160,14 @@ export default function Virtual() {
                                     </svg>
                                 </div>
                                 <div className="flex items-center">
-                                    <p className="leading-tight">Age of Empires 2, atbp</p>
+                                    <p className="leading-tight list-body-content">
+                                        Age of Empires 2, atbp
+                                    </p>
                                 </div>
                             </li>
                         </ul>
 
-                        <p className="font-light leading-tight text-[1rem]">
+                        <p className="font-light leading-tight body-content">
                             Kung gusto mo ng cybersports, maaari kang tumaya sa mga ito sa Panalobet
                             website at app. Binibigyan ka namin ng pagkakataong gumawa ng mga hula
                             bago ang mga laban at sa live mode.

@@ -45,10 +45,10 @@ export default function MobileApp() {
     return (
         <section id="home-mobile-app" className="bg-[#fffdf4]">
             <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:py-16">
-                <h3 className="text-[1.25rem] text-center font-semibold mb-4 md:text-[2rem]">
+                <h3 className="text-[1.25rem] text-center font-semibold mb-4 md:text-[2.5rem]">
                     Panalobet PH mobile app para sa Android at iOS
                 </h3>
-                <p className="font-light leading-tight text-[1rem]">
+                <p className="font-light leading-tight text-[1.125rem]">
                     Kung gusto mong makaramdam ng mas higit na antas ng kaginhawahan kapag tumataya
                     sa sports, i-download ang mobile application ng opisina ng bookmaker sa iyong
                     smartphone. Nakabuo kami ng dalawang magkahiwalay na bersyon ng client para sa
@@ -68,10 +68,10 @@ export default function MobileApp() {
                         />
                     </div>
                     <div id="home-andriod-download" className="w-full md:w-[50%]">
-                        <h3 className="text-[1.25rem] text-center font-semibold mb-4 md:text-left">
+                        <h3 className="text-[1.5rem] text-center font-semibold mb-4 md:text-left">
                             I-download ang Panalobet PH app sa Android
                         </h3>
-                        <p className="font-light leading-tight text-[1rem]">
+                        <p className="font-light leading-tight text-[1.125rem]">
                             Kung gumagamit ka ng Android mobile device, i-download ang bersyong ito.
                             Maaari lamang itong i-download mula sa aming website. Ang application ay
                             hindi magagamit sa Play Market. Upang i-download at i-install ang
@@ -80,27 +80,35 @@ export default function MobileApp() {
 
                         <ol className="list-decimal list-inside">
                             <li className="font-light leading-tight my-[1.5rem]">
-                                <strong className="font-bold">Buksan ang website. </strong>
+                                <strong className="font-bold md:text-[1.2rem]">
+                                    Buksan ang website.{' '}
+                                </strong>
                                 Sa home page ng aming website, mag-click sa &quot;Smartphone
                                 App&quot;
                             </li>
                             <li className="font-light leading-tight my-[1.5rem]">
-                                <strong className="font-bold">I-download ang APK file. </strong>
+                                <strong className="font-bold md:text-[1.2rem]">
+                                    I-download ang APK file.{' '}
+                                </strong>
                                 I-click ang button para i-download ang app at hintayin itong
                                 makumpleto
                             </li>
                             <li className="font-light leading-tight my-[1.5rem]">
-                                <strong className="font-bold">Payagan ang pag-install. </strong>
+                                <strong className="font-bold md:text-[1.2rem]">
+                                    Payagan ang pag-install.{' '}
+                                </strong>
                                 Buksan ang mga setting ng seguridad ng cell phone at payagan ang mga
                                 app mula sa hindi kilalang mga mapagkukunan na mai-install
                             </li>
                             <li className="font-light leading-tight my-[1.5rem]">
-                                <strong className="font-bold">I-install ang program. </strong>
+                                <strong className="font-bold md:text-[1.2rem]">
+                                    I-install ang program.{' '}
+                                </strong>
                                 Kapag natapos na ang pag-download ng Panalobet Philippines APK,
                                 buksan ang file na ito at kumpirmahin ang pag-install.
                             </li>
                         </ol>
-                        <p className="font-light leading-tight text-[1rem] mb-4">
+                        <p className="font-light leading-tight text-[1.125rem] mb-4">
                             Sa loob lamang ng isang minuto, makakapag-log in ka sa application sa
                             pamamagitan ng shortcut sa desktop, ipasok ang iyong username at
                             password at magsimulang tumaya sa iyong paboritong sports.
@@ -109,7 +117,7 @@ export default function MobileApp() {
                 </div>
 
                 <div id="home-andriod-system-requirements" className="pt-4">
-                    <h4 className="font-medium text-[1.05rem] leading-tight mb-4">
+                    <h4 className="font-medium text-[1.5rem] leading-tight mb-4">
                         Mga Kinakailangan sa Android System
                     </h4>
 
@@ -130,7 +138,7 @@ export default function MobileApp() {
                     </div>
 
                     <div id="home-ios-download" className="w-full md:w-[50%]">
-                        <h3 className="text-[1.25rem] text-center font-semibold mb-4 md:text-left">
+                        <h3 className="text-[1.25rem] text-center font-semibold mb-4 md:text-left md:text-[1.5rem]">
                             I-download ang Panalobet PH app sa iOS
                         </h3>
                         <p className="font-light leading-tight text-[1rem]">
@@ -142,18 +150,24 @@ export default function MobileApp() {
 
                         <ol className="list-decimal list-inside">
                             <li className="font-light leading-tight my-[1.5rem]">
-                                <strong className="font-bold">Buksan ang site. </strong>
+                                <strong className="font-bold md:text-[1.2rem]">
+                                    Buksan ang site.{' '}
+                                </strong>
                                 Pumunta sa iyong browser sa iyong smartphone at buksan ang home page
                                 ng site. Pagkatapos ay piliin ang seksyong &quot;Smartphone
                                 App&quot;
                             </li>
                             <li className="font-light leading-tight my-[1.5rem]">
-                                <strong className="font-bold">Pumunta sa App Store. </strong>
+                                <strong className="font-bold md:text-[1.2rem]">
+                                    Pumunta sa App Store.{' '}
+                                </strong>
                                 I-click ang button para i-download ang app para makapunta sa opisyal
                                 na page nito sa App Store
                             </li>
                             <li className="font-light leading-tight my-[1.5rem]">
-                                <strong className="font-bold">I-install ang kliyente. </strong>
+                                <strong className="font-bold md:text-[1.2rem]">
+                                    I-install ang kliyente.{' '}
+                                </strong>
                                 Sundin ang mga tagubilin sa Apple Digital Store para i-install ang
                                 software.
                             </li>
@@ -167,7 +181,7 @@ export default function MobileApp() {
                 </div>
 
                 <div id="home-ios-system-requirements" className="pt-4">
-                    <h4 className="font-medium text-[1.05rem] leading-tight mb-4">
+                    <h4 className="font-medium text-[1.5rem] leading-tight mb-4">
                         Mga kinakailangan sa system ng iOS
                     </h4>
 

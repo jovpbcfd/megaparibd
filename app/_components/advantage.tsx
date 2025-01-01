@@ -5,7 +5,7 @@ export default function Advantage() {
     return (
         <div id="home-advantage" className="text-white">
             <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
-                <h3 className="text-[1.25rem] text-center font-semibold mb-4 md:text-[2rem]">
+                <h3 className="text-[1.25rem] text-center font-semibold mb-4 heading-content">
                     Mga kalamangan ng Panalobet
                 </h3>
                 <div className="flex flex-col items-center gap-4 md:flex-row-reverse md:justify-between">
@@ -21,7 +21,7 @@ export default function Advantage() {
                         />
                     </div>
                     <div className="w-full md:w-[50%]">
-                        <p className="font-light leading-tight text-[1rem] mb-8">
+                        <p className="font-light leading-tight mb-8 body-content">
                             Ginagawa namin ang aming makakaya upang magbigay ng pinaka komportableng
                             kondisyon para sa pagtaya sa lahat ng aming mga kliyente. Pagkatapos
                             magrehistro at magdeposito ng iyong account sa panalobet Philippines
@@ -48,7 +48,7 @@ export default function Advantage() {
                                     </svg>
                                 </div>
                                 <div className="flex items-center">
-                                    <p className="leading-tight">
+                                    <p className="leading-tight list-body-content">
                                         Malaking welcome bonus para sa mga bagong manlalaro na
                                         hanggang 20,000 PHP
                                     </p>
@@ -73,7 +73,7 @@ export default function Advantage() {
                                     </svg>
                                 </div>
                                 <div className="flex items-center">
-                                    <p className="leading-tight">
+                                    <p className="leading-tight list-body-content">
                                         Isang functional na mobile application para sa Android at
                                         iOS smartphone
                                     </p>
@@ -98,7 +98,7 @@ export default function Advantage() {
                                     </svg>
                                 </div>
                                 <div className="flex items-center">
-                                    <p className="leading-tight">
+                                    <p className="leading-tight list-body-content">
                                         Higit sa 40 palakasan at 1000 kaganapan para sa pagtaya
                                         araw-araw
                                     </p>
@@ -123,7 +123,7 @@ export default function Advantage() {
                                     </svg>
                                 </div>
                                 <div className="flex items-center">
-                                    <p className="leading-tight">
+                                    <p className="leading-tight list-body-content">
                                         24 na oras na serbisyo sa suporta, handang tumulong sa
                                         paglutas ng anumang problema
                                     </p>
@@ -148,14 +148,14 @@ export default function Advantage() {
                                     </svg>
                                 </div>
                                 <div className="flex items-center">
-                                    <p className="leading-tight">
+                                    <p className="leading-tight list-body-content">
                                         Dose-dosenang mga uri ng sistema ng pagbabayad sa takilya.
                                     </p>
                                 </div>
                             </li>
                         </ul>
 
-                        <p className="font-light leading-tight text-[1rem]">
+                        <p className="font-light leading-tight body-content">
                             Patuloy kaming nagbabago, nag-aalok ng mga bagong feature at function sa
                             aming mga manlalaro. Manatili sa Panalobet at magkakaroon ng higit pang
                             kumikitang mga pagkakataon sa pagtaya sa unahan mo.
