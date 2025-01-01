@@ -19,10 +19,10 @@ export default function BettingOdds() {
                     </div>
 
                     <div className="w-full md:w-[50%]">
-                        <h3 className="text-[1.25rem] text-left font-semibold mb-4 md:text-[2rem]">
+                        <h3 className="text-left font-semibold mb-4 heading-content">
                             Mga logro sa pagtaya
                         </h3>
-                        <p className="font-light leading-tight text-[1rem]">
+                        <p className="font-light leading-tight body-content">
                             Maaari mong gamitin ang mga odds na inaalok ng Panalobet PH upang
                             kalkulahin ang potensyal na benepisyo ng isang taya. Gumagamit kami ng
                             sistema ng mga decimal. Ang bawat logro ay may isang digit bago ang

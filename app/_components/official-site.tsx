@@ -6,7 +6,7 @@ export default function OfficialSite() {
     return (
         <div id="home-official-site" className="text-white">
             <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
-                <h3 className="text-[1.25rem] text-center font-semibold mb-4 md:text-[2rem]">
+                <h3 className="text-[1.5rem] text-center font-semibold mb-4 md:text-[2.5rem]">
                     Ang opisyal na site ng Panalobet para sa pagtaya sa sports sa Pilipinas
                 </h3>
                 <div className="flex flex-col items-center gap-4 md:flex-row-reverse md:justify-between">
@@ -22,7 +22,7 @@ export default function OfficialSite() {
                         />
                     </div>
                     <div className="w-full md:w-[50%]">
-                        <p className="font-light leading-tight text-[1rem] mb-4">
+                        <p className="font-light leading-tight text-[1.125rem] mb-4">
                             Ang paglalaro sa opisyal na site ng Panalobet Philippines ay makakaakit
                             sa lahat ng mahilig sa pagtaya sa sports. Ang aming kumpanya ay legal na
                             tumatakbo sa bansa at nag-aalok sa mga user ng iba&apos;t ibang
@@ -75,7 +75,7 @@ export default function OfficialSite() {
                                 Fast withdrawal of funds to dozens of payment systems.
                             </li>
                         </ul> */}
-                        <p className="font-light leading-tight text-[1rem]">
+                        <p className="font-light leading-tight text-[1.125rem]">
                             Upang simulan ang pagtaya sa opisyal na website ng Panalobet, ito ay
                             sapat na upang dumaan sa isang maikling pamamaraan ng pagpaparehistro.
                             Pagkatapos nito, makakakuha ka ng access sa lahat ng mga function at

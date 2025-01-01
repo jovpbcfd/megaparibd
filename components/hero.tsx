@@ -32,10 +32,12 @@ export default function Hero({
                     />
                 </div>
                 <div className="w-full text-white md:w-[60%]">
-                    <h1 className="font-bold text-[1.5rem] leading-tight mb-4 md:mb-7 md:text-[2rem]">
+                    <h1 className="font-bold text-[1.5rem] leading-tight mb-4 md:mb-7 md:text-[2.625rem]">
                         {title}
                     </h1>
-                    <p className="font-light leading-tight text-[1rem]">{description}</p>
+                    <p className="font-light leading-tight text-[1rem] md:text-[1.125rem]">
+                        {description}
+                    </p>
                     <div className="mt-4 max-w-fit md:mt-8">
                         <button
                             className={`${buttonText ? '' : 'hidden'} text-[1.1rem] p-[0.5rem] w-full font-bold rounded-full

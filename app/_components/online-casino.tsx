@@ -19,10 +19,10 @@ export default function OnlineCasino() {
                     </div>
 
                     <div className="w-full md:w-[50%]">
-                        <h3 className="text-[1.25rem] text-left font-semibold mb-4 md:text-[2rem]">
+                        <h3 className="text-left font-semibold mb-4 heading-content">
                             Online Casino Panalobet
                         </h3>
-                        <p className="font-light leading-tight text-[1rem] mb-8">
+                        <p className="font-light leading-tight mb-8 body-content">
                             Nagsusumikap kaming tiyakin na ang lahat ng aming mga customer ay
                             nakakakuha ng pinaka magkakaibang mga pagkakataon para sa isang masayang
                             libangan. Samakatuwid, kung napagod ka sa pagtaya sa sports, maaari kang
@@ -50,7 +50,7 @@ export default function OnlineCasino() {
                                     </svg>
                                 </div>
                                 <div className="flex items-center">
-                                    <p className="leading-tight">
+                                    <p className="leading-tight list-body-content">
                                         Normal. Ito ay mga slot machine, table games, at iba pang
                                         entertainment na nagaganap nang walang partisipasyon ng mga
                                         live na tao. Ang mga resulta ay nakasalalay sa isang random
@@ -77,7 +77,7 @@ export default function OnlineCasino() {
                                     </svg>
                                 </div>
                                 <div className="flex items-center">
-                                    <p className="leading-tight">
+                                    <p className="leading-tight list-body-content">
                                         Mabuhay. Sa mga laro na may mga live na dealer, maaari mong
                                         panoorin ang host sa live na mode, makipag-usap sa kanya sa
                                         pamamagitan ng chat, atbp.
@@ -86,7 +86,7 @@ export default function OnlineCasino() {
                             </li>
                         </ul>
 
-                        <p className="font-light leading-tight text-[1rem]">
+                        <p className="font-light leading-tight body-content">
                             Ang listahan ng entertainment sa mga online casino Panalobet Philippines
                             ay patuloy na lumalawak. Palagi kang naghihintay para sa mga
                             kapana-panabik na laro mula sa pinakamahusay na mga developer sa mundo.

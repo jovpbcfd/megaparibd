@@ -10,20 +10,10 @@ export const hero = {
 }
 
 export const tableOfContentsData = [
-    { title: 'Tungkol sa Panalobet', link: '#home-about' },
     {
         title: 'Welcome bonus para sa mga bagong user hanggang 20,000 PHP',
         link: '#home-welcome-bonus',
     },
-    {
-        title: 'Ang opisyal na site ng Panalobet para sa pagtaya sa sports sa Pilipinas',
-        link: '#home-official-site',
-    },
-    {
-        title: 'Paano mag-sign up para sa Panalobet PH: step-by-step na mga tagubilin?',
-        link: '#home-sign-up',
-    },
-    { title: 'Paano simulan ang pagtaya?', link: '#home-start-betting' },
     {
         title: 'Panalobet PH mobile app para sa Android at iOS',
         link: '#home-mobile-app',
@@ -50,8 +40,16 @@ export const tableOfContentsData = [
             },
         ],
     },
-    { title: 'Panalobet Philippines video review', link: '#home-review' },
-    { title: 'Mga kalamangan ng Panalobet', link: '#home-advantage' },
+    {
+        title: 'Ang opisyal na site ng Panalobet para sa pagtaya sa sports sa Pilipinas',
+        link: '#home-official-site',
+    },
+    {
+        title: 'Paano mag-sign up para sa Panalobet PH: step-by-step na mga tagubilin?',
+        link: '#home-sign-up',
+    },
+    { title: 'Paano simulan ang pagtaya?', link: '#home-start-betting' },
+    { title: 'Tungkol sa Panalobet', link: '#home-about' },
     {
         title: 'Mga uri ng pagtaya sa sports sa Panalobet PH',
         link: '#home-type-sports',
@@ -63,9 +61,11 @@ export const tableOfContentsData = [
     },
     { title: 'Pagtaya sa virtual na palakasan', link: '#home-betting-virtual' },
     { title: 'Live na Pagtaya', link: '#home-betting-live' },
+    { title: 'Panalobet Philippines video review', link: '#home-review' },
+    { title: 'Mga kalamangan ng Panalobet', link: '#home-advantage' },
     { title: 'Mga logro sa pagtaya', link: '#home-betting-odds' },
-    { title: 'Online Casino Panalobet', link: '#home-casino' },
     { title: 'Mga paraan upang magdeposito at mag-withdraw ng pera', link: '#home-deposits' },
+    { title: 'Online Casino Panalobet', link: '#home-casino' },
     { title: 'Suporta sa Manlalaro', link: '#home-player-support' },
     { title: 'FAQ', link: '#faq' },
 ]

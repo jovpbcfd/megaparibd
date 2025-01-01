@@ -1,12 +1,11 @@
 import ResImage from '@/components/res-image'
 
 import WelcomBannerHome from '@/public/img/prod/home/Welcome bonus for new users up to 20,000 PHP.webp'
-
 export default function WelcomeBonus() {
     return (
-        <div id="home-welcome-bonus">
+        <div id="home-welcome-bonus" className="bg-[#fffdf4]">
             <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
-                <h3 className="text-[1.25rem] text-center font-semibold mb-4 md:text-[2rem]">
+                <h3 className="text-center font-semibold mb-4 md:leading-tight heading-content">
                     Welcome bonus para sa mga bagong user hanggang 20,000 PHP
                 </h3>
                 <div className="flex flex-col items-center gap-4 md:flex-row-reverse md:justify-between">
@@ -23,7 +22,7 @@ export default function WelcomeBonus() {
                         />
                     </div>
                     <div className="w-full md:w-[50%]">
-                        <p className="font-light leading-tight text-[1rem]">
+                        <p className="font-light leading-tight body-content">
                             Pagkatapos magrehistro at gawin ang iyong unang deposito, makakatanggap
                             ka ng Panalobet starter bonus. Dodoblehin namin ang anumang halaga ng
                             unang deposito hanggang 20,000 PHP at hahayaan kang i-withdraw ang
@@ -32,14 +31,16 @@ export default function WelcomeBonus() {
                         </p>
                         <ol className="list-decimal ml-4">
                             <li className="font-light leading-tight my-[1.5rem]">
-                                <strong className="font-bold">Pagpaparehistro. </strong>
+                                <strong className="font-bold list-heading-content">
+                                    Pagpaparehistro.{' '}
+                                </strong>
                                 Gumawa ng account sa opisyal na website ng Panalobet Philippines.
                                 Upang gawin ito, buksan ang pangunahing pahina, mag-click sa
                                 pindutan ng Pagpaparehistro, piliin kung paano lumikha ng isang
                                 account, at punan ang lahat ng mga blangkong field.
                             </li>
                             <li className="font-light leading-tight my-[1.5rem]">
-                                <strong className="font-bold">
+                                <strong className="font-bold list-heading-content">
                                     Tukuyin ang personal na impormasyon.{' '}
                                 </strong>
                                 Pumunta sa mga setting ng account at ilagay ang iyong impormasyon sa
@@ -48,7 +49,9 @@ export default function WelcomeBonus() {
                                 impormasyon, hindi mo mabe-verify ang iyong account sa hinaharap;
                             </li>
                             <li className="font-light leading-tight my-[1.5rem]">
-                                <strong className="font-bold">Deposito. </strong>
+                                <strong className="font-bold list-heading-content">
+                                    Deposito.{' '}
+                                </strong>
                                 Pindutin ang pindutan ng Deposit upang pumunta sa mesa ng cashier.
                                 Pagkatapos ay pumili ng isang sistema ng pagbabayad, punan ang mga
                                 detalye at kumpirmahin ang operasyon. Ang pinakamababang halaga ng
@@ -57,7 +60,7 @@ export default function WelcomeBonus() {
                             </li>
                         </ol>
 
-                        <p className="font-light leading-tight text-[1rem]">
+                        <p className="font-light leading-tight list-body-content">
                             Kapag ang pera ay dumating sa iyong balanse, ang bonus ay awtomatikong
                             maikredito sa iyong account. Ngunit hindi mo agad mai-withdraw ang pera.
                             Upang makuha ang mga ito sa isang bank card o e-wallet, dapat mong

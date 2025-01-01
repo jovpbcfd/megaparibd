@@ -3,7 +3,33 @@
 @tailwind utilities;
 
 @layer base {
-    /* body {
-        font-family: Arial, Helvetica, sans-serif;
-    } */
+    body {
+        font-size: 1.125rem;
+    }
+}
+
+@layer utilities {
+    /* SIZING */
+
+    /* HEADINGS 3 AND BODY SIZE */
+    .heading-content {
+        @apply text-[1.5rem] md:text-[2.5rem];
+    }
+
+    .sub-heading-content {
+        @apply text-[1.5rem];
+    }
+
+    .body-content {
+        @apply text-[1.125rem];
+    }
+
+    /* LIST */
+    .list-heading-content {
+        @apply text-base md:text-[1.2rem];
+    }
+
+    .list-body-content {
+        @apply text-[1.125rem];
+    }
 }

@@ -33,23 +33,23 @@ export default function Home() {
                 buttonText={hero.buttonText}
             />
             <TableOfContents content={tableOfContentsData} />
-            <About />
+            <WelcomeBonus />
+            <MobileApp />
             <section className="bg-gradient-to-br from-[#7f1d1d] via-[#1f2460] to-[#313380] text-white md:py-16">
-                <WelcomeBonus />
                 <OfficialSite />
                 <SignUp />
                 <StartBetting />
             </section>
-            <MobileApp />
+            <About />
             <section className="bg-gradient-to-br from-[#7f1d1d] via-[#1f2460] to-[#313380] text-white md:py-16">
-                <Review />
-                <Advantage />
                 <TypesOfSports />
                 <Virtual />
                 <Live />
+                <Review />
+                <Advantage />
                 <BettingOdds />
-                <OnlineCasino />
                 <MethodsToDeposit />
+                <OnlineCasino />
                 <PlayerSupport />
             </section>
             <Faq

@@ -62,7 +62,7 @@ export default function TableOfContents({ content }: TableOfContentsProps) {
                     onClick={toggleTableContent}
                 >
                     <div
-                        className="bg-white max-w-lg mx-auto rounded-lg overflow-y-auto p-4 transform animate-popup"
+                        className="bg-white max-w-lg mx-auto rounded-lg overflow-y-auto p-4 transform animate-popup max-h-[80vh]"
                         onClick={(e) => e.stopPropagation()}
                     >
                         <button

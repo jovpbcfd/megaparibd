@@ -19,10 +19,10 @@ export default function Live() {
                     </div>
 
                     <div className="w-full md:w-[50%]">
-                        <h3 className="text-[1.25rem] text-left font-semibold mb-4 md:text-[2rem]">
+                        <h3 className="text-left font-semibold mb-4 heading-content">
                             Live na Pagtaya
                         </h3>
-                        <p className="font-light leading-tight text-[1rem] mb-8">
+                        <p className="font-light leading-tight mb-8 body-content">
                             Ang kategoryang ito ng pagtaya sa palakasan ay mag-aapela sa mga taong
                             bihasa sa kahit isang isport at mabilis na makakapag-react sa mga
                             kaganapang nagaganap sa field. Ang Live na seksyon ay nagpapakita ng mga
@@ -50,7 +50,7 @@ export default function Live() {
                                     </svg>
                                 </div>
                                 <div className="flex items-center">
-                                    <p className="leading-tight">
+                                    <p className="leading-tight list-body-content">
                                         Ang bawat laban na ipinakita dito ay nagsimula na
                                     </p>
                                 </div>
@@ -74,7 +74,7 @@ export default function Live() {
                                     </svg>
                                 </div>
                                 <div className="flex items-center">
-                                    <p className="leading-tight">
+                                    <p className="leading-tight list-body-content">
                                         Para sa maraming mga laban mayroong mga live na broadcast na
                                         maaari mong panoorin
                                     </p>
@@ -99,7 +99,7 @@ export default function Live() {
                                     </svg>
                                 </div>
                                 <div className="flex items-center">
-                                    <p className="leading-tight">
+                                    <p className="leading-tight list-body-content">
                                         Ang mga coefficient ay maaaring magbago nang madalas, na
                                         tumutugon sa mga pagbabago sa kurso ng paghaharap.
                                     </p>
@@ -107,7 +107,7 @@ export default function Live() {
                             </li>
                         </ul>
 
-                        <p className="font-light leading-tight text-[1rem]">
+                        <p className="font-light leading-tight body-content">
                             Maaari mong pagsamahin ang mga live na taya sa mga regular na taya,
                             gumawa ng mga indibidwal na hula, o ipahayag. Ang bilang ng mga
                             kaganapang palaging available sa mga user ay lumampas sa 100 tugma.
