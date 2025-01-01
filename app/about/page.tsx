@@ -18,10 +18,10 @@ export default function AboutPage() {
             />
             <section className="bg-[#fffdf4]">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pt-16 md:pb-10">
-                    <h3 className="text-[1.25rem] text-left font-semibold mb-4">
+                    <h3 className="heading-content text-left font-semibold mb-4">
                         Paano Magsisimula?
                     </h3>
-                    <p>
+                    <p className="body-content leading-tight">
                         Sa Pilipinas, legal na tumatakbo ang Panalobet sa ilalim ng lisensyang
                         ibinigay ng Curacao Gambling Commission. Kinukumpirma ng dokumentong ito ang
                         kaligtasan ng site ng pagtaya at nagpapahintulot sa amin na ayusin ang
@@ -30,7 +30,7 @@ export default function AboutPage() {
 
                     <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:mt-12 md:gap-16">
                         <div>
-                            <p className="mb-2 md:mb-12">
+                            <p className="body-content mb-2 md:mb-12">
                                 Ang kumpanya ay sumusunod sa ilang mga prinsipyo sa trabaho nito:
                             </p>
 
@@ -54,7 +54,7 @@ export default function AboutPage() {
                                             <circle cx="12" cy="12" r="10" />
                                         </svg>
                                     </div>
-                                    <p className="leading-tight">
+                                    <p className="leading-tight body-content">
                                         Pagbibigay ng maximum na iba&apos;t ibang entertainment para
                                         sa mga user;
                                     </p>
@@ -77,7 +77,7 @@ export default function AboutPage() {
                                             <path d="m9 12 2 2 4-4" />
                                         </svg>
                                     </div>
-                                    <p className="leading-tight">
+                                    <p className="leading-tight body-content">
                                         Pagpapanatili ng mataas na antas ng seguridad para sa mga
                                         account at balanse;
                                     </p>
@@ -99,19 +99,19 @@ export default function AboutPage() {
                                             <polygon points="6 3 20 12 6 21 6 3" />
                                         </svg>
                                     </div>
-                                    <p className="leading-tight">
+                                    <p className="leading-tight body-content">
                                         Paggalang sa mga prinsipyo ng responsableng paglalaro.
                                     </p>
                                 </li>
                             </ul>
 
-                            <p className="leading-tight mb-4">
+                            <p className="leading-tight body-content mb-4">
                                 Sa layuning ito, kami ay patuloy na umuunlad at nagpapabuti,
                                 nag-aalok sa mga manlalaro ng mga bagong serbisyo, personalized na
                                 mga bonus at iba pang mga benepisyo sa paglalaro.
                             </p>
 
-                            <p className="leading-tight">
+                            <p className="leading-tight body-content">
                                 Upang simulan ang pagtaya sa opisina ng bookmaker ng Panalobet
                                 Philippines, pumili lamang ng isa sa mga resulta sa website o sa
                                 app, i-click ang mga logro na naaayon dito at punan ang betting
