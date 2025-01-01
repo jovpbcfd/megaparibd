@@ -25,8 +25,8 @@ export default function SupportPage() {
                 <div className="grid grid-cols-1 gap-4  max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:grid-cols-2 md:gap-16 md:pb-16">
                     <div>
                         <div className="mb-12">
-                            <h3 className="text-[1.25rem] text-left font-semibold mb-4">Email</h3>
-                            <p>
+                            <h3 className="heading-content text-left font-semibold mb-4">Email</h3>
+                            <p className="leading-tight body-content">
                                 Ang pinaka maraming nalalaman na paraan upang makipag-ugnayan sa
                                 sinumang may problema. Maaari kang sumulat sa isa sa dalawang
                                 opisyal na email address, depende sa problemang kinakaharap mo.
@@ -52,7 +52,7 @@ export default function SupportPage() {
                                 </p>
                             </div>
 
-                            <p>
+                            <p className="leading-tight body-content">
                                 At huwag kalimutan ang mga pangunahing prinsipyo ng pagiging
                                 magalang at mga pamantayan ng komunikasyon. Huwag maging bastos sa
                                 serbisyo ng suporta. Lalo na&apos;t maaari kang ma-block para sa mga
@@ -122,7 +122,7 @@ export default function SupportPage() {
                                         <circle cx="10" cy="8" r="5" />
                                     </svg>
                                 </div>
-                                <p className="leading-tight">
+                                <p className="leading-tight body-content">
                                     Huwag gumawa ng maramihang mga thread ng komunikasyon. Magpadala
                                     lamang ng isang email at makipag-ugnayan sa pamamagitan nito.
                                     Hindi mo kailangang gumawa ng maraming thread. Hindi ito
@@ -148,7 +148,7 @@ export default function SupportPage() {
                                         <circle cx="10" cy="8" r="5" />
                                     </svg>
                                 </div>
-                                <p className="leading-tight">
+                                <p className="leading-tight body-content">
                                     Huwag gumawa ng maramihang mga thread ng komunikasyon. Magpadala
                                     lamang ng isang email at makipag-ugnayan sa pamamagitan nito.
                                     Hindi mo kailangang gumawa ng maraming thread. Hindi ito
@@ -174,7 +174,7 @@ export default function SupportPage() {
                                         <circle cx="10" cy="8" r="5" />
                                     </svg>
                                 </div>
-                                <p className="leading-tight">
+                                <p className="leading-tight body-content">
                                     Huwag gumawa ng maramihang mga thread ng komunikasyon. Magpadala
                                     lamang ng isang email at makipag-ugnayan sa pamamagitan nito.
                                     Hindi mo kailangang gumawa ng maraming thread. Hindi ito
@@ -186,13 +186,13 @@ export default function SupportPage() {
                 </div>
             </section>
 
-            <section id="support-onsite" className="bg-[#fff]">
+            <section id="support-onsite" className="bg-[#fffdf4]">
                 <div className="grid grid-cols-1 gap-4 max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:grid-cols-2 md:gap-16 md:pb-16">
                     <div>
-                        <h3 className="text-[1.25rem] text-left font-semibold mb-4">
+                        <h3 className="heading-content text-left font-semibold mb-4">
                             On-site na Chat
                         </h3>
-                        <p className="leading-tight mb-4">
+                        <p className="leading-tight body-content mb-4">
                             Upang malutas ang mga kagyat na tanong na pumipigil sa iyo sa paglalaro
                             ngayon, maaari mong gamitin ang chat sa site. Upang gawin ito, buksan
                             ang pangunahing pahina ng opisyal na site, hanapin ang pindutan ng
@@ -201,7 +201,7 @@ export default function SupportPage() {
                             anumang mga katanungan na maaaring mayroon ka.
                         </p>
 
-                        <p className="leading-tight">
+                        <p className="leading-tight body-content">
                             Tandaan na ang serbisyo ng suporta na Panalobet Philippines sa online na
                             chat sa site ay maaaring sumagot nang matagal sa gabi, pati na rin sa
                             kaso ng isang mabigat na workload. Sa kasong ito, siguraduhing tingnan
