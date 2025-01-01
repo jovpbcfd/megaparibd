@@ -4,6 +4,10 @@ export const tableOfContentsData = [
         link: '#register-step',
     },
     {
+        title: 'Welcome Bonus',
+        link: '#register-welcome-bonus',
+    },
+    {
         title: 'Pagpaparehistro sa pamamagitan ng Mga Mobile Device',
         link: '#register-mobile',
     },
@@ -14,10 +18,6 @@ export const tableOfContentsData = [
     {
         title: 'Pagpapatunay ng Account',
         link: '#register-requirements',
-    },
-    {
-        title: 'Welcome Bonus',
-        link: '#register-welcome-bonus',
     },
 ]
 
