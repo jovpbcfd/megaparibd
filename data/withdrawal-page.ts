@@ -4,12 +4,12 @@ export const tableOfContentsData = [
         link: '#withdrawal-step',
     },
     {
-        title: 'Mga Sistema ng Pagbabayad',
-        link: '#withdrawal-methods',
-    },
-    {
         title: 'Mga Kundisyon sa Pag-withdraw sa Panalobet Philippines',
         link: '#withdrawal-conditions',
+    },
+    {
+        title: 'Mga Sistema ng Pagbabayad',
+        link: '#withdrawal-methods',
     },
     {
         title: 'FAQ',
