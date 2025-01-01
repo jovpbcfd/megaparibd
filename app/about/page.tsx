@@ -54,7 +54,7 @@ export default function AboutPage() {
                                             <circle cx="12" cy="12" r="10" />
                                         </svg>
                                     </div>
-                                    <p className="leading-tight body-content">
+                                    <p className="leading-tight list-body-content">
                                         Pagbibigay ng maximum na iba&apos;t ibang entertainment para
                                         sa mga user;
                                     </p>
@@ -77,7 +77,7 @@ export default function AboutPage() {
                                             <path d="m9 12 2 2 4-4" />
                                         </svg>
                                     </div>
-                                    <p className="leading-tight body-content">
+                                    <p className="leading-tight list-body-content">
                                         Pagpapanatili ng mataas na antas ng seguridad para sa mga
                                         account at balanse;
                                     </p>
@@ -99,7 +99,7 @@ export default function AboutPage() {
                                             <polygon points="6 3 20 12 6 21 6 3" />
                                         </svg>
                                     </div>
-                                    <p className="leading-tight body-content">
+                                    <p className="leading-tight list-body-content">
                                         Paggalang sa mga prinsipyo ng responsableng paglalaro.
                                     </p>
                                 </li>
