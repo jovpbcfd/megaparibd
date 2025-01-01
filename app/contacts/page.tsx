@@ -20,10 +20,10 @@ export default function ContactPage() {
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pt-16 md:pb-10">
                     <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:mt-12 md:gap-16">
                         <div>
-                            <h3 className="text-[1.25rem] text-left font-semibold mb-4">
+                            <h3 className="heading-content text-left font-semibold mb-4">
                                 Listahan ng Mga Contact
                             </h3>
-                            <p className="leading-tight mb-2 md:mb-8">
+                            <p className="leading-tight body-content mb-2 md:mb-8">
                                 Kung mayroong anumang mga problema, tanong at komersyal na alok, ang
                                 mga gumagamit ay maaaring makipag-ugnay sa pangangasiwa ng site nang
                                 direkta sa pamamagitan ng isa sa mga opisyal na contact. Ang mga
@@ -49,7 +49,7 @@ export default function ContactPage() {
                                             <path d="M6 12h16" />
                                         </svg>
                                     </div>
-                                    <p className="leading-tight">
+                                    <p className="leading-tight list-body-content">
                                         E-mail para sa mga pangkalahatang katanungan:
                                         support@panalobet.com
                                     </p>
@@ -72,7 +72,7 @@ export default function ContactPage() {
                                             <path d="M6 12h16" />
                                         </svg>
                                     </div>
-                                    <p className="leading-tight">
+                                    <p className="leading-tight list-body-content">
                                         E-mail para sa mga isyu sa seguridad: security@panalobet.com
                                     </p>
                                 </li>
@@ -94,7 +94,9 @@ export default function ContactPage() {
                                             <path d="M6 12h16" />
                                         </svg>
                                     </div>
-                                    <p className="leading-tight">Online chat sa website</p>
+                                    <p className="leading-tight list-body-content">
+                                        Online chat sa website
+                                    </p>
                                 </li>
                                 <li className="flex items-stretch gap-4 mb-2 md:mb-8">
                                     <div className="self-start bg-blue-100 p-2 rounded-md">
@@ -114,11 +116,13 @@ export default function ContactPage() {
                                             <path d="M6 12h16" />
                                         </svg>
                                     </div>
-                                    <p className="leading-tight">Mga grupo sa mga social network</p>
+                                    <p className="leading-tight list-body-content">
+                                        Mga grupo sa mga social network
+                                    </p>
                                 </li>
                             </ul>
 
-                            <p className="leading-tight">
+                            <p className="leading-tight body-content">
                                 Lubos naming inirerekumenda na gumamit ka lamang ng mga opisyal at
                                 na-verify na contact upang maiwasan ang panganib na makatagpo ng mga
                                 scammer at mga site na nagpapanggap bilang Panalobet.

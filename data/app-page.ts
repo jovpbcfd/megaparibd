@@ -1,5 +1,4 @@
 export const tableOfContentsData = [
-    { title: 'Impormasyon tungkol sa Panalobet PH app', link: '#app-info' },
     {
         title: 'Panalobet Mobile App Para sa Android At iOS',
         link: '#app-mobile',
@@ -31,8 +30,8 @@ export const tableOfContentsData = [
         link: '#app-register',
     },
     {
-        title: 'Promo Code sa App',
-        link: '#app-promo',
+        title: 'Paano Gamitin ang Web Bersyon ng Panalobet',
+        link: '#app-web',
     },
     {
         title: 'Paano Kumuha ng Panalobet PH Mobile Bonus?',
@@ -47,29 +46,30 @@ export const tableOfContentsData = [
         link: '#app-bet',
     },
     {
-        title: 'Pagtaya sa Palakasan',
-        link: '#app-sports',
+        title: 'Promo Code sa App',
+        link: '#app-promo',
     },
     {
-        title: 'Cybersports',
-        link: '#app-cybersports',
+        title: 'Pagtaya sa Palakasan',
+        link: '#app-sports',
     },
     {
         title: 'Mga tampok ng Panalobet App',
         link: '#app-features',
     },
     {
-        title: 'Paano Gamitin ang Web Bersyon ng Panalobet',
-        link: '#app-web',
-    },
-    {
         title: 'Mga Pagkakaiba sa pagitan ng Panalobet App at ng Website',
         link: '#app-diff',
+    },
+    {
+        title: 'Cybersports',
+        link: '#app-cybersports',
     },
     {
         title: 'Online na casino Panalobet',
         link: '#app-online',
     },
+    { title: 'Impormasyon tungkol sa Panalobet PH app', link: '#app-info' },
     {
         title: 'Q&A',
         link: '#faq',

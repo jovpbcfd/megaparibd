@@ -27,10 +27,10 @@ export default function RegistrationPage() {
             <section id="register-step" className="bg-[#fffdf4]">
                 <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:py-16">
                     <div className="pb-10">
-                        <h3 className="text-[1.25rem] text-left font-semibold mb-4">
+                        <h3 className="heading-content leading-tight text-left font-semibold mb-4">
                             Pagpaparehistro ng Panalobet: Mga Hakbang-hakbang na Tagubilin
                         </h3>
-                        <p className="md:pb-12">
+                        <p className="md:pb-12 body-content">
                             Ang pamamaraan ng pagpaparehistro sa Panalobet Philippines ay mabilis at
                             madali hangga&apos;t maaari. Makakagawa ka ng account sa maraming
                             paraan. Upang makapagrehistro, sundin ang ilang hakbang na inilarawan sa
@@ -44,10 +44,10 @@ export default function RegistrationPage() {
                                 01
                             </p>
                             <div className="bg-gray-100 p-3 text-center md:text-left md:p-4">
-                                <h4 className="text-md mb-2 font-medium md:text-xl">
+                                <h4 className="mb-2 font-medium sub-heading-content">
                                     Buksan ang Registration Form
                                 </h4>
-                                <p className="leading-tight">
+                                <p className="leading-tight body-content">
                                     Pumunta sa opisyal na site ng opisina ng bookmaker sa
                                     pamamagitan ng iyong browser at mag-click sa pindutan upang
                                     magparehistro. Makikita mo ito sa kanang sulok sa itaas ng
@@ -70,10 +70,10 @@ export default function RegistrationPage() {
                                 02
                             </p>
                             <div className="bg-gray-100 p-3 text-center md:text-left md:p-4">
-                                <h4 className="text-md mb-2 font-medium md:text-xl">
+                                <h4 className="mb-2 font-medium sub-heading-content">
                                     Piliin ang Paraan ng Pagpaparehistro
                                 </h4>
-                                <p className="leading-tight">
+                                <p className="leading-tight body-content">
                                     Bibigyan ka ng ilang paraan para gumawa ng account. Sa
                                     pamamagitan ng email, numero ng telepono, o 1-click. Piliin ang
                                     opsyon na tila mas maginhawa para sa iyo.
@@ -95,10 +95,10 @@ export default function RegistrationPage() {
                                 03
                             </p>
                             <div className="bg-gray-100 p-3 text-center md:text-left md:p-4">
-                                <h4 className="text-md mb-2 font-medium md:text-xl">
+                                <h4 className="mb-2 font-medium sub-heading-content">
                                     Tukuyin ang Bonus
                                 </h4>
-                                <p className="leading-tight">
+                                <p className="leading-tight body-content">
                                     Sa parehong form ng pagpaparehistro, magagawa mong pumili ng isa
                                     sa mga bonus na aming inaalok. Kung gusto mong tumaya sa sports,
                                     tukuyin ang sports bonus.
@@ -139,170 +139,14 @@ export default function RegistrationPage() {
             </section>
 
             <div className="bg-gradient-to-br from-[#7f1d1d] via-[#1f2460] to-[#313380]">
-                <section id="register-mobile" className="text-white">
-                    <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pt-16">
-                        <div className="mb-10 gap-4 md:flex md:gap-16">
-                            <div className="text-center">
-                                <h3 className="text-[1.25rem] text-center font-semibold mb-4">
-                                    Pagpaparehistro sa pamamagitan ng Mga Mobile Device
-                                </h3>
-                                <p>
-                                    Maaaring magparehistro ang mga user ng smartphone para sa
-                                    Panalobet BD mula sa kanilang device sa site o sa app. Ang
-                                    pamamaraan ay hindi naiiba. Kailangan mo ring buksan ang form ng
-                                    pagpaparehistro, punan ang mga patlang, pumili ng isang bonus at
-                                    kumpirmahin ang paglikha ng isang account. Ang account na ito ay
-                                    pareho para sa lahat ng bersyon ng software ng bookmaker.
-                                </p>
-                            </div>
-                            {/* <div className="flex items-center justify-center border-2 border-dashed rounded-md md:w-[50%]">
-                                image
-                            </div> */}
-                        </div>
-                    </div>
-                </section>
-
-                <section id="register-video-instruction" className="text-white">
-                    <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pt-16">
-                        <div className="mb-10">
-                            <div>
-                                <h3 className="text-[1.25rem] text-left font-semibold mb-4">
-                                    Video Instruksyon kung paano Magparehistro
-                                </h3>
-                                <p>
-                                    Kung makatagpo ka ng mga problema, o gusto mong makita sa sarili
-                                    mong mga mata kung paano nagaganap ang pagpaparehistro sa
-                                    Panalobet Philippines, patakbuhin ang maikling video na inihanda
-                                    namin para sa iyo. Ipinapaliwanag nito ang buong pamamaraan ng
-                                    pagpaparehistro nang sunud-sunod. Ulitin lang ang mga hakbang na
-                                    makikita mo sa screen.
-                                </p>
-                            </div>
-
-                            <div
-                                id="register-requirements"
-                                className="grid grid-cols-1 gap-4 pt-4 md:gap-10 md:pt-44"
-                            >
-                                <div className="md:ml-auto md:relative">
-                                    <div className="flex items-center justify-center mb-4 md:absolute md:top-[-120px] md:right-[-20px] md:z-10">
-                                        <Image
-                                            src={RegisterImage}
-                                            width={600}
-                                            height={400}
-                                            alt="Welcome Bonus"
-                                            className="md:rounded-xl md:shadow-2xl"
-                                        />
-                                    </div>
-                                    <div className="bg-[#252b73] relative shadow-lg text-white rounded-xl p-3 text-center md:text-left md:p-10 md:z-0">
-                                        <h4 className="font-medium mb-2">
-                                            Mga Kinakailangan sa Pagpaparehistro ng Panalobet
-                                            Philippines
-                                        </h4>
-                                        <p className="leading-tight md:w-[70%] md:mr-auto md:mb-4 md:pr-[20%]">
-                                            Bagaman ang pamamaraan ng pagpaparehistro sa opisina ng
-                                            bookmaker ay kasing simple hangga&apos;t maaari at
-                                            mauunawaan kahit na sa mga taong hindi pa tumaya dati,
-                                            ang kumpanya ay may ilang mga patakaran at paghihigpit,
-                                            na dapat malaman ng lahat. Ano ang mga patakarang ito:
-                                        </p>
-
-                                        <ul className="md:w-[50%]">
-                                            <li className="flex items-center gap-5 mb-2 md:mb-4">
-                                                <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
-                                                <p className="leading-tight md:w-[70%] md:mr-auto">
-                                                    Ang mga gumagamit ng legal na edad ay
-                                                    pinapayagang magparehistro. Ang mga wala pang 18
-                                                    taong gulang ay hindi pinapayagang ma-access sa
-                                                    pagsusugal;
-                                                </p>
-                                            </li>
-                                            <li className="flex items-center gap-5 mb-2 md:mb-4">
-                                                <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
-                                                <p className="leading-tight md:w-[70%] md:mr-auto">
-                                                    Ang bawat user ay maaaring magrehistro lamang ng
-                                                    isang account. Kung lumikha ka ng higit sa isang
-                                                    account, ikaw ay mai-block;
-                                                </p>
-                                            </li>
-                                            <li className="flex items-center gap-5 mb-2 md:mb-4">
-                                                <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
-                                                <p className="leading-tight md:w-[70%] md:mr-auto">
-                                                    Ang data na tinukoy ng manlalaro sa panahon ng
-                                                    pagpaparehistro ay dapat tumutugma sa
-                                                    katotohanan. Kung may makikitang mga pagkakaiba,
-                                                    hindi magiging posible ang pag-verify.
-                                                </p>
-                                            </li>
-                                        </ul>
-
-                                        <p>
-                                            Siguraduhing basahin ang buong listahan ng mga
-                                            panuntunan at ang kasunduan ng user bago magparehistro.
-                                            Makakapigil ito sa iyong magkamali.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className="md:ml-auto md:relative md:pt-44">
-                                    <div className="flex items-center justify-center mb-4 md:absolute md:top-[20px] md:right-[-20px] md:z-10">
-                                        <Image
-                                            src={VerifyImage}
-                                            width={600}
-                                            height={400}
-                                            alt="Welcome Bonus"
-                                            className="md:rounded-xl md:shadow-2xl"
-                                        />
-                                    </div>
-                                    <div className="bg-[#252b73] relative shadow-lg text-white rounded-xl p-3 text-center md:text-left md:p-10 md:z-0">
-                                        <h4 className="font-medium mb-2">
-                                            Pagpapatunay ng Account
-                                        </h4>
-                                        <p className="leading-tight md:w-[70%] md:mr-auto md:mb-4 md:pr-[20%]">
-                                            Upang matiyak ang pinakamataas na antas ng seguridad ng
-                                            account at upang maprotektahan ang mga pondo sa mga
-                                            balanse ng mga user, ang opisina ng bookmaker ng
-                                            Panalobet ay nagbibigay ng pag-verify. Ito ang
-                                            pamamaraan ng pag-verify ng pagkakakilanlan, na
-                                            nagbibigay-daan sa iyong i-secure ang iyong account.
-                                            Isinasagawa ito sa tatlong yugto:
-                                        </p>
-
-                                        <ul className="md:w-[50%]">
-                                            <li className="flex items-center gap-5 mb-2 md:mb-4">
-                                                <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
-                                                <p className="leading-tight md:w-[70%] md:mr-auto">
-                                                    Pagkumpirma ng numero ng telepono at email;
-                                                </p>
-                                            </li>
-                                            <li className="flex items-center gap-5 mb-2 md:mb-4">
-                                                <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
-                                                <p className="leading-tight md:w-[70%] md:mr-auto">
-                                                    Pagpuno sa profile ng personal na data;
-                                                </p>
-                                            </li>
-                                            <li className="flex items-center gap-5 mb-2 md:mb-4">
-                                                <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
-                                                <p className="leading-tight md:w-[70%] md:mr-auto">
-                                                    Patunay ng pagkakakilanlan sa pamamagitan ng
-                                                    pagpapadala ng mga larawan at pag-scan ng mga
-                                                    dokumento.
-                                                </p>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
                 <section id="register-welcome-bonus" className="text-white">
                     <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pt-16">
                         <div className="mb-10 gap-4 md:flex md:gap-16">
                             <div className="md:w-[50%]">
-                                <h3 className="text-[1.25rem] text-left font-semibold mb-4">
+                                <h3 className="heading-content text-left font-semibold mb-4">
                                     Welcome Bonus
                                 </h3>
-                                <p>
+                                <p className="body-content leading-tight">
                                     Ang bawat bagong manlalaro na nagdeposito sa unang pagkakataon
                                     ay makakaasa na makatanggap ng Panalobet Welcome Bonus na
                                     hanggang 20,000 PHP. Dodoblehin ng platform ang anumang halaga
@@ -319,7 +163,7 @@ export default function RegistrationPage() {
                                     <ul>
                                         <li className="flex items-center gap-5 mb-2 md:mb-4">
                                             <div className="w-8 h-10 bg-gray-200 rounded-full hidden md:block"></div>
-                                            <p className="leading-tight md:mr-auto">
+                                            <p className="leading-tight list-body-content md:mr-auto">
                                                 Ang mga gumagamit ng legal na edad ay pinapayagang
                                                 magparehistro. Ang mga wala pang 18 taong gulang ay
                                                 hindi pinapayagang ma-access sa pagsusugal;
@@ -327,7 +171,7 @@ export default function RegistrationPage() {
                                         </li>
                                         <li className="flex items-center gap-5 mb-2 md:mb-4">
                                             <div className="w-8 h-10 bg-gray-200 rounded-full hidden md:block"></div>
-                                            <p className="leading-tight md:mr-auto">
+                                            <p className="leading-tight list-body-content md:mr-auto">
                                                 Ang bawat user ay maaaring magrehistro lamang ng
                                                 isang account. Kung lumikha ka ng higit sa isang
                                                 account, ikaw ay mai-block;
@@ -335,7 +179,7 @@ export default function RegistrationPage() {
                                         </li>
                                         <li className="flex items-center gap-5 mb-2 md:mb-4">
                                             <div className="w-8 h-10 bg-gray-200 rounded-full hidden md:block"></div>
-                                            <p className="leading-tight md:mr-auto">
+                                            <p className="leading-tight list-body-content md:mr-auto">
                                                 Ang data na tinukoy ng manlalaro sa panahon ng
                                                 pagpaparehistro ay dapat tumutugma sa katotohanan.
                                                 Kung may makikitang mga pagkakaiba, hindi magiging
@@ -353,6 +197,161 @@ export default function RegistrationPage() {
                                     alt="Welcome Bonus"
                                     className="md:rounded-xl md:shadow-2xl"
                                 />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="register-mobile" className="text-white">
+                    <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pt-16">
+                        <div className="mb-10 gap-4 md:flex md:gap-16">
+                            <div className="text-center">
+                                <h3 className="heading-content text-center font-semibold mb-4">
+                                    Pagpaparehistro sa pamamagitan ng Mga Mobile Device
+                                </h3>
+                                <p className="leading-tight body-content">
+                                    Maaaring magparehistro ang mga user ng smartphone para sa
+                                    Panalobet BD mula sa kanilang device sa site o sa app. Ang
+                                    pamamaraan ay hindi naiiba. Kailangan mo ring buksan ang form ng
+                                    pagpaparehistro, punan ang mga patlang, pumili ng isang bonus at
+                                    kumpirmahin ang paglikha ng isang account. Ang account na ito ay
+                                    pareho para sa lahat ng bersyon ng software ng bookmaker.
+                                </p>
+                            </div>
+                            {/* <div className="flex items-center justify-center border-2 border-dashed rounded-md md:w-[50%]">
+                                image
+                            </div> */}
+                        </div>
+                    </div>
+                </section>
+
+                <section id="register-video-instruction" className="text-white">
+                    <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 xl:pt-8">
+                        <div className="mb-10">
+                            <div
+                                id="register-requirements"
+                                className="grid grid-cols-1 gap-4 pt-4 md:gap-10 xl:pt-44"
+                            >
+                                <div className="md:ml-auto md:relative">
+                                    <div className="flex items-center justify-center mb-4 xl:absolute xl:top-[-120px] xl:right-[-20px] xl:z-10">
+                                        <Image
+                                            src={RegisterImage}
+                                            width={600}
+                                            height={400}
+                                            alt="Welcome Bonus"
+                                            className="md:rounded-xl md:shadow-2xl"
+                                        />
+                                    </div>
+                                    <div className="bg-[#252b73] relative shadow-lg text-white rounded-xl p-3 text-center xl:text-left xl:p-10 xl:z-0">
+                                        <h4 className="font-medium mb-2 sub-heading-content xl:w-[50%]">
+                                            Mga Kinakailangan sa Pagpaparehistro ng Panalobet
+                                            Philippines
+                                        </h4>
+                                        <p className="leading-tight md:mb-4 xl:w-[70%] xl:mr-auto xl:mb-4 xl:pr-[20%]">
+                                            Bagaman ang pamamaraan ng pagpaparehistro sa opisina ng
+                                            bookmaker ay kasing simple hangga&apos;t maaari at
+                                            mauunawaan kahit na sa mga taong hindi pa tumaya dati,
+                                            ang kumpanya ay may ilang mga patakaran at paghihigpit,
+                                            na dapat malaman ng lahat. Ano ang mga patakarang ito:
+                                        </p>
+
+                                        <ul className="xl:w-[50%]">
+                                            <li className="flex items-center gap-5 mb-2 md:mb-4">
+                                                <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
+                                                <p className="leading-tight list-body-content md:w-[70%] md:mr-auto">
+                                                    Ang mga gumagamit ng legal na edad ay
+                                                    pinapayagang magparehistro. Ang mga wala pang 18
+                                                    taong gulang ay hindi pinapayagang ma-access sa
+                                                    pagsusugal;
+                                                </p>
+                                            </li>
+                                            <li className="flex items-center gap-5 mb-2 md:mb-4">
+                                                <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
+                                                <p className="leading-tight list-body-content md:w-[70%] md:mr-auto">
+                                                    Ang bawat user ay maaaring magrehistro lamang ng
+                                                    isang account. Kung lumikha ka ng higit sa isang
+                                                    account, ikaw ay mai-block;
+                                                </p>
+                                            </li>
+                                            <li className="flex items-center gap-5 mb-2 md:mb-4">
+                                                <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
+                                                <p className="leading-tight list-body-content md:w-[70%] md:mr-auto">
+                                                    Ang data na tinukoy ng manlalaro sa panahon ng
+                                                    pagpaparehistro ay dapat tumutugma sa
+                                                    katotohanan. Kung may makikitang mga pagkakaiba,
+                                                    hindi magiging posible ang pag-verify.
+                                                </p>
+                                            </li>
+                                        </ul>
+
+                                        <p>
+                                            Siguraduhing basahin ang buong listahan ng mga
+                                            panuntunan at ang kasunduan ng user bago magparehistro.
+                                            Makakapigil ito sa iyong magkamali.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="md:ml-auto md:relative xl:pt-44">
+                                    <div className="flex items-center justify-center mb-4 xl:absolute xl:top-[20px] xl:right-[-20px] xl:z-10">
+                                        <Image
+                                            src={VerifyImage}
+                                            width={600}
+                                            height={400}
+                                            alt="Welcome Bonus"
+                                            className="md:rounded-xl md:shadow-2xl"
+                                        />
+                                    </div>
+                                    <div className="bg-[#252b73] relative shadow-lg text-white rounded-xl p-3 text-center xl:text-left xl:p-10 xl:z-0">
+                                        <h4 className="font-medium mb-2 sub-heading-content">
+                                            Pagpapatunay ng Account
+                                        </h4>
+                                        <p className="leading-tight body-content mb-6 md:mb-4 xl:w-[70%] xl:mr-auto xl:mb-4 xl:pr-[20%]">
+                                            Upang matiyak ang pinakamataas na antas ng seguridad ng
+                                            account at upang maprotektahan ang mga pondo sa mga
+                                            balanse ng mga user, ang opisina ng bookmaker ng
+                                            Panalobet ay nagbibigay ng pag-verify. Ito ang
+                                            pamamaraan ng pag-verify ng pagkakakilanlan, na
+                                            nagbibigay-daan sa iyong i-secure ang iyong account.
+                                            Isinasagawa ito sa tatlong yugto:
+                                        </p>
+
+                                        <ul className="xl:w-[50%]">
+                                            <li className="flex items-center gap-5 mb-2 md:mb-4">
+                                                <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
+                                                <p className="leading-tight list-body-content xl:w-[70%] xl:mr-auto">
+                                                    Pagkumpirma ng numero ng telepono at email;
+                                                </p>
+                                            </li>
+                                            <li className="flex items-center gap-5 mb-2 md:mb-4">
+                                                <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
+                                                <p className="leading-tight list-body-content xl:w-[70%] xl:mr-auto">
+                                                    Pagpuno sa profile ng personal na data;
+                                                </p>
+                                            </li>
+                                            <li className="flex items-center gap-5 mb-2 md:mb-4">
+                                                <div className="w-4 h-10 bg-gray-200 rounded-full hidden md:block"></div>
+                                                <p className="leading-tight list-body-content xl:w-[70%] xl:mr-auto">
+                                                    Patunay ng pagkakakilanlan sa pamamagitan ng
+                                                    pagpapadala ng mga larawan at pag-scan ng mga
+                                                    dokumento.
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="mt-12">
+                                <h3 className="heading-content text-center font-semibold mb-4">
+                                    Video Instruksyon kung paano Magparehistro
+                                </h3>
+                                <p className="body-content leading-tight">
+                                    Kung makatagpo ka ng mga problema, o gusto mong makita sa sarili
+                                    mong mga mata kung paano nagaganap ang pagpaparehistro sa
+                                    Panalobet Philippines, patakbuhin ang maikling video na inihanda
+                                    namin para sa iyo. Ipinapaliwanag nito ang buong pamamaraan ng
+                                    pagpaparehistro nang sunud-sunod. Ulitin lang ang mga hakbang na
+                                    makikita mo sa screen.
+                                </p>
                             </div>
                         </div>
                     </div>

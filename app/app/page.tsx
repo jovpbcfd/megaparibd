@@ -22,12 +22,12 @@ export default function AppPage() {
                 buttonText={hero.buttonText}
             />
             <TableOfContents content={tableOfContentsData} />
-            <About />
             <Mobile />
-            <VideoInstruction />
             <div className="bg-gradient-to-br from-[#7f1d1d] via-[#1f2460] to-[#313380]">
                 <All />
             </div>
+            <About />
+            <VideoInstruction />
             <Faq questions={questions} description="" />
             <Update />
         </>
