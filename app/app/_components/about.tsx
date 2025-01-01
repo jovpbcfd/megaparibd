@@ -33,12 +33,12 @@ const appAboutData = [
 
 export default function About() {
     return (
-        <section id="app-info" className="bg-[#fff]">
+        <section id="app-info" className="bg-[#fffdf4]">
             <div className="max-w-7xl mx-auto px-[10px] py-[16px] pt-4 md:pb-16">
-                <h3 className="text-[1.25rem] text-left font-semibold mb-4">
+                <h3 className="text-left font-semibold mb-4 heading-content">
                     Impormasyon tungkol sa Panalobet PH app
                 </h3>
-                <p className="text-[1rem] font-light leading-tight my-4">
+                <p className="font-light leading-tight my-4 body-content">
                     Ang pagbuo ng mobile application ng Panalobet Philippines ay isinagawa nang
                     hiwalay para sa mga Android at iOS device. Ipinatupad namin sa isang
                     nada-download na kliyente ang lahat ng mga function ng opisina ng bookmaker. Sa
@@ -48,7 +48,7 @@ export default function About() {
 
                 <Table datas={appAboutData} />
 
-                <p className="font-light leading-tight text-[1rem] my-4">
+                <p className="font-light leading-tight my-4 body-content">
                     Pagkatapos ilunsad ang application, makikita mo ang start screen. Ginagamit nito
                     ang klasikong disenyo ng kumpanya. Ipinatupad namin ang interface sa madilim na
                     kulay para hindi mapagod ang mga mata ng mga user kahit sa mahabang laro. Ang
@@ -57,7 +57,7 @@ export default function About() {
                     pag-click.
                 </p>
 
-                <p className="font-light leading-tight text-[1rem] mt-4">
+                <p className="font-light leading-tight mt-4 body-content">
                     Ang mabibigat na graphic na elemento ay hindi rin kasama sa disenyo. Salamat
                     dito, mabilis na gumagana ang application kahit na may mabagal na bilis ng
                     Internet at hindi matatag na koneksyon.
