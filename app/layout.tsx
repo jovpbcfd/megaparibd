@@ -4,6 +4,8 @@ import './globals.css'
 
 import Header from '@/components/header'
 import Footer from '@/components/footer'
+import ScrollBarIndicator from '@/components/scrollbar-indicator'
+import ScrollToTop from '@/components/scroll-to-top'
 
 const rubik = Rubik({
     subsets: ['latin'],
@@ -29,6 +31,8 @@ export default function RootLayout({
             <body
                 className={`${rubik.className} antialiased bg-gradient-to-br from-red-500 via-gray-700 to-blue-600 h-screen`}
             >
+                <ScrollBarIndicator />
+                <ScrollToTop />
                 <Header />
                 <main>{children}</main>
                 <Footer />
