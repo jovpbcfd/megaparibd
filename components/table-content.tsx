@@ -52,7 +52,7 @@ export default function TableOfContents({ content }: TableOfContentsProps) {
         <section className="bg-[#fffdf4] md:py-10">
             <div className="max-w-[500px] mx-auto flex items-center justify-between pt-4 px-[2rem] py-[16px] rounded-md shadow-md">
                 <h2 className="text-[1.25rem] font-semibold leading-tight">Talaan ng Nilalaman</h2>
-                <button onClick={toggleTableContent} className="text-blue-500">
+                <button onClick={toggleTableContent} className="text-blue-700 font-medium">
                     {isTableContentOpen ? 'Itago' : 'Ipakita'}
                 </button>
             </div>
