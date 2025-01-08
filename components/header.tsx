@@ -28,7 +28,7 @@ export default function Header() {
                                 screenSize={900}
                             />
                         </div>
-                        <button onClick={handleClick} className="md:hidden">
+                        <button onClick={handleClick} className="md:hidden" aria-label="navigation">
                             <span
                                 className={`bg-white block transition-all duration-300 ease-out cursor-pointer 
                     h-0.5 w-6 rounded-sm ${
@@ -47,7 +47,7 @@ export default function Header() {
                             ></span>
                         </button>
                         <div
-                            className={`absolute bg-stone-950 top-0 left-0 flex flex-col h-dvh text-white transition-transform duration-300 ease-out will-change-transform ${
+                            className={`absolute bg-stone-950 top-0 left-0 flex flex-col h-dvh text-white transition-transform duration-300 ease-out will-change-transform z-100 ${
                                 isOpen ? 'translate-x-0' : '-translate-x-full'
                             }`}
                         >
