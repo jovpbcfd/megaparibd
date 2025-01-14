@@ -1,17 +1,30 @@
 'use client'
 
 import Link from 'next/link'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import { usePathname } from 'next/navigation'
 
 import HeaderLogo from '@/public/img/panalobet-logo.webp'
 import ResImage from './res-image'
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false)
+    const [isBreadcrumbShow, setIsBreadcrumbShow] = useState(false)
+    const pathname = usePathname()
 
     const handleClick = () => {
         setIsOpen(!isOpen)
     }
+
+    const handleHomePageNavigation = () => {
+        setIsBreadcrumbShow(false)
+    }
+
+    useEffect(() => {
+        if (pathname !== '/') {
+            setIsBreadcrumbShow(true)
+        }
+    }, [pathname])
 
     return (
         <>
@@ -184,6 +197,26 @@ export default function Header() {
                                 </li>
                             </ul>
                         </nav>
+                    </div>
+                </div>
+
+                <div className="container h-[27px] mx-auto">
+                    <div className="ml-[10px] md:ml-[20px] xl:ml-[15%] md:relative">
+                        {isBreadcrumbShow && (
+                            <ol className="flex items-center gap-4 text-[16px] md:absolute">
+                                <li className="text-slate-100 block hover:text-gray-200">
+                                    <Link href="/" onClick={handleHomePageNavigation}>
+                                        Panalobet
+                                    </Link>
+                                </li>
+                                <li className="text-slate-100 text-sm">&gt;</li>
+                                <li className="text-white block">
+                                    <span>Panalobet </span>
+                                    {pathname.split('/')[1].charAt(0).toUpperCase() +
+                                        pathname.slice(2)}
+                                </li>
+                            </ol>
+                        )}
                     </div>
                 </div>
             </header>

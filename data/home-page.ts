@@ -1,11 +1,7 @@
 export const hero = {
-    title: 'Panalobet – Official Website for Online Sports Betting in Philippines',
-    description: `Panalobet bookmaker offers Philippines users a wide range of opportunities
-                        for betting on sports. The company has been officially operating since 2019,
-                        and its legality is confirmed by the current license of Curacao. The
-                        official Panalobet website offers more than 1,000 events for betting,
-                        favorable odds, different prediction options, and a generous welcome bonus
-                        for newcomers of up to 20,000 PHP.`,
+    title: 'Panalobet– Opisyal na Website para sa Online Sports Betting sa Pilipinas',
+    description: `Ang Panalobet bookmaker ay nag-aalok sa mga user ng Pilipinas ng malawak na hanay ng mga pagkakataon para sa pagtaya sa sports. Ang kumpanya ay opisyal na gumagana mula noong 2019, at ang legalidad nito ay kinumpirma ng kasalukuyang lisensya ng Curacao. Ang opisyal na website ng Panalobet ay nag-aalok ng higit sa 1,000 mga kaganapan para sa pagtaya, paborableng mga logro, 
+    iba't ibang mga pagpipilian sa paghula, at isang mapagbigay na welcome bonus para sa mga bagong dating na hanggang 20,000 PHP.`,
     buttonText: 'Start Betting',
 }
 
