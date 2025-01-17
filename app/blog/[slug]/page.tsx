@@ -4,7 +4,7 @@ import BlogBody from '@/components/blog-body'
 
 export async function generateStaticParams() {
     const query = '*[_type == $type]{ slug }'
-    const params = { type: 'Post' }
+    const params = { type: 'post-mega' }
 
     const posts = await client.fetch(query, params)
 
@@ -17,6 +17,7 @@ export async function generateStaticParams() {
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
     const { slug } = await params
 
+    console.log(slug, '=====================')
     const blog = await getBlogBySlug(slug)
 
     const { currentPost } = blog?.data
