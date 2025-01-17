@@ -130,6 +130,11 @@ export default function Header() {
                                                 CONTACTS
                                             </Link>
                                         </li>
+                                        <li className="py-[15px] transition-hover duration-200 ease-out hover:bg-stone-800">
+                                            <Link href="/blog" className="block">
+                                                Blog
+                                            </Link>
+                                        </li>
                                     </ul>
                                 </nav>
                             </div>
@@ -193,6 +198,11 @@ export default function Header() {
                                 <li className="py-[15px] transition-hover duration-200 ease-out hover:text-cyan-400">
                                     <Link href="/contacts" className="block">
                                         CONTACTS
+                                    </Link>
+                                </li>
+                                <li className="py-[15px] transition-hover duration-200 ease-out hover:text-cyan-400">
+                                    <Link href="/blog" className="block">
+                                        BLOG
                                     </Link>
                                 </li>
                             </ul>
