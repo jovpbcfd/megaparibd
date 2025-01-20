@@ -54,11 +54,11 @@ function PostList({ post }: { post: Post }) {
             <div className="relative w-[280px] h-[175px] rounded-md bg-gray-50 flex items-center justify-center md:w-[220px] md:h-[135px]">
                 <Image
                     alt={post.title}
-                    src={urlFor(post?.mainImage).width(100).height(100).url()}
-                    width={100}
-                    height={100}
+                    src={urlFor(post?.mainImage).width(280).height(175).url()}
+                    width={280}
+                    height={170}
                     loading="eager"
-                    className="absolute h-full w-full object-fill rounded-md"
+                    className="absolute h-full w-full object-cover rounded-md"
                 />
             </div>
             <div className="w-full md:w-[50%]">
