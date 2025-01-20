@@ -10,11 +10,11 @@
 
 @layer components {
     .blog-content p {
-        @apply py-4;
+        @apply pb-4;
     }
 
     .blog-content h2 {
-        @apply text-lg md:text-2xl md:my-3;
+        @apply text-lg md:text-2xl md:mb-3;
     }
 
     .blog-content ol {
@@ -22,7 +22,7 @@
     }
 
     .blog-content ul {
-        @apply list-disc list-inside;
+        @apply list-disc list-inside mb-2;
     }
 
     .blog-list-divider {

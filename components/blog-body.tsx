@@ -14,7 +14,7 @@ const customComponents = {
             const imageUrl = urlFor(value?.asset)?.width(705).url()
 
             return (
-                <div className="blog-image relative w-[705px] h-[405px]">
+                <div className="blog-image relative w-[705px] h-[405px] mb-4">
                     <Image
                         src={imageUrl}
                         alt={value?.alt || 'Image'}
