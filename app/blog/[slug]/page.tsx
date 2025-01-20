@@ -23,7 +23,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
 
     return (
         <section className="bg-[#fffdf4] py-[2rem] px-[10px] mt-[4rem]">
-            <article className="max-w-4xl mx-auto flex flex-col gap-10 text-black ">
+            <article className="max-w-[44rem] mx-auto flex flex-col gap-10 text-black ">
                 <BlogBody data={currentPost} />
             </article>
         </section>

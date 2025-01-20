@@ -56,6 +56,24 @@ export default defineType({
         ],
       },
     }),
+    {
+      type: 'object',
+      name: 'button',
+      title: 'Button',
+      fields: [
+        {
+          name: 'text',
+          title: 'Button Text',
+          type: 'string',
+        },
+        {
+          name: 'url',
+          title: 'URL',
+          type: 'url',
+          validation: (Rule) => Rule.required(),
+        },
+      ],
+    },
     // You can add additional types here. Note that you can't use
     // primitive types such as 'string' and 'number' in the same array
     // as a block type.

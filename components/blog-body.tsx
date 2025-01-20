@@ -14,17 +14,16 @@ const customComponents = {
             const imageUrl = urlFor(value?.asset)?.width(705).url()
 
             return (
-                <div className="blog-image">
+                <div className="blog-image relative w-[705px] h-[405px]">
                     <Image
                         src={imageUrl}
                         alt={value?.alt || 'Image'}
                         title={value?.title || 'Image'}
-                        width={1200}
-                        height={675} // Specify the height (aspect ratio)
-                        layout="intrinsic"
+                        // Specify the height (aspect ratio)
                         quality={75}
+                        layout="fill"
                         priority
-                        className="w-[705px]"
+                        className="absolute object-cover object-center rounded-xl"
                     />
                 </div>
             )
