@@ -60,7 +60,7 @@ export default function Header() {
                             ></span>
                         </button>
                         <div
-                            className={`absolute bg-stone-950 top-0 left-0 flex flex-col h-dvh text-white transition-transform duration-300 ease-out will-change-transform z-100 ${
+                            className={`absolute bg-gray-300 top-0 left-0 flex flex-col h-dvh text-stone-950 transition-transform duration-300 ease-out will-change-transform z-100 ${
                                 isOpen ? 'translate-x-0' : '-translate-x-full'
                             }`}
                         >
@@ -77,7 +77,7 @@ export default function Header() {
                             <div className="flex flex-col items-center gap-3 px-[10px] pt-[16px] mt-[24px]">
                                 <button
                                     className={`text-[1.1rem] px-6 py-2 font-bold rounded-full
-                                        bg-gradient-to-br from-white/30 to-gray-100/20 backdrop-blur-md
+                                        bg-gradient-to-br from-stone-950/30 to-gray-100/20 backdrop-blur-md
                                         text-gray-900 border border-white/40 shadow-md
                                         transition-all duration-200 ease-out
                                         hover:bg-gradient-to-br hover:from-red-500 hover:to-blue-600 hover:text-white hover:shadow-xl`}
@@ -86,7 +86,7 @@ export default function Header() {
                                 </button>
                                 <button
                                     className={`text-[1.1rem] px-6 py-2 font-bold rounded-full
-                                        bg-gradient-to-br from-white/30 to-gray-100/20 backdrop-blur-md
+                                        bg-gradient-to-br from-stone-950/30 to-gray-100/20 backdrop-blur-md
                                         text-gray-900 border border-white/40 shadow-md
                                         transition-all duration-200 ease-out
                                         hover:bg-gradient-to-br hover:from-red-500 hover:to-blue-600 hover:text-white hover:shadow-xl`}
