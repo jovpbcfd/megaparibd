@@ -24,6 +24,10 @@
     .blog-content ul {
         @apply list-disc list-inside;
     }
+
+    .blog-list-divider {
+        @apply relative after:content-[''] after:block after:absolute after:bg-gray-200 after:bottom-[-20px] after:h-[1px] after:w-full;
+    }
 }
 
 @layer utilities {

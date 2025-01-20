@@ -49,7 +49,7 @@ function PostList({ post }: { post: Post }) {
         <Link
             key={post._id}
             href={`/blog/${post.slug.current}`}
-            className="flex flex-col items-center gap-[24px] md:flex-row mx-[20px]"
+            className="flex flex-col items-center gap-[24px] md:flex-row mx-[20px] blog-list-divider"
         >
             <div className="relative w-[280px] h-[175px] rounded-md bg-gray-50 flex items-center justify-center md:w-[220px] md:h-[135px]">
                 <Image
@@ -84,11 +84,11 @@ export default async function BlogPage() {
 
     return (
         <section className="bg-[#fffdf4] py-[2rem] mt-[2rem]">
-            <div className="max-w-7xl mx-auto flex flex-col gap-10">
+            <div className="max-w-7xl mx-auto">
                 {posts.length === 0 ? (
                     <p>No blog post available</p>
                 ) : (
-                    <ul>
+                    <ul className="flex flex-col gap-10">
                         {posts.map((post: Post, index: number) => {
                             return <PostList post={post} key={index} />
                         })}
