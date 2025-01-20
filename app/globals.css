@@ -22,7 +22,7 @@
     }
 
     .blog-content ul {
-        @apply list-disc list-inside mb-2;
+        @apply list-disc list-inside mb-4;
     }
 
     .blog-list-divider {

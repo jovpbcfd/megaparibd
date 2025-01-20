@@ -19,7 +19,6 @@ const customComponents = {
                         src={imageUrl}
                         alt={value?.alt || 'Image'}
                         title={value?.title || 'Image'}
-                        // Specify the height (aspect ratio)
                         quality={75}
                         layout="fill"
                         priority
@@ -30,11 +29,17 @@ const customComponents = {
         },
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         button: ({ value }: { value: any }) => (
-            <button>
-                <a href={value?.url} target="_blank" rel="noopener noreferrer">
-                    {value?.text}
-                </a>
-            </button>
+            <div className="w-full flex items-center">
+                <button
+                    className="mx-auto bg-gradient-to-br from-[#7f1d1d] via-[#1f2460] to-[#313380] py-4 px-8 text-white rounded-xl font-bold mb-3
+                transition-transform transform hover:scale-105 hover:shadow-lg hover:bg-gradient-to-tl hover:from-[#313380] hover:via-[#1f2460] hover:to-[#7f1d1d]
+                "
+                >
+                    <a href={value?.url} target="_blank" rel="noopener noreferrer">
+                        {value?.text}
+                    </a>
+                </button>
+            </div>
         ),
     },
 }
