@@ -4,6 +4,12 @@ import { getFormattedDate } from '@/lib/util'
 import { urlFor } from '@/lib/sanity-client'
 
 const customComponents = {
+    blocks: {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        h2: ({ children, value }: { children: any; value: any }) => {
+            return <h2 id={value._key}>{children}</h2>
+        },
+    },
     types: {
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         image: ({ value }: { value: any }) => {
@@ -14,7 +20,7 @@ const customComponents = {
             const imageUrl = urlFor(value?.asset)?.width(705).url()
 
             return (
-                <div className="blog-image relative w-[705px] h-[405px] mb-4">
+                <div className="blog-image relative mb-4 w-full h-[200px] md:w-[705px] md:h-[405px]">
                     <Image
                         src={imageUrl}
                         alt={value?.alt || 'Image'}
