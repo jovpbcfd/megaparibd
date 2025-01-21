@@ -1,18 +1,14 @@
 import Image from 'next/image'
-import { PortableText } from 'next-sanity'
+import { PortableText, PortableTextComponents } from '@portabletext/react'
 import { getFormattedDate } from '@/lib/util'
 import { urlFor } from '@/lib/sanity-client'
 
-const customComponents = {
-    blocks: {
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        h2: ({ children, value }: { children: any; value: any }) => {
-            return <h2 id={value._key}>{children}</h2>
-        },
+const customComponents: PortableTextComponents = {
+    block: {
+        h2: ({ children, value }) => <h2 id={value._key}>{children}</h2>,
     },
     types: {
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        image: ({ value }: { value: any }) => {
+        image: ({ value }) => {
             if (!value?.asset) {
                 return <p>Image not found</p> // Fallback if no image asset is available
             }
@@ -33,8 +29,8 @@ const customComponents = {
                 </div>
             )
         },
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        button: ({ value }: { value: any }) => (
+
+        button: ({ value }) => (
             <div className="w-full flex items-center">
                 <button
                     className="mx-auto bg-gradient-to-br from-[#7f1d1d] via-[#1f2460] to-[#313380] py-4 px-8 text-white rounded-xl font-bold mb-3

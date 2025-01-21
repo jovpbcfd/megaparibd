@@ -79,7 +79,7 @@ export default function TableOfContent({
                 <li key={post.key}>
                     <Link
                         href={`#${post.id}`}
-                        className={`block leading-[1.6] text-stone-800/75 font-medium hover:text-stone-950 ${activeSubHeading === post.id ? 'text-blue-500' : ''}`}
+                        className={`block leading-[1.6] font-medium hover:text-stone-950 ${activeSubHeading == post.id ? 'text-blue-500' : 'text-stone-800/75'}`}
                     >
                         {post.text}
                     </Link>
