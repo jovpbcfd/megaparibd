@@ -90,7 +90,11 @@ export default async function BlogPage() {
                 ) : (
                     <ul className="flex flex-col gap-10">
                         {posts.map((post: Post, index: number) => {
-                            return <PostList post={post} key={index} />
+                            return (
+                                <li key={index}>
+                                    <PostList post={post} key={index} />
+                                </li>
+                            )
                         })}
                     </ul>
                 )}
