@@ -4,7 +4,7 @@ import { getFormattedDate } from '@/lib/util'
 import { urlFor } from '@/lib/sanity-client'
 
 const customComponents = {
-    block: {
+    blocks: {
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         h2: ({ children, value }: { children: any; value: any }) => {
             return <h2 id={value._key}>{children}</h2>
