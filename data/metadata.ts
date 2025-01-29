@@ -3,6 +3,11 @@ export const homemetadata = {
     description: 'Panalobet Casino a licensed online casino in Philippines, e-bingo, and sports betting platform in Philippines. Enjoy fast and secure deposits and withdrawals.',
 }
 
+export const appmetadata = {
+    title: "Download the Panalobet App- Get a chance to Earn Big",
+    description: "Download now Panalobet Casino App. Enjoy top rated casino games with Panalobet, get a chance win real Money. Hurry Up!"
+}
+
 export const regmetadata = {
     title: 'Sign up and play at Panalobet and get 100% Welcome Bonus up',
     description: 'Download the Panalobet App, Sign up now and get 100% Welcome Bonus, Enjoy your favourite games.'
